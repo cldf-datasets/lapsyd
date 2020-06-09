@@ -20,7 +20,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 180,
+            "dc:extent": 18301,
             "tableSchema": {
                 "columns": [
                     {
@@ -118,7 +118,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 104,
+            "dc:extent": 814,
             "tableSchema": {
                 "columns": [
                     {
@@ -471,7 +471,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 5,
+            "dc:extent": 583,
             "tableSchema": {
                 "columns": [
                     {

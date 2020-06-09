@@ -198,7 +198,6 @@ def main(clts_path, glottolog_path):
 
     inventories = []
     for idx, language in enumerate(languages):
-        print(language)
         # Collect inventory info
         inventories.append(
             {
@@ -239,29 +238,30 @@ def main(clts_path, glottolog_path):
     segment_set = set()
     values = []
     counter = 1
-    inventory = defaultdict(list)
     for row in raw_data:
         # clear segment data
-        segment = row["segments"].strip()
+        segment = row['segments'].strip()
         if not segment:
             continue
 
-        if row["name"] not in glottocodes:
-            continue
+        if segment[0] == "'":
+            segment = segment[1:-1]
+            marginal = True
+        else:
+            marginal = False
 
-        inventory[row["name"]].append(segment)
         segment_set.add(segment)
 
         values.append(
-            {
-                "ID": str(counter),
-                "Language_ID": glottocodes[row["name"]],
-                "Marginal": False,
-                "Parameter_ID": compute_id(segment),  # Compute
-                "Value": segment,
-                "Source": [],  # TODO
-            }
-        )
+                {
+                    "ID": str(counter),
+                    "Language_ID": glottocodes[row['name']],
+                    "Marginal": marginal,
+                    "Parameter_ID": compute_id(segment),  # Compute
+                    "Value": segment,
+                    "Source": [],  # TODO
+                }
+            )
         counter += 1
 
     # Build segment data
