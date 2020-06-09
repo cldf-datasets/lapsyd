@@ -1,0 +1,589 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
+    "dialect": {
+        "commentPrefix": null
+    },
+    "notes": [
+        {
+            "dc:title": "environment",
+            "properties": {
+                "glottolog_version": "v4.2.1-1-g1e0e889"
+            }
+        }
+    ],
+    "tables": [
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
+            "dc:extent": 180,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "required": true,
+                        "name": "Language_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
+                        "required": true,
+                        "name": "Parameter_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "null": [
+                            "?",
+                            ""
+                        ],
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#value",
+                        "required": false,
+                        "name": "Value"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
+                        "required": false,
+                        "name": "Code_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                        "required": false,
+                        "name": "Comment"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "required": false,
+                        "separator": ";",
+                        "name": "Source"
+                    },
+                    {
+                        "datatype": "boolean",
+                        "name": "Marginal"
+                    },
+                    {
+                        "separator": " ",
+                        "name": "Allophones"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Contribution_ID"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Parameter_ID"
+                        ],
+                        "reference": {
+                            "resource": "parameters.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "values.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+            "dc:extent": 104,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "required": false,
+                        "name": "Description"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SegmentClass"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "advanced"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "affricate"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "alveolar"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "alveolo_palatal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "apical"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "approximant"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "aspirated"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "back"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "bilabial"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "breathy"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "central"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "centralized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "close"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "close_mid"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "cluster"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "consonant"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "creaky"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "dental"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "devoiced"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "diphthong"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ejective"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "epiglottal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "fricative"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "front"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "glottal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "glottalized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "implosive"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "labialized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "labio_dental"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "labio_palatal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "labio_velar"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "laminal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "lateral"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "less_rounded"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "long"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "lowered"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "mid"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "mid_centralized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "mid_long"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "more_rounded"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "nasal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "nasalized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "near_back"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "near_close"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "near_front"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "near_open"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "non_syllabic"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "open"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "open_mid"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "palatal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "palatal_velar"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "palatalized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "pharyngeal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "pharyngealized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "post_alveolar"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "pre_aspirated"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "pre_glottalized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "pre_labialized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "pre_nasalized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "raised"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "retracted"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "retroflex"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "rhotacized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "rounded"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "sibilant"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "stop"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "syllabic"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "tap"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "trill"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ultra_long"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ultra_short"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "unrounded"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "uvular"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "velar"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "velarized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "voiced"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "voiceless"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "vowel"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "with_frication"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "parameters.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+            "dc:extent": 5,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#macroarea",
+                        "required": false,
+                        "name": "Macroarea"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": -90,
+                            "maximum": 90
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
+                        "required": false,
+                        "name": "Latitude"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": -180,
+                            "maximum": 180
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
+                        "required": false,
+                        "name": "Longitude"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-z0-9]{4}[1-9][0-9]{3}"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
+                        "required": false,
+                        "valueUrl": "http://glottolog.org/resource/languoid/id/{glottocode}",
+                        "name": "Glottocode"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-z]{3}"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#iso639P3code",
+                        "required": false,
+                        "name": "ISO639P3code"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Family_Glottocode"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Family_Name"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "languages.csv"
+        },
+        {
+            "dc:extent": 584,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": "string",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Contributor_ID"
+                    },
+                    {
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "separator": ";",
+                        "name": "Source"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "URL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Tones"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "inventories.csv"
+        }
+    ]
+}
