@@ -8,11 +8,7 @@ from cldfbench import Dataset as BaseDataset
 from clldutils.misc import slug
 from clldutils.path import git_describe
 
-# TODO: temporary instantiation of catalogs
-import pyglottolog
-
-GLOTTOLOG_PATH = "/home/tresoldi/.config/cldf/glottolog"
-GLOTTOLOG = pyglottolog.Glottolog(GLOTTOLOG_PATH)
+from pyglottolog import Glottolog
 
 
 def compute_id(text):
@@ -47,21 +43,7 @@ class Dataset(BaseDataset):
         >>> args.writer.objects['LanguageTable'].append(...)
         """
 
-        # Extract BIPA features and glottolog version
-        glottolog_version = git_describe(GLOTTOLOG.repos)
-
         # Add components
-        args.writer.cldf.tablegroup.notes.append(
-            OrderedDict(
-                [
-                    ("dc:title", "environment"),
-                    (
-                        "properties",
-                        OrderedDict([("glottolog_version", glottolog_version)]),
-                    ),
-                ]
-            )
-        )
         args.writer.cldf.add_columns(
             "ValueTable",
             {"name": "Marginal", "datatype": "boolean"},
@@ -87,6 +69,9 @@ class Dataset(BaseDataset):
             "Tones",
             primaryKey="ID",
         )
+
+        # Instantiate glottolog
+        g = Glottolog(args.glottolog.dir)
 
         # load language mapping and build inventory info
         languages = []
@@ -125,7 +110,7 @@ class Dataset(BaseDataset):
                 "Macroarea": lang.macroareas[0].name if lang.macroareas else None,
                 "Name": lang.name,
             }
-            for lang in GLOTTOLOG.languoids()
+            for lang in g.languoids()
             if lang.id in glottocodes.values()
         }
 
