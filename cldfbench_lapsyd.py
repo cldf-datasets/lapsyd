@@ -1,3 +1,4 @@
+from collections import OrderedDict
 import pathlib
 
 from cldfbench import CLDFSpec
@@ -56,50 +57,6 @@ def build_segment_data(segment_set, feature_list):
     return segments
 
 
-# TODO: remove this function, integrating to `cldf_specs()`
-def prepare_cldf(features, glottolog_version):
-    # imports for this function
-    from collections import OrderedDict
-    from pycldf import StructureDataset
-
-    cldf_dir = pathlib.Path("cldf")
-
-    ds = StructureDataset.in_dir(cldf_dir)
-    ds.tablegroup.notes.append(
-        OrderedDict(
-            [
-                ("dc:title", "environment"),
-                ("properties", OrderedDict([("glottolog_version", glottolog_version)])),
-            ]
-        )
-    )
-    ds.add_columns(
-        "ValueTable",
-        {"name": "Marginal", "datatype": "boolean"},
-        {"name": "Allophones", "separator": " "},
-        "Contribution_ID",
-    )
-
-    ds.add_component("ParameterTable", "SegmentClass", *features)
-    ds.add_component("LanguageTable", "Family_Glottocode", "Family_Name")
-    ds.add_table(
-        "inventories.csv",
-        "ID",
-        "Name",
-        "Contributor_ID",
-        {
-            "name": "Source",
-            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
-            "separator": ";",
-        },
-        "URL",
-        "Tones",
-        primaryKey="ID",
-    )
-
-    return ds
-
-
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "lapsyd"
@@ -121,6 +78,49 @@ class Dataset(BaseDataset):
 
         >>> args.writer.objects['LanguageTable'].append(...)
         """
+
+        # Extract BIPA features and glottolog version
+        BIPA_FEATURES = list(CLTS.bipa._feature_values.keys())
+        BIPA_FEATURES = [f.replace("-", "_") for f in BIPA_FEATURES]
+        glottolog_version = git_describe(GLOTTOLOG.repos)
+
+        # Add components
+        args.writer.cldf.tablegroup.notes.append(
+            OrderedDict(
+                [
+                    ("dc:title", "environment"),
+                    (
+                        "properties",
+                        OrderedDict([("glottolog_version", glottolog_version)]),
+                    ),
+                ]
+            )
+        )
+        args.writer.cldf.add_columns(
+            "ValueTable",
+            {"name": "Marginal", "datatype": "boolean"},
+            {"name": "Allophones", "separator": " "},
+            "Contribution_ID",
+        )
+
+        args.writer.cldf.add_component("ParameterTable", "SegmentClass", *BIPA_FEATURES)
+        args.writer.cldf.add_component(
+            "LanguageTable", "Family_Glottocode", "Family_Name"
+        )
+        args.writer.cldf.add_table(
+            "inventories.csv",
+            "ID",
+            "Name",
+            "Contributor_ID",
+            {
+                "name": "Source",
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                "separator": ";",
+            },
+            "URL",
+            "Tones",
+            primaryKey="ID",
+        )
 
         # load language mapping and build inventory info
         languages = []
@@ -163,11 +163,6 @@ class Dataset(BaseDataset):
             if lang.id in glottocodes.values()
         }
 
-        # Prepare dataset
-        BIPA_FEATURES = list(CLTS.bipa._feature_values.keys())
-        BIPA_FEATURES = [f.replace("-", "_") for f in BIPA_FEATURES]
-        my_ds = prepare_cldf(BIPA_FEATURES, git_describe(GLOTTOLOG.repos))
-
         # Iterate over raw data
         segment_set = set()
         values = []
@@ -201,7 +196,7 @@ class Dataset(BaseDataset):
         segments = build_segment_data(segment_set, BIPA_FEATURES)
 
         # Write data and validate
-        my_ds.write(
+        args.writer.write(
             **{
                 "ValueTable": values,
                 "LanguageTable": languoids.values(),
