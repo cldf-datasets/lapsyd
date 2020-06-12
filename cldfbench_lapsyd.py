@@ -1,6 +1,7 @@
 from collections import OrderedDict
 import pathlib
 from unidecode import unidecode
+import unicodedata
 
 from cldfbench import CLDFSpec
 from cldfbench import Dataset as BaseDataset
@@ -8,12 +9,9 @@ from clldutils.misc import slug
 from clldutils.path import git_describe
 
 # TODO: temporary instantiation of catalogs
-CLTS_PATH = "/home/tresoldi/.config/cldf/clts"
-GLOTTOLOG_PATH = "/home/tresoldi/.config/cldf/glottolog"
-import pyclts
 import pyglottolog
 
-CLTS = pyclts.CLTS(CLTS_PATH)
+GLOTTOLOG_PATH = "/home/tresoldi/.config/cldf/glottolog"
 GLOTTOLOG = pyglottolog.Glottolog(GLOTTOLOG_PATH)
 
 
@@ -25,40 +23,6 @@ def compute_id(text):
     unicode_repr = ["U{0:0{1}X}".format(ord(char), 4) for char in text]
 
     return "%s_%s" % ("_".join(unicode_repr), unidecode(text))
-
-
-# TODO: incorporate in pyclts?
-def build_segment_data(segment_set, feature_list):
-    # Build segment data
-    segments = []
-    for segment in segment_set:
-        # Initialize all features to negative, and then set as positive
-        row = {feature: "-" for feature in feature_list}
-        if not isinstance(CLTS.bipa[segment], pyclts.models.UnknownSound):
-            for feature in CLTS.bipa[segment].featureset:
-                row[feature] = "+"
-
-        # Add other info
-        if row.get("vowel", None) == "+":
-            row["SegmentClass"] = "Vowel"
-        elif row.get("consonant", None) == "+":
-            row["SegmentClass"] = "Consonant"
-        elif row.get("diphthong", None) == "+":
-            row["SegmentClass"] = "Diphthong"
-        else:
-            row["SegmentClass"] = "UnknownSound"
-
-        if not isinstance(CLTS.bipa[segment], pyclts.models.UnknownSound):
-            row["Description"] = CLTS.bipa[segment].name
-        else:
-            row["Description"] = None
-        row["Name"] = segment
-        row["ID"] = compute_id(segment)
-
-        # Update data
-        segments.append(row)
-
-    return segments
 
 
 class Dataset(BaseDataset):
@@ -84,8 +48,6 @@ class Dataset(BaseDataset):
         """
 
         # Extract BIPA features and glottolog version
-        BIPA_FEATURES = list(CLTS.bipa._feature_values.keys())
-        BIPA_FEATURES = [f.replace("-", "_") for f in BIPA_FEATURES]
         glottolog_version = git_describe(GLOTTOLOG.repos)
 
         # Add components
@@ -107,7 +69,7 @@ class Dataset(BaseDataset):
             "Contribution_ID",
         )
 
-        args.writer.cldf.add_component("ParameterTable", "SegmentClass", *BIPA_FEATURES)
+        args.writer.cldf.add_component("ParameterTable")
         args.writer.cldf.add_component(
             "LanguageTable", "Family_Glottocode", "Family_Name"
         )
@@ -197,7 +159,10 @@ class Dataset(BaseDataset):
             )
 
         # Build segment data
-        segments = build_segment_data(segment_set, BIPA_FEATURES)
+        segments = [
+            {"Name": unicodedata.normalize("NFC", segment), "ID": compute_id(segment)}
+            for segment in segment_set
+        ]
 
         # Write data and validate
         args.writer.write(
