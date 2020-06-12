@@ -1,5 +1,6 @@
 from collections import OrderedDict
 import pathlib
+from unidecode import unidecode
 
 from cldfbench import CLDFSpec
 from cldfbench import Dataset as BaseDataset
@@ -15,12 +16,15 @@ import pyglottolog
 CLTS = pyclts.CLTS(CLTS_PATH)
 GLOTTOLOG = pyglottolog.Glottolog(GLOTTOLOG_PATH)
 
-# TODO: replace this function with unicode points + unidecode repr
-# Compute the hash/id for a segment
-def compute_id(segment):
-    import base64, hashlib
 
-    return str(base64.b16encode(hashlib.md5(segment.encode("utf-8")).digest()), "utf-8")
+def compute_id(text):
+    """
+    Returns a codepoint representation to an Unicode string.
+    """
+
+    unicode_repr = ["U{0:0{1}X}".format(ord(char), 4) for char in text]
+
+    return "%s_%s" % ("_".join(unicode_repr), unidecode(text))
 
 
 # TODO: incorporate in pyclts?
