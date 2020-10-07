@@ -15,13 +15,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/lapsyd",
-            "dc:created": "93003a7"
+            "dc:created": "6382d23"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.2.1-1-g1e0e889"
+            "dc:created": "v4.2.1-26-g276382e"
         }
     ],
     "prov:wasGeneratedBy": [
@@ -100,8 +100,8 @@
                         "name": "Marginal"
                     },
                     {
-                        "separator": " ",
-                        "name": "Allophones"
+                        "datatype": "string",
+                        "name": "Catalog"
                     },
                     {
                         "datatype": "string",
@@ -140,7 +140,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 867,
+            "dc:extent": 810,
             "tableSchema": {
                 "columns": [
                     {
@@ -166,19 +166,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "retroflex"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "breathy"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "velarized"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "overshort"
+                        "name": "BIPA"
                     },
                     {
                         "datatype": "string",
@@ -186,171 +174,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "raised"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "aspirated"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "lower"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "dental"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "trilled"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "pharyngealized"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "implosive"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "diphtong"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "stop"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "nasal"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "pulmonic"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "place"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "backing"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "rhotacized"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "supra"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "unrounding"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "mid"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "lowering"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "nasalized"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "coronal"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "rising"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "long"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "sibilant"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "palatalized"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "epiglottal"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "rhotic"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "approximant"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "whistled"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "prestopped"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "preaspirated"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "lateral"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "click"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "ejective"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "lowered"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "release"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "palatoalveolar"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "nasalizing"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "laryngealized"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "higher"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "retracted"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "labiodental"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "voiced"
+                        "name": "high"
                     },
                     {
                         "datatype": "string",
@@ -358,51 +182,15 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "front"
+                        "name": "pulmonic"
                     },
                     {
                         "datatype": "string",
-                        "name": "back"
+                        "name": "nasalizing"
                     },
                     {
                         "datatype": "string",
-                        "name": "high"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "bilabial"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "palatal"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "voiceless"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "unspecified"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "rounding"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "pharyngeal"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "velar"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "uvular"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "affricate"
+                        "name": "long"
                     },
                     {
                         "datatype": "string",
@@ -410,23 +198,67 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "trill"
+                        "name": "lowering"
                     },
                     {
                         "datatype": "string",
-                        "name": "tapflap"
+                        "name": "velarized"
                     },
                     {
                         "datatype": "string",
-                        "name": "fricative"
+                        "name": "ejective"
                     },
                     {
                         "datatype": "string",
-                        "name": "labialized"
+                        "name": "affricate"
                     },
                     {
                         "datatype": "string",
-                        "name": "rounded"
+                        "name": "sibilant"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "whistled"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "rhotic"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "epiglottal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "palatalized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "lowered"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "labiodental"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "aspirated"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "voiced"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "unspecified"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "unrounding"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "release"
                     },
                     {
                         "datatype": "string",
@@ -434,7 +266,39 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "prenasalized"
+                        "name": "mid"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "lower"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "rounding"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "stop"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "trilled"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "nasal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "rounded"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "breathy"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "low"
                     },
                     {
                         "datatype": "string",
@@ -442,7 +306,147 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "low"
+                        "name": "labialized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "front"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "rising"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "click"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "pharyngealized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "prestopped"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "place"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "prenasalized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "raised"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "laryngealized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "retracted"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "higher"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "voiceless"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "uvular"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "preaspirated"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "palatoalveolar"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "lateral"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "backing"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "pharyngeal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "overshort"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "approximant"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "retroflex"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "supra"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "fricative"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "trill"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "diphtong"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "dental"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "implosive"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "back"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "nasalized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "bilabial"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "velar"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "coronal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "rhotacized"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "palatal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "tapflap"
                     }
                 ],
                 "primaryKey": [
@@ -523,6 +527,10 @@
                     {
                         "datatype": "string",
                         "name": "Family_Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Glottolog_Name"
                     }
                 ],
                 "primaryKey": [
