@@ -10,6 +10,7 @@ from clldutils.path import git_describe
 
 from pyglottolog import Glottolog
 from pyclts import CLTS, models
+from pycldf import Sources
 
 
 def compute_id(text):
@@ -61,6 +62,10 @@ class Dataset(BaseDataset):
         >>> args.writer.objects['LanguageTable'].append(...)
         """
 
+        # Add sources
+        sources = Sources.from_file(self.raw_dir / "sources.bib")
+        args.writer.cldf.add_sources(*sources)
+
         # Instantiate Glottolog and CLTS
         # TODO: how to call CLTS?
         glottolog = Glottolog(args.glottolog.dir)
@@ -111,11 +116,13 @@ class Dataset(BaseDataset):
         # load language mapping and build inventory info
         languages = {}
         lang_ids = {}
+        lang_sources = {}
         inventories = []
         for row in self.etc_dir.read_csv("languages.csv", dicts=True):
             # Build language mapping
             languages[row["name"]] = row["glottocode"]
             lang_ids[row["glottocode"]] = f"{slug(row['name'])}_{row['glottocode']}"
+            lang_sources[row["glottocode"]] = row["sources"].split(",")
 
             # collect inventory info
             inventories.append(
@@ -184,7 +191,7 @@ class Dataset(BaseDataset):
                     "Marginal": marginal,
                     "Parameter_ID": par_id,
                     "Value": segment,
-                    "Source": [],  # TODO
+                    "Source": lang_sources[languages[row["name"]]],
                     "Catalog": "lapsyd",
                 }
             )
