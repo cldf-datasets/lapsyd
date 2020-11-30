@@ -111,7 +111,7 @@ toratan_rata1244,Ratahan,Papunesia,1.07592,124.858,rata1244,rth,aust1307,Austron
 tetunwesterndialect_tetu1245,Tetum,Papunesia,-9.11217,125.528,tetu1245,tet,aust1307,Austronesian,Tetum
 kedang_keda1252,Kedang,Papunesia,-8.23039,123.77,keda1252,ksx,aust1307,Austronesian,Kedang
 havu_sabu1255,Hawu,Papunesia,-10.5522,121.847,sabu1255,hvn,aust1307,Austronesian,Hawu
-kiribati_gilb1244,Gilbertese,Papunesia,-1.34,176.44,gilb1244,gil,aust1307,Austronesian,Gilbertese
+kiribati_gilb1244,Gilbertese,Papunesia,0.179,173.64,gilb1244,gil,aust1307,Austronesian,Gilbertese
 kelepapuanewguinea_kele1258,Kele (Papua New Guinea),Papunesia,-2.09163,147.064,kele1258,sbc,aust1307,Austronesian,Kele (Papua New Guinea)
 wuvulu_wuvu1239,Wuvulu-Aua,Papunesia,-1.73938,142.851,wuvu1239,wuv,aust1307,Austronesian,Wuvulu-Aua
 kwaio_kwai1243,Kwaio,Papunesia,-8.93744,160.965,kwai1243,kwd,aust1307,Austronesian,Kwaio
@@ -303,8 +303,8 @@ awjila_awji1241,Awjilah,Africa,29.2341,21.1819,awji1241,auj,afro1255,Afro-Asiati
 tashlhiyt_tach1250,Tachelhit,Africa,29.7854,-7.77879,tach1250,shi,afro1255,Afro-Asiatic,Tachelhit
 tamazightcentralatlas_cent2194,Central Moroccan Berber,Africa,32.7415,-2.40872,cent2194,tzm,afro1255,Afro-Asiatic,Central Moroccan Berber
 ghomaraberber_ghom1257,Ghomara,Africa,34.7979,-4.6696,ghom1257,gho,afro1255,Afro-Asiatic,Ghomara
-siwi_siwi1239,Siwi,Africa,29.200415,25.519627,siwi1239,siz,afro1255,Afro-Asiatic,Siwi
 tetserret_tets1235,Tetserret,Africa,14.973333,5.699722,tets1235,tez,afro1255,Afro-Asiatic,Tetserret
+siwi_siwi1239,Siwi,Africa,29.200415,25.519627,siwi1239,siz,afro1255,Afro-Asiatic,Siwi
 westmakian_west2600,West Makian,Papunesia,0.45332,127.63,west2600,mqs,nort2923,North Halmahera,West Makian
 bororo_boro1282,Bororo,South America,-16.6029,-55.2004,boro1282,bor,boro1281,Bororoan,Bororo
 tundrayukaghir_nort2745,Northern Yukaghir,Eurasia,70.498,157.853,nort2745,ykg,yuka1259,Yukaghir,Northern Yukaghir
@@ -344,7 +344,7 @@ rumu_rumu1243,Rumu,Papunesia,-7.17149,144.179,rumu1243,klq,tura1263,Turama-Kikor
 mapudungun_mapu1245,Mapudungun,South America,-38.7392,-71.277,mapu1245,arn,arau1255,Araucanian,Mapudungun
 bora_bora1263,Bora,South America,-2.000259,-72.257066,bora1263,boa,bora1262,Boran,Bora
 muinane_muin1242,Muinane,South America,-0.8652,-72.4249,muin1242,bmr,bora1262,Boran,Muinane
-yulu_yulu1243,Yulu,Africa,8.04124,23.6166,yulu1243,yul,cent2225,Central Sudanic,Yulu
+yulu_yulu1243,Yulu-Binga,Africa,8.04124,23.6166,yulu1243,yul,cent2225,Central Sudanic,Yulu-Binga
 bagirmi_bagi1246,Bagirmi,Africa,11.52392,14.769495,bagi1246,bmi,cent2225,Central Sudanic,Bagirmi
 ngiti_ngit1239,Ngiti,Africa,1.30455,30.2242,ngit1239,niy,cent2225,Central Sudanic,Ngiti
 madisouthernlokaidialect_loka1255,Lokai,Africa,,,loka1255,,cent2225,Central Sudanic,Lokai
@@ -539,7 +539,7 @@ sinhala_sinh1246,Sinhala,Eurasia,8.0,81.0,sinh1246,sin,indo1319,Indo-European,Si
 kashmiri_kash1277,Kashmiri,Eurasia,34.166825,74.330455,kash1277,kas,indo1319,Indo-European,Kashmiri
 sindhi_sind1272,Sindhi,Eurasia,26.0,69.0,sind1272,snd,indo1319,Indo-European,Sindhi
 kalami_kala1373,Gawri,Eurasia,35.5303,72.5738,kala1373,gwc,indo1319,Indo-European,Gawri
-konkani_konk1267,Maharashtrian Konkani,Eurasia,19.2414,73.9166,konk1267,knn,indo1319,Indo-European,Maharashtrian Konkani
+konkani_konk1267,Konkan Marathi,Eurasia,18.404,73.994,konk1267,knn,indo1319,Indo-European,Konkan Marathi
 bengali_beng1280,Bengali,Eurasia,24.0,90.0,beng1280,ben,indo1319,Indo-European,Bengali
 assamese_assa1263,Assamese,Eurasia,26.0876,91.2932,assa1263,asm,indo1319,Indo-European,Assamese
 hindi_hind1269,Hindi,Eurasia,25.0,77.0,hind1269,hin,indo1319,Indo-European,Hindi
@@ -550,8 +550,8 @@ scottishgaelic_scot1245,Scottish Gaelic,Eurasia,56.7574,-5.24366,scot1245,gla,in
 welshnorthern_wels1247,Welsh,Eurasia,52.0,-4.0,wels1247,cym,indo1319,Indo-European,Welsh
 malakmalak_mull1237,Mullukmulluk,Australia,-13.427,130.664,mull1237,mpb,nort1547,Northern Daly,Mullukmulluk
 hatamtinamdialect_tina1247,Tinam,Papunesia,,,tina1247,,hata1242,Hatam-Mansim,Tinam
-westgreenlandicinuktitut_kala1399,Kalaallisut,North America,69.3761,-52.864,kala1399,kal,eski1264,Eskimo-Aleut,Kalaallisut
 aleuteastern_east2533,Eastern Aleut,North America,,,east2533,,eski1264,Eskimo-Aleut,Eastern Aleut
+westgreenlandicinuktitut_kala1399,Kalaallisut,North America,69.3761,-52.864,kala1399,kal,eski1264,Eskimo-Aleut,Kalaallisut
 caddo_cadd1256,Caddo,North America,33.33,-93.5,cadd1256,cad,cadd1255,Caddoan,Caddo
 wichita_wich1260,Wichita,North America,35.0665,-98.1831,wich1260,wic,cadd1255,Caddoan,Wichita
 koasati_koas1236,Koasati,North America,30.4096,-92.709,koas1236,cku,musk1252,Muskogean,Koasati

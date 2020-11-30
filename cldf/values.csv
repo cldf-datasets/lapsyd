@@ -557,7 +557,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 601,gaahmg_gaam1241,BIPA_f_u0066,f,,,lapsyd_1616_Stirtz_tbi,false,lapsyd,gaahmg
 602,miskitu_misk1235,BIPA_ng_u014B,ŋ,,,,false,lapsyd,miskitu
 603,igbo_nucl1417,BIPA_a_u0061,a,,,,false,lapsyd,igbo
-604,dhurwa_duru1236,UNK_rr_u0072u0072,'rr',,,lapsyd_1777_Burrow1953,true,lapsyd,dhurwa
+604,dhurwa_duru1236,BIPA_rr_u0072u0072,'rr',,,lapsyd_1777_Burrow1953,true,lapsyd,dhurwa
 605,urarina_urar1246,BIPA_o_u00F5u02D0,õː,,,lapsyd_1940_Olawsky2006,false,lapsyd,urarina
 607,hungarian_hung1274,BIPA_ts_u0074u0320u0283,t̠ʃ,,,,false,lapsyd,hungarian
 608,kogi_cogu1240,BIPA_g_u0261,ɡ,,,lapsyd_1896_Gawthorneetal1984,false,lapsyd,kogi
@@ -751,7 +751,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 811,amahuaca_amah1246,BIPA_j_u006A,j,,,lapsyd_1998_Osborn1948,false,lapsyd,amahuaca
 812,muniche_muni1258,BIPA_u_u0075,u,,,lapsyd_1933_Lev_etal2013,false,lapsyd,muniche
 813,sinhala_sinh1246,BIPA_n_u006Eu032A,n̪,,,lapsyd_CoatesSilva1960,false,lapsyd,sinhala
-814,khoekhoe_nama1264,UNK_ng_u014Bu0325u01C1u0294,ŋ̥ǁʔ,,,,false,lapsyd,khoekhoe
+814,khoekhoe_nama1264,BIPA_ng_u014Bu0325u01C1u0294,ŋ̥ǁʔ,,,,false,lapsyd,khoekhoe
 816,santali_sant1410,BIPA_b_u0062u0324,b̤,,,,false,lapsyd,santali
 817,nivkh_gily1242,BIPA_i_u0268,ɨ,,,lapsyd_Krejnovich1937;lapsyd_ZinderMatusevich1937;lapsyd_Panfilov1962;lapsyd_150394,false,lapsyd,nivkh
 818,midwahgi_nucl1620,BIPA_l_u006C,l,,,lapsyd_Phillips1976,false,lapsyd,midwahgi
@@ -761,7 +761,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 822,farsiwestern_west2369,BIPA_k_u006B,k,,,lapsyd_Obolensky_etal1963,false,lapsyd,farsiwestern
 823,kayardild_kaya1319,BIPA_r_u0072,r,,,lapsyd_43598,false,lapsyd,kayardild
 824,pacoh_paco1243,BIPA_i_u0069u0259,iə,,,lapsyd_Watson1964,false,lapsyd,pacoh
-825,yelidnye_yele1255,UNK_nm_u006Eu0320u006D,n̠m,,,,false,lapsyd,yelidnye
+825,yelidnye_yele1255,BIPA_nm_u006Eu0320u006D,n̠m,,,,false,lapsyd,yelidnye
 826,westernkeres_west2632,BIPA_w_u0077u0330,w̰,,,lapsyd_Miller1966,false,lapsyd,westernkeres
 828,aomongsendialect_mong1332,BIPA_h_u0068,h,,,,false,lapsyd,aomongsendialect
 829,lakotateton_lako1247,BIPA_kh_u006Bu02B0,kʰ,,,,false,lapsyd,lakotateton
@@ -770,7 +770,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 832,aghem_aghe1239,BIPA_l_u006C,l,,,lapsyd_Hyman1979,false,lapsyd,aghem
 833,hainanese_minn1241,BIPA_b_u0062,b,,,lapsyd_Hanyu1960,false,lapsyd,hainanese
 834,malekujaika_male1297,BIPA_e_u0065,e,,,,false,lapsyd,malekujaika
-835,mofugugur_mofu1248,UNK_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_1598_mif,false,lapsyd,mofugugur
+835,mofugugur_mofu1248,BIPA_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_1598_mif,false,lapsyd,mofugugur
 836,tiwanorthern_nort1550,BIPA_u_u0075,u,,,,false,lapsyd,tiwanorthern
 837,welshnorthern_wels1247,BIPA_oi_u006Fu0069,oi,,,lapsyd_jones1984distinctive,false,lapsyd,welshnorthern
 838,lezgian_lezg1247,BIPA_b_u0062,b,,,lapsyd_91629,false,lapsyd,lezgian
@@ -856,7 +856,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 925,tera_tera1251,BIPA_k_u006B,k,,,lapsyd_Newman1970;lapsyd_ttr_tench2007,false,lapsyd,tera
 926,aleuteastern_east2533,BIPA_j_u006Au0325,j̥,,,lapsyd_Bergsland1956;lapsyd_Bergsland1959,false,lapsyd,aleuteastern
 927,inapari_inap1243,BIPA_o_u00F5u02D0,õː,,,,false,lapsyd,inapari
-928,mbane_mbaa1245,UNK_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_Pasch1986,false,lapsyd,mbane
+928,mbane_mbaa1245,BIPA_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_Pasch1986,false,lapsyd,mbane
 929,sheko_shek1245,BIPA_p_u0070u02BC,pʼ,,,,false,lapsyd,sheko
 930,nzadib865_nzad1234,BIPA_s_u0073,s,,,,false,lapsyd,nzadib865
 932,chamicuro_cham1318,BIPA_e_u0065u02D0,eː,,,,false,lapsyd,chamicuro
@@ -1029,7 +1029,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 1115,purepecha_pure1242,BIPA_th_u0074u02B0,tʰ,,,lapsyd_Foster1969;lapsyd_Friedrich1975,false,lapsyd,purepecha
 1116,yulu_yulu1243,BIPA_s_u0283,ʃ,,,lapsyd_Boyeldieu1987,false,lapsyd,yulu
 1117,dawro_dawr1236,BIPA_a_u0061,a,,,,false,lapsyd,dawro
-1118,azande_zand1248,UNK_nr_u006Eu027A,nɺ,,,lapsyd_TuckerHackett1959,false,lapsyd,azande
+1118,azande_zand1248,BIPA_nr_u006Eu027A,nɺ,,,lapsyd_TuckerHackett1959,false,lapsyd,azande
 1119,tlapanecmalinaltepec_mali1285,BIPA_o_u00F5,õ,,,lapsyd_Suarez1983,false,lapsyd,tlapanecmalinaltepec
 1120,shasta_shas1239,BIPA_s_u0073,s,,,lapsyd_Silver1964,false,lapsyd,shasta
 1121,nuxalk_bell1243,BIPA_l_u006C,l,,,lapsyd_Newman1947,false,lapsyd,nuxalk
@@ -1355,7 +1355,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 1470,movima_movi1243,BIPA_e_u0065,e,,,lapsyd_1932_Haude2006;lapsyd_JudyJudy1962,false,lapsyd,movima
 1471,itonama_iton1250,BIPA_n_u006E,n,,,lapsyd_1928_Crevels2002,false,lapsyd,itonama
 1472,mazahuacentral_cent2144,BIPA_nggw_u014Bu0261u02B7,ŋɡʷ,,,lapsyd_Pike1951;lapsyd_Spotts1953,false,lapsyd,mazahuacentral
-1473,mapudungun_mapu1245,UNK_tth_u0288u03B8u0323,ʈθ̣,,,lapsyd_EcheverriaContreras1965,false,lapsyd,mapudungun
+1473,mapudungun_mapu1245,BIPA_tth_u0288u03B8u0323,ʈθ̣,,,lapsyd_EcheverriaContreras1965,false,lapsyd,mapudungun
 1474,tiwanorthern_nort1550,BIPA_ts_u0074u0320u0283u02BC,t̠ʃʼ,,,,false,lapsyd,tiwanorthern
 1475,rukaitanandialect_tana1287,BIPA_ts_u0074u0073,ts,,,lapsyd_Li1973;lapsyd_Li1977-dru,false,lapsyd,rukaitanandialect
 1476,amharic_amha1245,BIPA_n_u006E,n,,,,false,lapsyd,amharic
@@ -1581,7 +1581,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 1723,kaurna_kaur1267,BIPA_c_u0063,c,,,,false,lapsyd,kaurna
 1724,xavante_xava1240,BIPA_p_u0070,p,,,,false,lapsyd,xavante
 1725,semelai_seme1247,BIPA__u0294,ʔ,,,,false,lapsyd,semelai
-1726,wichita_wich1260,UNK_r_u027Eu032A,ɾ̪,,,lapsyd_Rood1975;lapsyd_Garvin1950,false,lapsyd,wichita
+1726,wichita_wich1260,BIPA_r_u027Eu032A,ɾ̪,,,lapsyd_Rood1975;lapsyd_Garvin1950,false,lapsyd,wichita
 1727,tekekukuyadialect_teke1280,BIPA_f_u0066,f,,,lapsyd_Paulian1975,false,lapsyd,tekekukuyadialect
 1728,alamblak_alam1246,BIPA_s_u0073,s,,,lapsyd_Bruce1984,false,lapsyd,alamblak
 1729,southernkiwaiislanddialect_sout2949,BIPA_p_u0070,p,,,,false,lapsyd,southernkiwaiislanddialect
@@ -1624,7 +1624,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 1773,kekchi_kekc1242,BIPA_ts_u0074u0073u02BC,tsʼ,,,lapsyd_Haeseriju1966,false,lapsyd,kekchi
 1774,eyak_eyak1241,BIPA_l_u026C,'ɬ',,,lapsyd_Krauss1965,true,lapsyd,eyak
 1775,awjila_awji1241,BIPA_s_u0073u032A,s̪,,,,false,lapsyd,awjila
-1777,tabasaran_taba1259,UNK_tsh_u0074u0073u032Bu02B0,ts̫ʰ,,,,false,lapsyd,tabasaran
+1777,tabasaran_taba1259,BIPA_tsh_u0074u0073u032Bu02B0,ts̫ʰ,,,,false,lapsyd,tabasaran
 1778,jingulu_djin1251,BIPA_w_u0077,w,,,lapsyd_3253,false,lapsyd,jingulu
 1779,toratan_rata1244,BIPA_j_u006A,j,,,,false,lapsyd,toratan
 1780,tlapanecmalinaltepec_mali1285,BIPA_m_u006D,m,,,lapsyd_Suarez1983,false,lapsyd,tlapanecmalinaltepec
@@ -1861,7 +1861,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 2039,bats_bats1242,BIPA_f_u0278,ɸ,,,lapsyd_Desheriev1953,false,lapsyd,bats
 2040,yelidnye_yele1255,BIPA_ae_u00E6u02D0,æː,,,,false,lapsyd,yelidnye
 2041,seneca_sene1264,BIPA_u_u0075u02D0,uː,,,lapsyd_Chafe1967,false,lapsyd,seneca
-2042,yulu_yulu1243,UNK_dj_u0257u032Au02B2,ɗ̪ʲ,,,lapsyd_Boyeldieu1987,false,lapsyd,yulu
+2042,yulu_yulu1243,BIPA_dj_u0257u032Au02B2,ɗ̪ʲ,,,lapsyd_Boyeldieu1987,false,lapsyd,yulu
 2045,westgreenlandicinuktitut_kala1399,BIPA_n_u006Eu032A,n̪,,,lapsyd_Rischel1974,false,lapsyd,westgreenlandicinuktitut
 2048,siwi_siwi1239,BIPA_j_u006A,j,,,,false,lapsyd,siwi
 2049,lelechad_lele1276,BIPA_k_u006B,k,,,lapsyd_1275_lele_frajzyngier,false,lapsyd,lelechad
@@ -2004,7 +2004,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 2197,chukchi_chuk1273,BIPA_e_u0065,e,,,lapsyd_Skorik1961;lapsyd_Skorik1968,false,lapsyd,chukchi
 2198,aghem_aghe1239,BIPA_ts_u0074u0320u0283,t̠ʃ,,,lapsyd_Hyman1979,false,lapsyd,aghem
 2199,burmese_nucl1310,BIPA_g_u0261,ɡ,,,lapsyd_Okell1969;lapsyd_mya_watkins2001,false,lapsyd,burmese
-2200,khoekhoe_nama1264,UNK_ngx_u014Bu0325u01C2u0078,ŋ̥ǂx,,,,false,lapsyd,khoekhoe
+2200,khoekhoe_nama1264,BIPA_ngx_u014Bu0325u01C2u0078,ŋ̥ǂx,,,,false,lapsyd,khoekhoe
 2201,achirabinaldialect_achi1256,BIPA_t_u0074u02BC,tʼ,,,,false,lapsyd,achirabinaldialect
 2203,grico_mode1248,BIPA_o_u0254,ɔ,,,,false,lapsyd,greek
 2204,samre_samr1245,BIPA_h_u0068,h,,,,false,lapsyd,samre
@@ -2346,7 +2346,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 2581,kanakuru_dera1248,BIPA_g_u0261,ɡ,,,,false,lapsyd,kanakuru
 2582,mutsun_sout2986,BIPA_a_u0061u02D0,aː,,,,false,lapsyd,mutsun
 2583,mundari_mund1320,BIPA_i_u0069,i,,,lapsyd_1770_Osada1992;lapsyd_GumperzBilibiri1957,false,lapsyd,mundari
-2584,tabasaran_taba1259,UNK_dz_u0064u0320u0292u032B,d̠ʒ̫,,,,false,lapsyd,tabasaran
+2584,tabasaran_taba1259,BIPA_dz_u0064u0320u0292u032B,d̠ʒ̫,,,,false,lapsyd,tabasaran
 2586,panare_enap1235,BIPA_a_u0061,a,,,lapsyd_Cauty1974;lapsyd_Cauty1974b;lapsyd_Cauty1978,false,lapsyd,panare
 2587,yanyuwa_yany1243,BIPA_k_u006B,k,,,lapsyd_HuttarKirton1981;lapsyd_120141,false,lapsyd,yanyuwa
 2588,noni_noon1243,BIPA_o_u0254,ɔ,,,lapsyd_Hyman1981,false,lapsyd,noni
@@ -2582,7 +2582,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 2842,dumo_vani1248,BIPA_i_u0268u0303,ɨ̃,,,lapsyd_Ross1980,false,lapsyd,dumo
 2843,paiwansouthern_paiw1248,BIPA_i_u0069,i,,,lapsyd_Ho1977,false,lapsyd,paiwansouthern
 2844,khalkha_halh1238,BIPA_x_u0078,x,,,lapsyd_Luvsanvandan1964;lapsyd_Street1963;lapsyd_Svantesson1985,false,lapsyd,khalkha
-2845,khariadudh_khar1287,UNK_r_u027Eu032A,ɾ̪,,,lapsyd_82056;lapsyd_1740_Biligiri1965;lapsyd_Pinnow1959,false,lapsyd,khariadudh
+2845,khariadudh_khar1287,BIPA_r_u027Eu032A,ɾ̪,,,lapsyd_82056;lapsyd_1740_Biligiri1965;lapsyd_Pinnow1959,false,lapsyd,khariadudh
 2846,digaro_diga1241,BIPA_a_u0250u0303,ɐ̃,,,lapsyd_1767_Sastry1984;lapsyd_69191;lapsyd_1767_Sastry1984,false,lapsyd,digaro
 2847,maricopa_mari1440,BIPA__u0294,ʔ,,,,false,lapsyd,maricopa
 2848,tariana_tari1256,BIPA_t_u0074u032A,t̪,,,lapsyd_1831_Aikhenvald2003,false,lapsyd,tariana
@@ -2663,7 +2663,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 2932,ndjebbana_djee1236,BIPA_j_u006A,j,,,,false,lapsyd,ndjebbana
 2933,salibacolombia_sali1298,BIPA_kw_u006Bu02B7,kʷ,,,,false,lapsyd,salibacolombia
 2934,ache_ache1246,BIPA_k_u006B,k,,,lapsyd_Susnik1974;lapsyd_2068_Roessler2008,false,lapsyd,ache
-2935,ewondo_ewon1239,UNK_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_Abega1970;lapsyd_NnomoMbezele1982;lapsyd_Redden1979,false,lapsyd,ewondo
+2935,ewondo_ewon1239,BIPA_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_Abega1970;lapsyd_NnomoMbezele1982;lapsyd_Redden1979,false,lapsyd,ewondo
 2936,tonkawa_tonk1249,BIPA_e_u0065u02D0,eː,,,lapsyd_Hoijer1949;lapsyd_Hoijer1972,false,lapsyd,tonkawa
 2937,diraytata_dira1242,BIPA_e_u0065u02D0,'eː',,,,true,lapsyd,diraytata
 2938,tagalog_taga1270,BIPA_w_u0077,w,,,lapsyd_SchachterOtanes1972;lapsyd_11180,false,lapsyd,tagalog
@@ -2688,12 +2688,12 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 2958,khakas_khak1248,BIPA_u_u0075,u,,,,false,lapsyd,khakas
 2959,batakkaro_bata1293,BIPA_d_u0064,d,,,,false,lapsyd,batakkaro
 2960,meriammer_meri1244,BIPA_g_u0261,ɡ,,,,false,lapsyd,meriammer
-2961,mandan_mand1446,UNK_rr_u0072u0072,'rr',,,,true,lapsyd,mandan
+2961,mandan_mand1446,BIPA_rr_u0072u0072,'rr',,,,true,lapsyd,mandan
 2962,efik_efik1245,BIPA_i_u0069,i,,,lapsyd_Cook1969b,false,lapsyd,efik
 2963,chachi_chac1249,BIPA_t_u0074,t,,,,false,lapsyd,chachi
 2964,resigaro_resi1247,BIPA_j_u006A,j,,,,false,lapsyd,resigaro
 2965,amele_amel1241,BIPA_s_u0073,s,,,lapsyd_Roberts1987,false,lapsyd,amele
-2967,piaroa_piar1243,UNK_d_u0257u032A,ɗ̪,,,,false,lapsyd,piaroa
+2967,piaroa_piar1243,BIPA_d_u0257u032A,ɗ̪,,,,false,lapsyd,piaroa
 2968,samre_samr1245,BIPA__u0294,ʔ,,,,false,lapsyd,samre
 2969,tabasaran_taba1259,BIPA_n_u006Eu032A,n̪,,,,false,lapsyd,tabasaran
 2970,bare_bare1276,BIPA_n_u006Eu0325,n̥,,,,false,lapsyd,bare
@@ -2885,7 +2885,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 3171,bawm_bawm1236,BIPA_i_u0069,i,,,,false,lapsyd,bawm
 3172,yucatec_yuca1254,BIPA_b_u0253,ɓ,,,lapsyd_Straight1976,false,lapsyd,yucatec
 3173,lithuanian_lith1251,BIPA_g_u0261,ɡ,,,lapsyd_Augustitis1964;lapsyd_Senn1966,false,lapsyd,lithuanian
-3174,yelidnye_yele1255,UNK_nmj_u006Eu0320u006Du02B2,n̠mʲ,,,,false,lapsyd,yelidnye
+3174,yelidnye_yele1255,BIPA_nmj_u006Eu0320u006Du02B2,n̠mʲ,,,,false,lapsyd,yelidnye
 3175,ocaina_ocai1244,BIPA_t_u0074,t,,,lapsyd_AgnewPike1957,false,lapsyd,ocaina
 3176,dardajudaju_dard1243,BIPA_o_u006F,o,,,,false,lapsyd,dardajudaju
 3177,kunama_kuna1268,BIPA_s_u0073,s,,,lapsyd_kun_ashkaba1999,false,lapsyd,kunama
@@ -3203,7 +3203,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 3513,wapishana_wapi1253,BIPA_g_u0261,ɡ,,,lapsyd_1833_Dossantos2006,false,lapsyd,wapishana
 3514,chuave_chua1250,BIPA_fw_u0066u02B7,fʷ,,,lapsyd_Thurman1970,false,lapsyd,chuave
 3516,jacalteceastern_popt1235,BIPA_l_u006C,l,,,lapsyd_Craig1977;lapsyd_Day1973,false,lapsyd,jacalteceastern
-3517,khoekhoe_nama1264,UNK_ng_u014Bu0325u01C3u0294,ŋ̥ǃʔ,,,,false,lapsyd,khoekhoe
+3517,khoekhoe_nama1264,BIPA_ng_u014Bu0325u01C3u0294,ŋ̥ǃʔ,,,,false,lapsyd,khoekhoe
 3518,maidunortheastern_nort2952,BIPA_s_u0073u0320,s̠,,,lapsyd_Shipley1956;lapsyd_Shipley1964,false,lapsyd,maidunortheastern
 3519,khariadudh_khar1287,BIPA_k_u006B,k,,,lapsyd_82056;lapsyd_1740_Biligiri1965;lapsyd_Pinnow1959,false,lapsyd,khariadudh
 3523,bare_bare1276,BIPA_ts_u0074u0320u0283,t̠ʃ,,,,false,lapsyd,bare
@@ -3451,7 +3451,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 3787,amharic_amha1245,BIPA_e_u0065,e,,,,false,lapsyd,amharic
 3788,miskitu_misk1235,BIPA_l_u006Cu0325,l̥,,,,false,lapsyd,miskitu
 3789,natugu_natu1246,BIPA_ng_u014B,ŋ,,,lapsyd_Wurm1972b,false,lapsyd,natugu
-3790,tabasaran_taba1259,UNK_ts_u0074u0073u032B,ts̫,,,,false,lapsyd,tabasaran
+3790,tabasaran_taba1259,BIPA_ts_u0074u0073u032B,ts̫,,,,false,lapsyd,tabasaran
 3791,kogi_cogu1240,BIPA__u0294,ʔ,,,lapsyd_1896_Gawthorneetal1984,false,lapsyd,kogi
 3792,cubeo_cube1242,BIPA_t_u0074,t,,,lapsyd_Salser1971,false,lapsyd,cubeo
 3793,sumu_maya1285,BIPA_w_u0077,w,,,,false,lapsyd,sumu
@@ -3489,7 +3489,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 3827,nara_nara1262,BIPA_mb_u006Du0062,mb,,,lapsyd_Bender1968;lapsyd_nrb_dawd2002,false,lapsyd,nara
 3828,tamazightcentralatlas_cent2194,BIPA_f_u0066,f,,,,false,lapsyd,tamazightcentralatlas
 3830,martuthunira_mart1255,BIPA_a_u0250u02D0,ɐː,,,lapsyd_122542,false,lapsyd,martuthunira
-3831,aghem_aghe1239,UNK_ngm_u014Bu006D,ŋm,,,lapsyd_Hyman1979,false,lapsyd,aghem
+3831,aghem_aghe1239,BIPA_ngm_u014Bu006D,ŋm,,,lapsyd_Hyman1979,false,lapsyd,aghem
 3832,diolafogny_jola1263,BIPA__u0259,ə,,,lapsyd_Sapir1965,false,lapsyd,diolafogny
 3833,apinaye_apin1244,BIPA_a_u00E3,ã,,,lapsyd_BurgessHam1968;lapsyd_1953_Oliveira2005,false,lapsyd,apinaye
 3834,polish_poli1260,BIPA_s_u0073,s,,,lapsyd_pol_jassem2003,false,lapsyd,polish
@@ -3500,7 +3500,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 3840,hlailauhutbaodingdialect_hlai1239,BIPA__u0259,'ə',,,lapsyd_OuyangZheng1963,true,lapsyd,hlailauhutbaodingdialect
 3842,kpelle_libe1247,BIPA_i_u0069,i,,,lapsyd_Hyman1973;lapsyd_Welmers1962;lapsyd_Welmers1973,false,lapsyd,kpelle
 3843,bahinemo_bahi1254,BIPA__u0259,'ə',,,,true,lapsyd,bahinemo
-3844,yelidnye_yele1255,UNK_kngw_u006Bu014Bu02B7,kŋʷ,,,,false,lapsyd,yelidnye
+3844,yelidnye_yele1255,BIPA_kngw_u006Bu014Bu02B7,kŋʷ,,,,false,lapsyd,yelidnye
 3846,towa_jeme1245,BIPA_h_u0068,h,,,lapsyd_tow_yumitani1998,false,lapsyd,towa
 3847,tulu_tulu1258,BIPA_b_u0062,b,,,,false,lapsyd,tulu
 3848,mundari_mund1320,BIPA_u_u0075,u,,,lapsyd_1770_Osada1992;lapsyd_GumperzBilibiri1957,false,lapsyd,mundari
@@ -3580,7 +3580,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 3931,mehrimehreyyetdialect_mehr1241,BIPA_kh_u03C7,χ,,,lapsyd_142411,false,lapsyd,mehrimehreyyetdialect
 3932,yareba_yare1248,BIPA_d_u0064,d,,,lapsyd_WeimerWeimer1972,false,lapsyd,yareba
 3933,tamil_tami1289,BIPA_o_u006Fu02D0,oː,,,lapsyd_tam_keane2004,false,lapsyd,tamil
-3934,khoekhoe_nama1264,UNK_ng_u014Bu0325u01C0u0294,ŋ̥ǀʔ,,,,false,lapsyd,khoekhoe
+3934,khoekhoe_nama1264,BIPA_ng_u014Bu0325u01C0u0294,ŋ̥ǀʔ,,,,false,lapsyd,khoekhoe
 3935,khamtakaledialect_taka1261,BIPA_a_u00E3u02D0,ãː,,,,false,lapsyd,khamtakaledialect
 3936,dadibi_dadi1250,BIPA_p_u0070,p,,,lapsyd_MacDonald1973,false,lapsyd,dadibi
 3937,mandarin_mand1415,BIPA_ts_u0288u0282,ʈʂ,,,lapsyd_Chao1968;lapsyd_Cheng1973b;lapsyd_Dow1972;lapsyd_cmn_lee2003_phon,false,lapsyd,mandarin
@@ -4075,7 +4075,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 4474,albaniantoskdialect_tosk1239,BIPA_r_u0279,ɹ,,,lapsyd_Newmark1957;lapsyd_klippenstein2010word,false,lapsyd,albaniantoskdialect
 4475,carnicobarese_carn1240,BIPA_r_u027E,ɾ,,,lapsyd_Das1977,false,lapsyd,carnicobarese
 4476,kwakwala_kwak1269,BIPA_m_u006D,m,,,lapsyd_Grubb1977;lapsyd_Boas1947;lapsyd_Newman1950,false,lapsyd,kwakwala
-4477,khoekhoe_nama1264,UNK_ngh_u014Bu0325u01C2u0068u0303,ŋ̥ǂh̃,,,,false,lapsyd,khoekhoe
+4477,khoekhoe_nama1264,BIPA_ngh_u014Bu0325u01C2u0068u0303,ŋ̥ǂh̃,,,,false,lapsyd,khoekhoe
 4478,kotaindia_kota1263,BIPA_a_u0061,a,,,,false,lapsyd,kotaindia
 4479,mutsun_sout2986,BIPA_l_u006C,'l',,,,true,lapsyd,mutsun
 4480,sapuan_sapu1248,BIPA_b_u0062,b,,,,false,lapsyd,sapuan
@@ -4255,7 +4255,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 4674,sre_koho1244,BIPA_d_u0064,d,,,,false,lapsyd,sre
 4675,inapari_inap1243,BIPA_i_u0069,i,,,,false,lapsyd,inapari
 4676,garrwa_gara1269,BIPA_a_u0061,a,,,lapsyd_Furby1974;lapsyd_314518,false,lapsyd,garrwa
-4677,aghem_aghe1239,UNK_qpf_u0239u0066,ȹf,,,lapsyd_Hyman1979,false,lapsyd,aghem
+4677,aghem_aghe1239,BIPA_qpf_u0239u0066,ȹf,,,lapsyd_Hyman1979,false,lapsyd,aghem
 4679,luiseno_luis1253,BIPA_i_u0069,i,,,lapsyd_Bright1965;lapsyd_Bright1968;lapsyd_Hyde1971;lapsyd_KroeberGrace1960;lapsyd_Malecot1963,false,lapsyd,luiseno
 4680,bukiyip_buki1249,BIPA_o_u006F,o,,,,false,lapsyd,bukiyip
 4681,lezgian_lezg1247,BIPA_qwh_u0071u02B7u02B0,qʷʰ,,,lapsyd_91629,false,lapsyd,lezgian
@@ -4321,7 +4321,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 4749,sre_koho1244,BIPA_w_u0077,w,,,,false,lapsyd,sre
 4750,kera_kera1255,BIPA_r_u0072,r,,,lapsyd_Ebert1976;lapsyd_Ebert1979;lapsyd_ker_pearce2011,false,lapsyd,kera
 4751,naasioi_naas1242,BIPA__u0294,ʔ,,,lapsyd_HurdHurd1966;lapsyd_HurdHurd1966,false,lapsyd,naasioi
-4753,yelidnye_yele1255,UNK_nmtp_u006Eu0320u006Du0074u0320u0070,n̠mt̠p,,,,false,lapsyd,yelidnye
+4753,yelidnye_yele1255,BIPA_nmtp_u006Eu0320u006Du0074u0320u0070,n̠mt̠p,,,,false,lapsyd,yelidnye
 4754,hanis_coos1249,BIPA__u0259,ə,,,,false,lapsyd,hanis
 4755,ejagham_ejag1239,BIPA_ng_u014B,ŋ,,,lapsyd_Watters1981,false,lapsyd,ejagham
 4756,maricopa_mari1440,BIPA_i_u0069,i,,,,false,lapsyd,maricopa
@@ -4413,7 +4413,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 4850,dlamenggwadialect_meng1271,BIPA_n_u006E,n,,,lapsyd_Voorhoeve1971,false,lapsyd,dlamenggwadialect
 4851,sango_sang1328,BIPA_w_u0077,w,,,lapsyd_Samarin1967a;lapsyd_Samarin1967b,false,lapsyd,sango
 4853,armenianeastern_nucl1235,BIPA_ts_u0074u0320u0283u02BC,t̠ʃʼ,,,lapsyd_Allen1950,false,lapsyd,armenianeastern
-4854,hixkaryana_hixk1239,UNK_r_u027Au0323,ɺ̣,,,lapsyd_1871_Derbyshire1985,false,lapsyd,hixkaryana
+4854,hixkaryana_hixk1239,BIPA_r_u027Au0323,ɺ̣,,,lapsyd_1871_Derbyshire1985,false,lapsyd,hixkaryana
 4855,spanishpeninsularcastilian_stan1288,BIPA_i_u0069,i,,,lapsyd_Navarro1961;lapsyd_SaportaContreras1962;lapsyd_spa_martinez-celdra2003;lapsyd_Harris1969,false,lapsyd,spanishpeninsularcastilian
 4856,rukaitanandialect_tana1287,BIPA_r_u0072,r,,,lapsyd_Li1973;lapsyd_Li1977-dru,false,lapsyd,rukaitanandialect
 4858,grebo_sout2826,BIPA_n_u006Eu0325,n̥,,,,false,lapsyd,grebo
@@ -5776,7 +5776,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 6320,kogi_cogu1240,BIPA_m_u006D,m,,,lapsyd_1896_Gawthorneetal1984,false,lapsyd,kogi
 6321,nyanjachichewadialect_chew1246,BIPA_n_u006E,n,,,,false,lapsyd,nyanjachichewadialect
 6322,hungarian_hung1274,BIPA_e_u0065u02D0,eː,,,,false,lapsyd,hungarian
-6323,mbum_mbum1254,UNK_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_Hagege1970,false,lapsyd,mbum
+6323,mbum_mbum1254,BIPA_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_Hagege1970,false,lapsyd,mbum
 6324,gooniyandi_goon1238,BIPA_m_u006D,m,,,lapsyd_98977,false,lapsyd,gooniyandi
 6325,paumari_paum1247,BIPA_h_u0068,h,,,,false,lapsyd,paumari
 6326,manange_cent1394,BIPA_ph_u0070u02B0,pʰ,,,lapsyd_nmm_hildebrandt2004,false,lapsyd,manange
@@ -6063,7 +6063,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 6640,itonama_iton1250,BIPA_i_u0268,ɨ,,,lapsyd_1928_Crevels2002,false,lapsyd,itonama
 6641,khariadudh_khar1287,BIPA_ts_u0074u0320u0283,t̠ʃ,,,lapsyd_82056;lapsyd_1740_Biligiri1965;lapsyd_Pinnow1959,false,lapsyd,khariadudh
 6642,azerbaijaninorthern_nort2697,BIPA_r_u027E,ɾ,,,lapsyd_HouseholderLofti1965,false,lapsyd,azerbaijaninorthern
-6643,khalkha_halh1238,UNK_lz_u026Eu032A,ɮ̪,,,lapsyd_Luvsanvandan1964;lapsyd_Street1963;lapsyd_Svantesson1985,false,lapsyd,khalkha
+6643,khalkha_halh1238,BIPA_lz_u026Eu032A,ɮ̪,,,lapsyd_Luvsanvandan1964;lapsyd_Street1963;lapsyd_Svantesson1985,false,lapsyd,khalkha
 6644,shasta_shas1239,BIPA_w_u0077,w,,,lapsyd_Silver1964,false,lapsyd,shasta
 6645,santali_sant1410,BIPA_i_u0129,ĩ,,,,false,lapsyd,santali
 6646,umbundu_umbu1257,BIPA_l_u006Cu0303,'l̃',,,lapsyd_Schadeberg1982,true,lapsyd,umbundu
@@ -6072,7 +6072,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 6649,egyptianarabic_egyp1253,BIPA_q_u0071,q,,,lapsyd_Kennedy1960;lapsyd_Mitchell1962;lapsyd_Tomiche1964,false,lapsyd,egyptianarabic
 6650,sundanese_sund1252,BIPA_d_u0064,d,,,lapsyd_Robins1957,false,lapsyd,sundanese
 6651,tigre_tigr1270,BIPA_h_u0068,h,,,lapsyd_Palmer1962,false,lapsyd,tigre
-6652,tabasaran_taba1259,UNK_z_u007Au032B,z̫,,,,false,lapsyd,tabasaran
+6652,tabasaran_taba1259,BIPA_z_u007Au032B,z̫,,,,false,lapsyd,tabasaran
 6653,camsa_cams1241,BIPA__u0259,ə,,,lapsyd_Mongui1981,false,lapsyd,camsa
 6654,mongnjua_hmon1264,BIPA_ng_u014B,ŋ,,,lapsyd_Wang1985;lapsyd_Wang1983;lapsyd_mortensen2004preliminaries,false,lapsyd,mongnjua
 6655,irantxe_iran1263,BIPA_o_u0254,ɔ,,,lapsyd_Meader1967,false,lapsyd,irantxe
@@ -6184,7 +6184,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 6775,mangarrayi_mang1381,BIPA_i_u026A,ɪ,,,,false,lapsyd,mangarrayi
 6776,kurukh_kuru1302,BIPA_e_u1EBD,'ẽ',,,lapsyd_Pfeiffer1972;lapsyd_Pinnow1964;lapsyd_1754_Ekka1985,true,lapsyd,kurukh
 6777,muinane_muin1242,BIPA_s_u0073,s,,,,false,lapsyd,muinane
-6778,dagbani_dagb1246,UNK_ngm_u014Bu006D,ŋm,,,lapsyd_WilsonBendor-Samuel1969,false,lapsyd,dagbani
+6778,dagbani_dagb1246,BIPA_ngm_u014Bu006D,ŋm,,,lapsyd_WilsonBendor-Samuel1969,false,lapsyd,dagbani
 6780,nara_nara1262,BIPA_h_u0068,h,,,lapsyd_Bender1968;lapsyd_nrb_dawd2002,false,lapsyd,nara
 6781,mangarrayi_mang1381,BIPA_o_u0254,ɔ,,,,false,lapsyd,mangarrayi
 6782,epena_epen1239,BIPA_i_u0069,i,,,lapsyd_1905_Harms1984;lapsyd_Harms1985,false,lapsyd,epena
@@ -6194,7 +6194,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 6787,trumai_trum1247,BIPA_p_u0070,p,,,lapsyd_1939_Guiardello1999;lapsyd_Trumai1975,false,lapsyd,trumai
 6788,nobiin_nobi1240,BIPA_dz_u0064u0320u0292,d̠ʒ,,,lapsyd_Bell1968;lapsyd_Bell1971,false,lapsyd,nobiin
 6789,darai_dara1250,BIPA_dz_u0064u0324u007Au0324,d̤z̤,,,,false,lapsyd,darai
-6790,tabasaran_taba1259,UNK_z_u0292u032B,ʒ̫,,,,false,lapsyd,tabasaran
+6790,tabasaran_taba1259,BIPA_z_u0292u032B,ʒ̫,,,,false,lapsyd,tabasaran
 6791,burmese_nucl1310,BIPA_h_u0068,h,,,lapsyd_Okell1969;lapsyd_mya_watkins2001,false,lapsyd,burmese
 6792,bukiyip_buki1249,BIPA_tc_u0074u0255,tɕ,,,,false,lapsyd,bukiyip
 6793,towa_jeme1245,BIPA_p_u0070u02BC,pʼ,,,lapsyd_tow_yumitani1998,false,lapsyd,towa
@@ -6818,7 +6818,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 7478,kobon_kobo1249,BIPA_mb_u006Du0062,mb,,,,false,lapsyd,kobon
 7479,mehrimehreyyetdialect_mehr1241,BIPA_m_u006D,m,,,lapsyd_142411,false,lapsyd,mehrimehreyyetdialect
 7480,makah_maka1318,BIPA_m_u006D,m,,,lapsyd_noo_davidson2002,false,lapsyd,makah
-7481,madisouthernlokaidialect_loka1255,UNK_ngm_u014Bu006D,ŋm,,,lapsyd_1292_snm_blackingsfabb;lapsyd_1425_luc,false,lapsyd,madisouthernlokaidialect
+7481,madisouthernlokaidialect_loka1255,BIPA_ngm_u014Bu006D,ŋm,,,lapsyd_1292_snm_blackingsfabb;lapsyd_1425_luc,false,lapsyd,madisouthernlokaidialect
 7482,bandjalangyugumbir_midd1357,BIPA_n_u006Eu0320,n̠,,,lapsyd_Cunningham1969;lapsyd_304717,false,lapsyd,bandjalangyugumbir
 7483,slovene_slov1268,BIPA_s_u0073,s,,,,false,lapsyd,slovene
 7484,nzadib865_nzad1234,BIPA_t_u0074,t,,,,false,lapsyd,nzadib865
@@ -6870,11 +6870,11 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 7534,kugunganhcara_kuku1283,BIPA_a_u0061,a,,,,false,lapsyd,kugunganhcara
 7536,tsimshiancoast_nucl1649,BIPA_w_u0270u0330,ɰ̰,,,lapsyd_Dunn1979;lapsyd_Mulder1988;lapsyd_Hoard1978,false,lapsyd,tsimshiancoast
 7537,svanlowerbaldialect_lowe1397,BIPA_oe_u0153,œ,,,,false,lapsyd,svanlowerbaldialect
-7538,sora_sora1254,UNK_rr_u0072u0072,'rr',,,,true,lapsyd,sora
+7538,sora_sora1254,BIPA_rr_u0072u0072,'rr',,,,true,lapsyd,sora
 7539,ngiti_ngit1239,BIPA_r_u027D,ɽ,,,lapsyd_1470_niy,false,lapsyd,ngiti
 7540,gunin_kwin1241,BIPA_ng_u014B,ŋ,,,lapsyd_5187,false,lapsyd,gunin
 7541,sango_sang1328,BIPA_v_u0076,v,,,lapsyd_Samarin1967a;lapsyd_Samarin1967b,false,lapsyd,sango
-7542,basariguineesenegal_bass1258,UNK_rr_u0072u0072,rr,,,,false,lapsyd,basariguineesenegal
+7542,basariguineesenegal_bass1258,BIPA_rr_u0072u0072,rr,,,,false,lapsyd,basariguineesenegal
 7543,bribri_brib1243,BIPA_o_u006F,o,,,,false,lapsyd,bribri
 7544,anguthimri_alng1239,BIPA_ae_u00E6u0303,æ̃,,,,false,lapsyd,anguthimri
 7546,toratan_rata1244,BIPA_dj_u0064u02B2,dʲ,,,,false,lapsyd,toratan
@@ -6901,7 +6901,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 7570,sedang_seda1262,BIPA_ie_u0069u0065,ie,,,lapsyd_Smith1968,false,lapsyd,sedang
 7571,yuchi_yuch1247,BIPA_f_u0278,ɸ,,,lapsyd_Ballard1975;lapsyd_Crawford1973;lapsyd_yuc_linn2001,false,lapsyd,yuchi
 7572,rukaitanandialect_tana1287,BIPA_h_u0068,h,,,lapsyd_Li1973;lapsyd_Li1977-dru,false,lapsyd,rukaitanandialect
-7573,papiamentu_papi1253,UNK_rr_u0072u0072,rr,,,,false,lapsyd,papiamentu
+7573,papiamentu_papi1253,BIPA_rr_u0072u0072,rr,,,,false,lapsyd,papiamentu
 7574,batakkaro_bata1293,BIPA_p_u0070,p,,,,false,lapsyd,batakkaro
 7575,noon_noon1242,BIPA_b_u0253,ɓ,,,,false,lapsyd,noon
 7576,gadsup_gads1258,BIPA_a_u0250,ɐ,,,lapsyd_FrantzFrantz1966,false,lapsyd,gadsup
@@ -6926,7 +6926,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 7595,evenki_even1259,BIPA_b_u03B2,β,,,,false,lapsyd,evenki
 7596,mpur_mpur1239,BIPA_p_u0070,p,,,,false,lapsyd,mpur
 7597,muniche_muni1258,BIPA_e_u0065,e,,,lapsyd_1933_Lev_etal2013,false,lapsyd,muniche
-7598,yerukala_yeru1240,UNK_rr_u0072u0072,'rr',,,,true,lapsyd,yerukala
+7598,yerukala_yeru1240,BIPA_rr_u0072u0072,'rr',,,,true,lapsyd,yerukala
 7599,bakairi_baka1277,BIPA_h_u0068,h,,,lapsyd_Wheatley1973;lapsyd_Wheatley1969,false,lapsyd,bakairi
 7600,toba_toba1269,BIPA__u0294,ʔ,,,,false,lapsyd,toba
 7601,kokota_koko1269,BIPA_b_u0062,b,,,,false,lapsyd,kokota
@@ -6952,7 +6952,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 7621,southernkiwaiislanddialect_sout2949,BIPA_t_u0074,t,,,,false,lapsyd,southernkiwaiislanddialect
 7622,sandawe_sand1273,BIPA_t_u0074u02BC,tʼ,,,lapsyd_1652_sandawe_2008;lapsyd_Dempwolff1916;lapsyd_Tucker_etal1977,false,lapsyd,sandawe
 7624,sinhala_sinh1246,BIPA_e_u0065u02D0,eː,,,lapsyd_CoatesSilva1960,false,lapsyd,sinhala
-7625,yulu_yulu1243,UNK_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_Boyeldieu1987,false,lapsyd,yulu
+7625,yulu_yulu1243,BIPA_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_Boyeldieu1987,false,lapsyd,yulu
 7627,wichita_wich1260,BIPA_s_u0073u032A,s̪,,,lapsyd_Rood1975;lapsyd_Garvin1950,false,lapsyd,wichita
 7628,nepalikathmandudialect_nepa1254,BIPA_e_u0065,e,,,lapsyd_Bandhu_etal1971;lapsyd_nep_khatiwada2009,false,lapsyd,nepalikathmandudialect
 7629,kiswahili_swah1253,BIPA_m_u006D,m,,,lapsyd_Polome1967,false,lapsyd,kiswahili
@@ -7257,7 +7257,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 7962,dagbani_dagb1246,BIPA_o_u006F,o,,,lapsyd_WilsonBendor-Samuel1969,false,lapsyd,dagbani
 7963,meriammer_meri1244,BIPA_a_u0061,a,,,,false,lapsyd,meriammer
 7964,khalkha_halh1238,BIPA_o_u0275,ɵ,,,lapsyd_Luvsanvandan1964;lapsyd_Street1963;lapsyd_Svantesson1985,false,lapsyd,khalkha
-7965,nzadib865_nzad1234,UNK_dbv_u0238u0076,ȸv,,,,false,lapsyd,nzadib865
+7965,nzadib865_nzad1234,BIPA_dbv_u0238u0076,ȸv,,,,false,lapsyd,nzadib865
 7966,koiari_gras1249,BIPA_g_u0261,ɡ,,,lapsyd_Dutton1969,false,lapsyd,koiari
 7968,awngi_awng1244,BIPA_u_u0075,u,,,lapsyd_ahg_hetzron1969;lapsyd_1542_awngi_2010,false,lapsyd,awngi
 7969,santali_sant1410,BIPA_d_u0064u0324,d̤,,,,false,lapsyd,santali
@@ -7587,7 +7587,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 8321,azande_zand1248,BIPA_k_u006B,k,,,lapsyd_TuckerHackett1959,false,lapsyd,azande
 8322,digaro_diga1241,BIPA_b_u0062,b,,,lapsyd_1767_Sastry1984;lapsyd_69191;lapsyd_1767_Sastry1984,false,lapsyd,digaro
 8323,gojri_gnau1240,BIPA_p_u0070,p,,,lapsyd_1724_Sharma1979;lapsyd_gju_losey2002,false,lapsyd,gojri
-8325,kpan_kpan1246,UNK_rr_u0072u0072,rr,,,lapsyd_Shimizu1971,false,lapsyd,kpan
+8325,kpan_kpan1246,BIPA_rr_u0072u0072,rr,,,lapsyd_Shimizu1971,false,lapsyd,kpan
 8326,nyanjachichewadialect_chew1246,BIPA_b_u03B2u031E,β̞,,,,false,lapsyd,nyanjachichewadialect
 8327,bambara_bamb1269,BIPA_o_u006F,o,,,lapsyd_Bird_etal1977;lapsyd_1496_bam_green2010,false,lapsyd,bambara
 8328,toba_toba1269,BIPA_r_u027E,ɾ,,,,false,lapsyd,toba
@@ -7860,8 +7860,8 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 8626,westmakian_west2600,BIPA_b_u0062,b,,,lapsyd_Voorhoeve1982;lapsyd_Watuseke1976,false,lapsyd,westmakian
 8627,imonda_imon1245,BIPA_nd_u006Eu0064,nd,,,lapsyd_imn_seiler1985,false,lapsyd,imonda
 8628,bariba_baat1238,BIPA_e_u025Bu0303,ɛ̃,,,lapsyd_Welmers1952,false,lapsyd,bariba
-8629,tabasaran_taba1259,UNK_tsh_u0074u0320u0283u032Bu02B0,t̠ʃ̫ʰ,,,,false,lapsyd,tabasaran
-8630,khoekhoe_nama1264,UNK_ngx_u014Bu0325u01C0u0078,ŋ̥ǀx,,,,false,lapsyd,khoekhoe
+8629,tabasaran_taba1259,BIPA_tsh_u0074u0320u0283u032Bu02B0,t̠ʃ̫ʰ,,,,false,lapsyd,tabasaran
+8630,khoekhoe_nama1264,BIPA_ngx_u014Bu0325u01C0u0078,ŋ̥ǀx,,,,false,lapsyd,khoekhoe
 8631,assamese_assa1263,BIPA_j_u006A,j,,,,false,lapsyd,assamese
 8632,ocaina_ocai1244,BIPA_n_u006E,n,,,lapsyd_AgnewPike1957,false,lapsyd,ocaina
 8633,ngiyambaa_wang1291,BIPA_r_u027B,ɻ,,,lapsyd_Donaldson1980,false,lapsyd,ngiyambaa
@@ -8044,7 +8044,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 8821,kotaindia_kota1263,BIPA_b_u0062,b,,,,false,lapsyd,kotaindia
 8822,totonacpapantladialect_papa1238,BIPA_a_u0061u0330u02D0,a̰ː,,,lapsyd_Aschmann1946,false,lapsyd,totonacpapantladialect
 8823,slaveharedialectnorth_nort2942,BIPA_tl_u0074u026C,tɬ,,,,false,lapsyd,slaveharedialectnorth
-8824,kobon_kobo1249,UNK_r_u027Au0323,ɺ̣,,,,false,lapsyd,kobon
+8824,kobon_kobo1249,BIPA_r_u027Au0323,ɺ̣,,,,false,lapsyd,kobon
 8825,sindhi_sind1272,BIPA_dz_u0064u0320u0292,d̠ʒ,,,,false,lapsyd,sindhi
 8826,ajyininka_ajyi1238,BIPA_p_u0070,p,,,lapsyd_Payne1981;lapsyd_1807_Payneetal1982;lapsyd_1806_Dirks1953,false,lapsyd,ajyininka
 8827,munduruku_mund1330,BIPA__u0259,ə,,,lapsyd_2096_Picanco2005,false,lapsyd,munduruku
@@ -8142,7 +8142,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 8924,dumo_vani1248,BIPA_o_u0254,ɔ,,,lapsyd_Ross1980,false,lapsyd,dumo
 8925,nzadib865_nzad1234,BIPA_ng_u014B,ŋ,,,,false,lapsyd,nzadib865
 8926,kuotsouth_kuot1243,BIPA_mb_u006Du0062,mb,,,lapsyd_kto_lindstrom2002,false,lapsyd,kuotsouth
-8927,lelechad_lele1276,UNK_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_1275_lele_frajzyngier,false,lapsyd,lelechad
+8927,lelechad_lele1276,BIPA_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_1275_lele_frajzyngier,false,lapsyd,lelechad
 8928,dyirbal_dyir1250,BIPA_l_u006C,l,,,lapsyd_118330,false,lapsyd,dyirbal
 8930,mofugugur_mofu1248,BIPA_e_u0065u02D0,eː,,,lapsyd_1598_mif,false,lapsyd,mofugugur
 8931,chaha_seba1251,BIPA_i_u0268,ɨ,,,,false,lapsyd,chaha
@@ -8743,7 +8743,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 9571,mangarrayi_mang1381,BIPA_n_u006E,n,,,,false,lapsyd,mangarrayi
 9572,tuva_tuvi1240,BIPA_o_u006Fu0330,o̰,,,lapsyd_Seglenmej1979;lapsyd_Song1982,false,lapsyd,tuva
 9573,otomimezquital_mezq1235,BIPA_ts_u0074u0073u02BC,tsʼ,,,,false,lapsyd,otomimezquital
-9574,krongo_kron1241,UNK_rr_u0072u0072,'rr',,,lapsyd_1416_kadugli_krongo,true,lapsyd,krongo
+9574,krongo_kron1241,BIPA_rr_u0072u0072,'rr',,,lapsyd_1416_kadugli_krongo,true,lapsyd,krongo
 9575,kanakuru_dera1248,BIPA_ngg_u014Bu0261,ŋɡ,,,,false,lapsyd,kanakuru
 9576,nhanda_nhan1238,BIPA_i_u0069u02D0,iː,,,lapsyd_123243,false,lapsyd,nhanda
 9577,kannada_nucl1305,BIPA_dz_u0064u0320u0292,d̠ʒ,,,lapsyd_1734_Upadhyaya1972,false,lapsyd,kannada
@@ -9050,7 +9050,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 9917,efik_efik1245,BIPA_s_u0073,s,,,lapsyd_Cook1969b,false,lapsyd,efik
 9918,mbum_mbum1254,BIPA_h_u0068,h,,,lapsyd_Hagege1970,false,lapsyd,mbum
 9919,caddo_cadd1256,BIPA_a_u0061u02D0,aː,,,lapsyd_Chafe1976,false,lapsyd,caddo
-9920,panare_enap1235,UNK_rr_u0072u0072,'rr',,,lapsyd_Cauty1974;lapsyd_Cauty1974b;lapsyd_Cauty1978,true,lapsyd,panare
+9920,panare_enap1235,BIPA_rr_u0072u0072,'rr',,,lapsyd_Cauty1974;lapsyd_Cauty1974b;lapsyd_Cauty1978,true,lapsyd,panare
 9921,muinane_muin1242,BIPA_m_u006D,m,,,,false,lapsyd,muinane
 9922,wikmunkan_wikm1247,BIPA_a_u0061,a,,,lapsyd_McConnel1945;lapsyd_SayersGodfrey1964,false,lapsyd,wikmunkan
 9923,klamath_klam1254,BIPA_a_u0061u02D0,aː,,,lapsyd_Barker1964,false,lapsyd,klamath
@@ -9093,7 +9093,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 9961,piapoco_piap1246,BIPA_n_u006E,n,,,,false,lapsyd,piapoco
 9962,urarina_urar1246,BIPA_t_u0074,t,,,lapsyd_1940_Olawsky2006,false,lapsyd,urarina
 9964,ndjebbana_djee1236,BIPA_m_u006D,m,,,,false,lapsyd,ndjebbana
-9965,kaurna_kaur1267,UNK_dl_u0064u032Au006Cu032A,d̪l̪,,,,false,lapsyd,kaurna
+9965,kaurna_kaur1267,BIPA_dl_u0064u032Au006Cu032A,d̪l̪,,,,false,lapsyd,kaurna
 9966,sinhala_sinh1246,BIPA_s_u0283,ʃ,,,lapsyd_CoatesSilva1960,false,lapsyd,sinhala
 9967,japanese_nucl1643,BIPA_p_u0070,p,,,lapsyd_Bloch1950;lapsyd_Jorden1963;lapsyd_Martin1952;lapsyd_Shibatani1990,false,lapsyd,japanese
 9968,birom_bero1242,BIPA_v_u0076,v,,,lapsyd_Bouquiaux1970;lapsyd_Wolff1959,false,lapsyd,birom
@@ -9160,7 +9160,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 10034,hausa_haus1257,BIPA_h_u0068,h,,,,false,lapsyd,hausa
 10035,mazahuacentral_cent2144,BIPA_s_u0073u02BC,sʼ,,,lapsyd_Pike1951;lapsyd_Spotts1953,false,lapsyd,mazahuacentral
 10036,nepalikathmandudialect_nepa1254,BIPA_ph_u0070u02B0,pʰ,,,lapsyd_Bandhu_etal1971;lapsyd_nep_khatiwada2009,false,lapsyd,nepalikathmandudialect
-10037,chuvash_chuv1255,UNK_rr_u0072u0072,'rr',,,,true,lapsyd,chuvash
+10037,chuvash_chuv1255,BIPA_rr_u0072u0072,'rr',,,,true,lapsyd,chuvash
 10038,iwammayriver_iwam1256,BIPA_r_u0072,r,,,lapsyd_Laycock1965,false,lapsyd,iwammayriver
 10039,yuchi_yuch1247,BIPA_l_u006Cu0330,l̰,,,lapsyd_Ballard1975;lapsyd_Crawford1973;lapsyd_yuc_linn2001,false,lapsyd,yuchi
 10040,kwakwala_kwak1269,BIPA_l_u006Cu0330,l̰,,,lapsyd_Grubb1977;lapsyd_Boas1947;lapsyd_Newman1950,false,lapsyd,kwakwala
@@ -9216,7 +9216,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 10093,mansinorthern_mans1258,BIPA_a_u0061u02D0,aː,,,,false,lapsyd,mansinorthern
 10094,cahuilla_cahu1264,BIPA_y_u028E,ʎ,,,,false,lapsyd,cahuilla
 10096,chamicuro_cham1318,BIPA_h_u0068,h,,,,false,lapsyd,chamicuro
-10097,yelidnye_yele1255,UNK_nmj_u006Eu006Du02B2,nmʲ,,,,false,lapsyd,yelidnye
+10097,yelidnye_yele1255,BIPA_nmj_u006Eu006Du02B2,nmʲ,,,,false,lapsyd,yelidnye
 10098,tukangbesiwancinortherndialect_tuka1248,BIPA_nt_u006Eu032Au0074u032A,n̪t̪,,,,false,lapsyd,tukangbesiwancinortherndialect
 10099,rama_rama1270,BIPA_ng_u014B,ŋ,,,,false,lapsyd,rama
 10100,kiowa_kiow1266,BIPA_e_u0065u02D0,eː,,,lapsyd_WatkinsMcKenzie1984;lapsyd_Sivertsen1956,false,lapsyd,kiowa
@@ -9828,7 +9828,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 10751,southernnambiquara_sout2994,BIPA_a_u0061u0330,a̰,,,lapsyd_Price1976,false,lapsyd,southernnambiquara
 10752,yimas_yima1243,BIPA_ng_u014B,ŋ,,,,false,lapsyd,yimas
 10754,ajyininka_ajyi1238,BIPA_a_u0061,a,,,lapsyd_Payne1981;lapsyd_1807_Payneetal1982;lapsyd_1806_Dirks1953,false,lapsyd,ajyininka
-10755,dawro_dawr1236,UNK_rr_u0072u0072,'rr',,,,true,lapsyd,dawro
+10755,dawro_dawr1236,BIPA_rr_u0072u0072,'rr',,,,true,lapsyd,dawro
 10756,tigre_tigr1270,BIPA_dz_u0064u0320u0292,d̠ʒ,,,lapsyd_Palmer1962,false,lapsyd,tigre
 10758,oneida_onei1249,BIPA_n_u006E,n,,,,false,lapsyd,oneida
 10759,santali_sant1410,BIPA_p_u0070,p,,,,false,lapsyd,santali
@@ -9889,7 +9889,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 10818,ewondo_ewon1239,BIPA_kp_u006Bu0070,kp,,,lapsyd_Abega1970;lapsyd_NnomoMbezele1982;lapsyd_Redden1979,false,lapsyd,ewondo
 10819,gunin_kwin1241,BIPA_e_u0065,e,,,lapsyd_5187,false,lapsyd,gunin
 10820,nkorekiga_chig1238,BIPA_g_u0261,ɡ,,,lapsyd_nyn_poletto1998,false,lapsyd,nkorekiga
-10822,madisouthernlokaidialect_loka1255,UNK_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_1292_snm_blackingsfabb;lapsyd_1425_luc,false,lapsyd,madisouthernlokaidialect
+10822,madisouthernlokaidialect_loka1255,BIPA_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_1292_snm_blackingsfabb;lapsyd_1425_luc,false,lapsyd,madisouthernlokaidialect
 10823,westmakian_west2600,BIPA_u_u0075,u,,,lapsyd_Voorhoeve1982;lapsyd_Watuseke1976,false,lapsyd,westmakian
 10824,norwegian_norw1258,BIPA_k_u006B,k,,,lapsyd_Vanvik1972;lapsyd_Vanvik1972a;lapsyd_kristoffersen2000phonology,false,lapsyd,norwegian
 10825,selkuptaznortherndialect_selk1253,BIPA_n_u0272,ɲ,,,lapsyd_Katz1975a,false,lapsyd,selkuptaznortherndialect
@@ -10056,7 +10056,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 10997,kalihna_gali1262,BIPA_d_u0064,'d',,,lapsyd_Hoff1968,true,lapsyd,kalihna
 10998,rotokas_roto1249,BIPA_e_u0065,e,,,lapsyd_Firchow1969,false,lapsyd,rotokas
 10999,nhanda_nhan1238,BIPA_k_u006B,k,,,lapsyd_123243,false,lapsyd,nhanda
-11001,khoekhoe_nama1264,UNK_ngx_u014Bu0325u01C1u0078,ŋ̥ǁx,,,,false,lapsyd,khoekhoe
+11001,khoekhoe_nama1264,BIPA_ngx_u014Bu0325u01C1u0078,ŋ̥ǁx,,,,false,lapsyd,khoekhoe
 11002,yuhup_yuhu1238,BIPA_w_u0077u0330,w̰,,,,false,lapsyd,yuhup
 11004,tolowa_tolo1259,BIPA_u_u0075u02D0,uː,,,lapsyd_Bright1964,false,lapsyd,tolowa
 11005,hindi_hind1269,BIPA_ae_u00E6,æ,,,lapsyd_Kelkar1968;lapsyd_1728_Ohala1983,false,lapsyd,hindi
@@ -10117,7 +10117,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 11067,yuhup_yuhu1238,BIPA_o_u006F,o,,,,false,lapsyd,yuhup
 11068,achirabinaldialect_achi1256,BIPA_ts_u0074u0073,ts,,,,false,lapsyd,achirabinaldialect
 11070,roro_roro1238,BIPA_u_u0075,u,,,lapsyd_Bluhme1970;lapsyd_Davis1974,false,lapsyd,roro
-11072,khoekhoe_nama1264,UNK_ng_u014Bu0325u01C2u0294,ŋ̥ǂʔ,,,,false,lapsyd,khoekhoe
+11072,khoekhoe_nama1264,BIPA_ng_u014Bu0325u01C2u0294,ŋ̥ǂʔ,,,,false,lapsyd,khoekhoe
 11073,tunica_tuni1252,BIPA_hts_u02B0u0074u0320u0283,ʰt̠ʃ,,,,false,lapsyd,tunica
 11074,garifuna_gari1256,BIPA_m_u006D,m,,,lapsyd_Taylor1955,false,lapsyd,garifuna
 11075,uyghurstandarddialectofurumqi_uigh1240,BIPA_o_u006F,o,,,,false,lapsyd,uyghurstandarddialectofurumqi
@@ -10263,7 +10263,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 11233,nanai_nana1257,BIPA_k_u006B,k,,,,false,lapsyd,nanai
 11234,albaniantoskdialect_tosk1239,BIPA_o_u006F,o,,,lapsyd_Newmark1957;lapsyd_klippenstein2010word,false,lapsyd,albaniantoskdialect
 11235,hausa_haus1257,BIPA_j_u0294u02B2,ʔʲ,,,,false,lapsyd,hausa
-11236,bribri_brib1243,UNK_r_u027Au0323,ɺ̣,,,,false,lapsyd,bribri
+11236,bribri_brib1243,BIPA_r_u027Au0323,ɺ̣,,,,false,lapsyd,bribri
 11237,ik_ikkk1242,BIPA_e_u0065u02D0,eː,,,lapsyd_Heine1975b,false,lapsyd,ik
 11238,tariana_tari1256,BIPA_a_u0061,a,,,lapsyd_1831_Aikhenvald2003,false,lapsyd,tariana
 11239,nepalikathmandudialect_nepa1254,BIPA_d_u0064u032A,d̪,,,lapsyd_Bandhu_etal1971;lapsyd_nep_khatiwada2009,false,lapsyd,nepalikathmandudialect
@@ -10411,7 +10411,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 11392,hindi_hind1269,BIPA_u_u0169,ũ,,,lapsyd_Kelkar1968;lapsyd_1728_Ohala1983,false,lapsyd,hindi
 11394,phlong_pwon1235,BIPA_b_u0253,ɓ,,,lapsyd_Cooke_etal1976,false,lapsyd,phlong
 11396,bora_bora1263,BIPA_tsjh_u0074u0073u02B2u02B0,'tsʲʰ',,,lapsyd_1857_Parker2001;lapsyd_1857_Weberetal2001,true,lapsyd,bora
-11397,yelidnye_yele1255,UNK_nmtpj_u006Eu0320u006Du0074u0320u0070u02B2,n̠mt̠pʲ,,,,false,lapsyd,yelidnye
+11397,yelidnye_yele1255,BIPA_nmtpj_u006Eu0320u006Du0074u0320u0070u02B2,n̠mt̠pʲ,,,,false,lapsyd,yelidnye
 11398,awjila_awji1241,BIPA_r_u0072,r,,,,false,lapsyd,awjila
 11399,meriammer_meri1244,BIPA_z_u007A,z,,,,false,lapsyd,meriammer
 11400,capeverdecreolesantiagodialect_kabu1256,BIPA_e_u0065,e,,,lapsyd_1606_Veiga_cap-vert_kea,false,lapsyd,capeverdecreolesantiagodialect
@@ -10442,7 +10442,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 11425,murle_murl1244,BIPA_o_u0254u02D0,ɔː,,,lapsyd_TuckerBryan1966,false,lapsyd,murle
 11426,bukiyip_buki1249,BIPA_i_u0268,ɨ,,,,false,lapsyd,bukiyip
 11427,tsamakko_tsam1247,BIPA_t_u0074,t,,,lapsyd_1608_Sava_tsamakko_tsb,false,lapsyd,tsamakko
-11428,damana_mala1522,UNK_rr_u0072u0072,'rr',,,,true,lapsyd,damana
+11428,damana_mala1522,BIPA_rr_u0072u0072,'rr',,,,true,lapsyd,damana
 11429,mofugugur_mofu1248,BIPA_p_u0070,p,,,lapsyd_1598_mif,false,lapsyd,mofugugur
 11431,tangaleshongomdialect_nucl1696,BIPA_i_u0069,i,,,lapsyd_1567_tan,false,lapsyd,tangaleshongomdialect
 11432,lenakel_lena1238,BIPA_s_u0073,s,,,lapsyd_Lynch1978,false,lapsyd,lenakel
@@ -10458,7 +10458,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 11442,yessanmayo_yess1239,BIPA_t_u0074,t,,,,false,lapsyd,yessanmayo
 11443,sapuan_sapu1248,BIPA_t_u0074u032A,t̪,,,,false,lapsyd,sapuan
 11444,nezperce_nezp1238,BIPA_a_u0061u02D0,aː,,,,false,lapsyd,nezperce
-11445,tampulma_tamp1252,UNK_ngm_u014Bu006D,ŋm,,,lapsyd_Bergman_etal1969,false,lapsyd,tampulma
+11445,tampulma_tamp1252,BIPA_ngm_u014Bu006D,ŋm,,,lapsyd_Bergman_etal1969,false,lapsyd,tampulma
 11446,khalkha_halh1238,BIPA_mj_u006Du02B2,mʲ,,,lapsyd_Luvsanvandan1964;lapsyd_Street1963;lapsyd_Svantesson1985,false,lapsyd,khalkha
 11447,tundrayukaghir_nort2745,BIPA_i_u0069u02D0,iː,,,lapsyd_maslova2003tundra;lapsyd_Krejnovich1958;lapsyd_Krejnovich1968b,false,lapsyd,tundrayukaghir
 11448,angas_ngas1240,BIPA_i_u0268u02D0,ɨː,,,lapsyd_Burquest1971,false,lapsyd,angas
@@ -10796,7 +10796,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 11819,tera_tera1251,BIPA_ts_u0074u0320u0283,t̠ʃ,,,lapsyd_Newman1970;lapsyd_ttr_tench2007,false,lapsyd,tera
 11820,mangghuerminxedialect_tuuu1240,BIPA_c_u0255,ɕ,,,lapsyd_117351;lapsyd_Todaeva1973,false,lapsyd,mangghuerminxedialect
 11821,supyirekampwodialect_supy1237,BIPA_a_u0061,a,,,,false,lapsyd,supyirekampwodialect
-11822,yelidnye_yele1255,UNK_nm_u006Eu006D,nm,,,,false,lapsyd,yelidnye
+11822,yelidnye_yele1255,BIPA_nm_u006Eu006D,nm,,,,false,lapsyd,yelidnye
 11823,khasi_khas1269,BIPA_u_u0075,u,,,lapsyd_Rabel1961,false,lapsyd,khasi
 11824,krongo_kron1241,BIPA_m_u006D,m,,,lapsyd_1416_kadugli_krongo,false,lapsyd,krongo
 11825,mauwake_mauw1238,BIPA_j_u006A,j,,,,false,lapsyd,mauwake
@@ -11195,7 +11195,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 12242,azande_zand1248,BIPA_j_u006A,j,,,lapsyd_TuckerHackett1959,false,lapsyd,azande
 12243,centralnicobaresenancowrydialect_nanc1247,BIPA_u_u0169,ũ,,,,false,lapsyd,centralnicobaresenancowrydialect
 12244,kilivila_kili1267,BIPA_r_u027E,ɾ,,,,false,lapsyd,kilivila
-12245,tabasaran_taba1259,UNK_s_u0073u032B,s̫,,,,false,lapsyd,tabasaran
+12245,tabasaran_taba1259,BIPA_s_u0073u032B,s̫,,,,false,lapsyd,tabasaran
 12246,tigre_tigr1270,BIPA_r_u0072,r,,,lapsyd_Palmer1962,false,lapsyd,tigre
 12247,drehu_dehu1237,BIPA_f_u0066,f,,,,false,lapsyd,drehu
 12248,lahu_lahu1253,BIPA_l_u006C,l,,,lapsyd_16137,false,lapsyd,lahu
@@ -11250,7 +11250,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 12302,jicarillaapache_jica1244,BIPA_th_u0074u032Au02B0,t̪ʰ,,,lapsyd_apj_tuttle2002,false,lapsyd,jicarillaapache
 12303,garifuna_gari1256,BIPA_ts_u0074u0320u0283,t̠ʃ,,,lapsyd_Taylor1955,false,lapsyd,garifuna
 12305,kogi_cogu1240,BIPA_e_u0065,e,,,lapsyd_1896_Gawthorneetal1984,false,lapsyd,kogi
-12306,korean_kore1280,UNK_s_u0073u0330u032A,s̰̪,,,lapsyd_Kim1986;lapsyd_Cho1967;lapsyd_Kim1972;lapsyd_Martin1951;lapsyd_Martin1954;lapsyd_MartinLee1969,false,lapsyd,korean
+12306,korean_kore1280,BIPA_s_u0073u0330u032A,s̰̪,,,lapsyd_Kim1986;lapsyd_Cho1967;lapsyd_Kim1972;lapsyd_Martin1951;lapsyd_Martin1954;lapsyd_MartinLee1969,false,lapsyd,korean
 12308,ingush_ingu1240,BIPA_i_u0069u02D0,iː,,,lapsyd_305982,false,lapsyd,ingush
 12309,maricopa_mari1440,BIPA_p_u0070,p,,,,false,lapsyd,maricopa
 12310,yagariamovedialect_yaga1260,BIPA_j_u006A,j,,,lapsyd_Haiman1980;lapsyd_Renck1967;lapsyd_Renck1975,false,lapsyd,yagariamovedialect
@@ -11284,7 +11284,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 12346,movima_movi1243,BIPA_t_u0074,t,,,lapsyd_1932_Haude2006;lapsyd_JudyJudy1962,false,lapsyd,movima
 12347,mansinorthern_mans1258,BIPA_t_u0074u032A,t̪,,,,false,lapsyd,mansinorthern
 12348,darfurdaju_darf1239,BIPA_d_u0257,ɗ,,,lapsyd_Thelwall1981;lapsyd_TuckerBryan1966,false,lapsyd,darfurdaju
-12349,yelidnye_yele1255,UNK_tn_u0074u0320u006Eu0320,t̠n̠,,,,false,lapsyd,yelidnye
+12349,yelidnye_yele1255,BIPA_tn_u0074u0320u006Eu0320,t̠n̠,,,,false,lapsyd,yelidnye
 12350,kannada_nucl1305,BIPA_h_u0068,h,,,lapsyd_1734_Upadhyaya1972,false,lapsyd,kannada
 12351,finnish_finn1318,BIPA_f_u0066,f,,,lapsyd_Harms1964,false,lapsyd,finnish
 12352,kaliai_lusi1240,BIPA_h_u0068,h,,,lapsyd_Counts1969,false,lapsyd,kaliai
@@ -11529,7 +11529,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 12618,dlamenggwadialect_meng1271,BIPA_i_u0069,i,,,lapsyd_Voorhoeve1971,false,lapsyd,dlamenggwadialect
 12619,kelepapuanewguinea_kele1258,BIPA_k_u006B,k,,,,false,lapsyd,kelepapuanewguinea
 12620,anguthimri_alng1239,BIPA_p_u0070,p,,,,false,lapsyd,anguthimri
-12621,tabasaran_taba1259,UNK_ts_u0074u0320u0283u032B,t̠ʃ̫,,,,false,lapsyd,tabasaran
+12621,tabasaran_taba1259,BIPA_ts_u0074u0320u0283u032B,t̠ʃ̫,,,,false,lapsyd,tabasaran
 12622,hindi_hind1269,BIPA_kh_u006Bu02B0,kʰ,,,lapsyd_Kelkar1968;lapsyd_1728_Ohala1983,false,lapsyd,hindi
 12623,sango_sang1328,BIPA_u_u0075,u,,,lapsyd_Samarin1967a;lapsyd_Samarin1967b,false,lapsyd,sango
 12624,chamorro_cham1312,BIPA_u_u0075,u,,,lapsyd_Seiden1960;lapsyd_Topping1973,false,lapsyd,chamorro
@@ -11655,7 +11655,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 12759,cowlitz_cowl1242,BIPA_l_u006C,l,,,,false,lapsyd,cowlitz
 12760,kamang_kama1365,BIPA_o_u0254,ɔ,,,,false,lapsyd,kamang
 12761,krongo_kron1241,BIPA_l_u006C,'l',,,lapsyd_1416_kadugli_krongo,true,lapsyd,krongo
-12762,anguthimri_alng1239,UNK_ndr_u006Eu0064u0072,ndr,,,,false,lapsyd,anguthimri
+12762,anguthimri_alng1239,BIPA_ndr_u006Eu0064u0072,ndr,,,,false,lapsyd,anguthimri
 12763,yuhup_yuhu1238,BIPA_p_u0070,p,,,,false,lapsyd,yuhup
 12764,abun_abun1252,BIPA_o_u006F,'o',,,lapsyd_berry1999abun,true,lapsyd,abun
 12765,nobiin_nobi1240,BIPA_s_u0283,ʃ,,,lapsyd_Bell1968;lapsyd_Bell1971,false,lapsyd,nobiin
@@ -11999,7 +11999,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 13133,wuvulu_wuvu1239,BIPA_o_u006F,o,,,,false,lapsyd,wuvulu
 13134,newarikathmandudialect_newa1246,BIPA_m_u006D,m,,,lapsyd_HaleHale1969;lapsyd_Manandhar1986,false,lapsyd,newarikathmandudialect
 13135,kuukthaayorre_thay1249,BIPA_t_u0074,t,,,lapsyd_107761,false,lapsyd,kuukthaayorre
-13137,ik_ikkk1242,UNK_d_u0257u032A,ɗ̪,,,lapsyd_Heine1975b,false,lapsyd,ik
+13137,ik_ikkk1242,BIPA_d_u0257u032A,ɗ̪,,,lapsyd_Heine1975b,false,lapsyd,ik
 13138,koya_koya1251,BIPA_a_u0251,ɑ,,,lapsyd_Tyler1969,false,lapsyd,koya
 13139,chuave_chua1250,BIPA_oi_u006Fu0069,oi,,,lapsyd_Thurman1970,false,lapsyd,chuave
 13140,ticuna_ticu1245,BIPA_e_u0065,e,,,lapsyd_Anderson1959,false,lapsyd,ticuna
@@ -12038,7 +12038,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 13174,murrinhpatha_murr1258,BIPA_d_u0064u032A,d̪,,,lapsyd_StreetMollinjin1981,false,lapsyd,murrinhpatha
 13176,oromoharar_east2652,BIPA_k_u006B,k,,,lapsyd_1552_hae,false,lapsyd,oromoharar
 13177,abkhaz_abkh1244,BIPA_ts_u0074u0073,ts,,,,false,lapsyd,abkhaz
-13178,ngiti_ngit1239,UNK_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_1470_niy,false,lapsyd,ngiti
+13178,ngiti_ngit1239,BIPA_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_1470_niy,false,lapsyd,ngiti
 13179,gojri_gnau1240,BIPA_o_u006F,o,,,lapsyd_1724_Sharma1979;lapsyd_gju_losey2002,false,lapsyd,gojri
 13180,dardajudaju_dard1243,BIPA_i_u0069u02D0,iː,,,,false,lapsyd,dardajudaju
 13182,ngiti_ngit1239,BIPA_l_u006C,l,,,lapsyd_1470_niy,false,lapsyd,ngiti
@@ -12260,7 +12260,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 13420,koiari_gras1249,BIPA_l_u006C,l,,,lapsyd_Dutton1969,false,lapsyd,koiari
 13421,scottishgaelic_scot1245,BIPA_a_u00E3,ã,,,lapsyd_ladefoged1998phonetic,false,lapsyd,scottishgaelic
 13422,hunzib_hunz1247,BIPA_z_u007A,z,,,lapsyd_huz_VanDenBerg1995,false,lapsyd,hunzib
-13423,tabasaran_taba1259,UNK_s_u0283u032B,ʃ̫,,,,false,lapsyd,tabasaran
+13423,tabasaran_taba1259,BIPA_s_u0283u032B,ʃ̫,,,,false,lapsyd,tabasaran
 13424,burmese_nucl1310,BIPA_j_u006A,j,,,lapsyd_Okell1969;lapsyd_mya_watkins2001,false,lapsyd,burmese
 13425,gadsup_gads1258,BIPA_a_u0061u031Fu02D0,a̟ː,,,lapsyd_FrantzFrantz1966,false,lapsyd,gadsup
 13427,bare_bare1276,BIPA_i_u0129,ĩ,,,,false,lapsyd,bare
@@ -12382,7 +12382,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 13550,ayoreo_ayor1240,BIPA_s_u0073u032A,s̪,,,,false,lapsyd,ayoreo
 13551,nkorekiga_chig1238,BIPA_e_u025Bu02D0,ɛː,,,lapsyd_nyn_poletto1998,false,lapsyd,nkorekiga
 13552,mutsun_sout2986,BIPA_n_u006E,'n',,,,true,lapsyd,mutsun
-13553,yelidnye_yele1255,UNK_ngm_u014Bu006D,ŋm,,,,false,lapsyd,yelidnye
+13553,yelidnye_yele1255,BIPA_ngm_u014Bu006D,ŋm,,,,false,lapsyd,yelidnye
 13555,ewondo_ewon1239,BIPA_t_u0074,t,,,lapsyd_Abega1970;lapsyd_NnomoMbezele1982;lapsyd_Redden1979,false,lapsyd,ewondo
 13556,gojri_gnau1240,BIPA_i_u0129,ĩ,,,lapsyd_1724_Sharma1979;lapsyd_gju_losey2002,false,lapsyd,gojri
 13557,ahtna_ahte1237,BIPA_ts_u0074u0073u02BC,tsʼ,,,,false,lapsyd,ahtna
@@ -12403,7 +12403,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 13572,tolowa_tolo1259,BIPA_p_u0070,p,,,lapsyd_Bright1964,false,lapsyd,tolowa
 13573,madacameroun_mada1293,BIPA_v_u0076,v,,,,false,lapsyd,madacameroun
 13574,jicarillaapache_jica1244,BIPA_i_u0069u02D0,iː,,,lapsyd_apj_tuttle2002,false,lapsyd,jicarillaapache
-13575,yelidnye_yele1255,UNK_nmtp_u006Eu006Du0074u0070,nmtp,,,,false,lapsyd,yelidnye
+13575,yelidnye_yele1255,BIPA_nmtp_u006Eu006Du0074u0070,nmtp,,,,false,lapsyd,yelidnye
 13576,umbundu_umbu1257,BIPA_n_u0272,ɲ,,,lapsyd_Schadeberg1982,false,lapsyd,umbundu
 13577,morindonesia_morm1235,BIPA_h_u0068,h,,,,false,lapsyd,morindonesia
 13578,khantynorthern_khan1273,BIPA_o_u0254,ɔ,,,lapsyd_Gulya1966;lapsyd_kca_filchenko2007,false,lapsyd,khantynorthern
@@ -12579,7 +12579,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 13765,embera_embe1262,BIPA_i_u0129,ĩ,,,,false,lapsyd,embera
 13766,bashkir_bash1264,BIPA_th_u03B8,θ,,,,false,lapsyd,bashkir
 13767,madacameroun_mada1293,BIPA_p_u0070,p,,,,false,lapsyd,madacameroun
-13768,tohonooodham_toho1245,UNK_r_u027Au0323,ɺ̣,,,lapsyd_Hale1959;lapsyd_Saxton1963,false,lapsyd,tohonooodham
+13768,tohonooodham_toho1245,BIPA_r_u027Au0323,ɺ̣,,,lapsyd_Hale1959;lapsyd_Saxton1963,false,lapsyd,tohonooodham
 13769,panare_enap1235,BIPA_k_u006B,k,,,lapsyd_Cauty1974;lapsyd_Cauty1974b;lapsyd_Cauty1978,false,lapsyd,panare
 13770,wari_wari1268,BIPA_y_u0079,y,,,lapsyd_1890_Everett1997,false,lapsyd,wari
 13771,kwoma_kwom1262,BIPA_mbw_u006Du0062u02B7,mbʷ,,,lapsyd_Kooyers_etal1971,false,lapsyd,kwoma
@@ -12623,7 +12623,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 13815,tsou_tsou1248,BIPA_p_u0070,p,,,lapsyd_Tung1964,false,lapsyd,tsou
 13816,uyghurstandarddialectofurumqi_uigh1240,BIPA_ng_u014B,ŋ,,,,false,lapsyd,uyghurstandarddialectofurumqi
 13817,kutenai_kute1249,BIPA_kh_u03C7,χ,,,,false,lapsyd,kutenai
-13818,khoekhoe_nama1264,UNK_ngh_u014Bu0325u01C1u0068u0303,ŋ̥ǁh̃,,,,false,lapsyd,khoekhoe
+13818,khoekhoe_nama1264,BIPA_ngh_u014Bu0325u01C1u0068u0303,ŋ̥ǁh̃,,,,false,lapsyd,khoekhoe
 13820,westernkeres_west2632,BIPA_t_u0074u02BC,tʼ,,,lapsyd_Miller1966,false,lapsyd,westernkeres
 13821,yulu_yulu1243,BIPA_n_u006Eu032A,n̪,,,lapsyd_Boyeldieu1987,false,lapsyd,yulu
 13822,slaveharedialectnorth_nort2942,BIPA_i_u0129,ĩ,,,,false,lapsyd,slaveharedialectnorth
@@ -13024,7 +13024,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 14267,bariba_baat1238,BIPA_l_u006C,l,,,lapsyd_Welmers1952,false,lapsyd,bariba
 14268,gumuzsouthern_gumu1244,BIPA_d_u0064,d,,,lapsyd_1475_sese,false,lapsyd,gumuzsouthern
 14269,nakkara_naka1260,BIPA_c_u0063,c,,,lapsyd_152615,false,lapsyd,nakkara
-14270,khoekhoe_nama1264,UNK_ngh_u014Bu0325u01C0u0068u0303,ŋ̥ǀh̃,,,,false,lapsyd,khoekhoe
+14270,khoekhoe_nama1264,BIPA_ngh_u014Bu0325u01C0u0068u0303,ŋ̥ǀh̃,,,,false,lapsyd,khoekhoe
 14271,nakkara_naka1260,BIPA_n_u0272,ɲ,,,lapsyd_152615,false,lapsyd,nakkara
 14272,kamang_kama1365,BIPA_h_u0068,h,,,,false,lapsyd,kamang
 14273,bengali_beng1280,BIPA_t_u0074u032A,t̪,,,lapsyd_FergusonChowdhury1960;lapsyd_1711_Bhattacharya1988;lapsyd_ben_khan2010,false,lapsyd,bengali
@@ -13137,7 +13137,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 14390,wikmunkan_wikm1247,BIPA_r_u0072,r,,,lapsyd_McConnel1945;lapsyd_SayersGodfrey1964,false,lapsyd,wikmunkan
 14391,amele_amel1241,BIPA_l_u006C,l,,,lapsyd_Roberts1987,false,lapsyd,amele
 14392,jingulu_djin1251,BIPA_a_u0061,a,,,lapsyd_3253,false,lapsyd,jingulu
-14393,kalami_kala1373,UNK_r_u027Eu032A,ɾ̪,,,,false,lapsyd,kalami
+14393,kalami_kala1373,BIPA_r_u027Eu032A,ɾ̪,,,,false,lapsyd,kalami
 14394,tundrayukaghir_nort2745,BIPA_a_u0061,a,,,lapsyd_maslova2003tundra;lapsyd_Krejnovich1958;lapsyd_Krejnovich1968b,false,lapsyd,tundrayukaghir
 14395,madisouthernlokaidialect_loka1255,BIPA_p_u0070,p,,,lapsyd_1292_snm_blackingsfabb;lapsyd_1425_luc,false,lapsyd,madisouthernlokaidialect
 14396,bambara_bamb1269,BIPA_o_u0254u02D0,ɔː,,,lapsyd_Bird_etal1977;lapsyd_1496_bam_green2010,false,lapsyd,bambara
@@ -13175,7 +13175,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 14429,chukchansi_yoku1256,BIPA_s_u0073,s,,,,false,lapsyd,chukchansi
 14430,ayoreo_ayor1240,BIPA_g_u0261,ɡ,,,,false,lapsyd,ayoreo
 14431,norwegian_norw1258,BIPA_aeu_u00E6u0289,æʉ,,,lapsyd_Vanvik1972;lapsyd_Vanvik1972a;lapsyd_kristoffersen2000phonology,false,lapsyd,norwegian
-14432,tabasaran_taba1259,UNK_dz_u0064u007Au032B,dz̫,,,,false,lapsyd,tabasaran
+14432,tabasaran_taba1259,BIPA_dz_u0064u007Au032B,dz̫,,,,false,lapsyd,tabasaran
 14433,albaniantoskdialect_tosk1239,BIPA_c_u0063,c,,,lapsyd_Newmark1957;lapsyd_klippenstein2010word,false,lapsyd,albaniantoskdialect
 14434,khariadudh_khar1287,BIPA_i_u0069,i,,,lapsyd_82056;lapsyd_1740_Biligiri1965;lapsyd_Pinnow1959,false,lapsyd,khariadudh
 14435,westernkeres_west2632,BIPA_tsh_u0074u0320u0283u02B0,t̠ʃʰ,,,lapsyd_Miller1966,false,lapsyd,westernkeres
@@ -13205,7 +13205,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 14460,so_sooo1256,BIPA_e_u0065u02D0,eː,,,,false,lapsyd,so
 14461,kashmiri_kash1277,BIPA_tsh_u0074u0073u02B0,tsʰ,,,lapsyd_Bhat1987;lapsyd_KelkarTrisal1964;lapsyd_Zakharin1974;lapsyd_ZakharinEdelman1971,false,lapsyd,kashmiri
 14462,hatamtinamdialect_tina1247,BIPA_n_u006E,n,,,,false,lapsyd,hatamtinamdialect
-14464,yelidnye_yele1255,UNK_nmtpj_u006Eu006Du0074u0070u02B2,nmtpʲ,,,,false,lapsyd,yelidnye
+14464,yelidnye_yele1255,BIPA_nmtpj_u006Eu006Du0074u0070u02B2,nmtpʲ,,,,false,lapsyd,yelidnye
 14465,umbundu_umbu1257,BIPA_i_u0129,ĩ,,,lapsyd_Schadeberg1982,false,lapsyd,umbundu
 14468,maybratmayhapehdialectofayawasivillage_maib1239,BIPA_o_u0254,ɔ,,,lapsyd_ayz_dol1999,false,lapsyd,maybratmayhapehdialectofayawasivillage
 14469,khantynorthern_khan1273,BIPA_l_u006C,l,,,lapsyd_Gulya1966;lapsyd_kca_filchenko2007,false,lapsyd,khantynorthern
@@ -13287,7 +13287,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 14553,emerillon_emer1243,BIPA_dz_u0064u0320u0292,d̠ʒ,,,,false,lapsyd,emerillon
 14554,russian_russ1263,BIPA_pj_u0070u02B2,pʲ,,,lapsyd_Halle1959;lapsyd_JonesWard1969,false,lapsyd,russian
 14555,klamath_klam1254,BIPA_q_u0071u02BC,qʼ,,,lapsyd_Barker1964,false,lapsyd,klamath
-14556,tabasaran_taba1259,UNK_ts_u0074u0320u0283u032Bu02BC,t̠ʃ̫ʼ,,,,false,lapsyd,tabasaran
+14556,tabasaran_taba1259,BIPA_ts_u0074u0320u0283u032Bu02BC,t̠ʃ̫ʼ,,,,false,lapsyd,tabasaran
 14557,polish_poli1260,BIPA_e_u025Bu0303,ɛ̃,,,lapsyd_pol_jassem2003,false,lapsyd,polish
 14558,chuvash_chuv1255,BIPA_k_u006B,k,,,,false,lapsyd,chuvash
 14559,fijianboumaadialect_fiji1243,BIPA_iu_u0069u0075,iu,,,lapsyd_Dixon1988,false,lapsyd,fijianboumaadialect
@@ -13393,7 +13393,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 14669,thaistandard_thai1261,BIPA_w_u026Fu02D0,ɯː,,,lapsyd_Abramson1962;lapsyd_Kruatrachue1960;lapsyd_Noss1954;lapsyd_Noss1964,false,lapsyd,thaistandard
 14670,mbabaram_mbab1239,BIPA_nw_u006Eu02B7,nʷ,,,lapsyd_Dixon1966a,false,lapsyd,mbabaram
 14671,chuave_chua1250,BIPA_b_u0062,b,,,lapsyd_Thurman1970,false,lapsyd,chuave
-14672,yelidnye_yele1255,UNK_kpngm_u006Bu0070u014Bu006D,kpŋm,,,,false,lapsyd,yelidnye
+14672,yelidnye_yele1255,BIPA_kpngm_u006Bu0070u014Bu006D,kpŋm,,,,false,lapsyd,yelidnye
 14673,bagirmi_bagi1246,BIPA_j_u025F,ɟ,,,lapsyd_1469_bmi,false,lapsyd,bagirmi
 14674,alabama_alab1237,BIPA_l_u026C,'ɬ',,,lapsyd_Rand1968,true,lapsyd,alabama
 14675,lardil_lard1243,BIPA_t_u0074u032A,t̪,,,lapsyd_round_word_2011;lapsyd_115021,false,lapsyd,lardil
@@ -13498,7 +13498,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 14783,dhivehi_dhiv1236,BIPA_u_u0075u02D0,uː,,,lapsyd_68033,false,lapsyd,dhivehi
 14784,hobyot_hote1245,BIPA_s_u0073u02BC,sʼ,,,,false,lapsyd,hobyot
 14785,sinhala_sinh1246,BIPA_a_u0061u02D0,aː,,,lapsyd_CoatesSilva1960,false,lapsyd,sinhala
-14786,tukangbesiwancinortherndialect_tuka1248,UNK_d_u0257u032A,ɗ̪,,,,false,lapsyd,tukangbesiwancinortherndialect
+14786,tukangbesiwancinortherndialect_tuka1248,BIPA_d_u0257u032A,ɗ̪,,,,false,lapsyd,tukangbesiwancinortherndialect
 14787,themne_timn1235,BIPA_o_u006F,o,,,lapsyd_Dalby1966;lapsyd_Wilson1961;lapsyd_tem_kanu2010,false,lapsyd,themne
 14788,burmese_nucl1310,BIPA_o_u006F,o,,,lapsyd_Okell1969;lapsyd_mya_watkins2001,false,lapsyd,burmese
 14789,achumawi_achu1247,BIPA_m_u006Du0330,m̰,,,lapsyd_Olmsted1964;lapsyd_Olmsted1966,false,lapsyd,achumawi
@@ -13536,7 +13536,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 14827,ngiyambaa_wang1291,BIPA_t_u0074,t,,,lapsyd_Donaldson1980,false,lapsyd,ngiyambaa
 14828,shipibokonibo_ship1254,BIPA_s_u0073,s,,,,false,lapsyd,shipibokonibo
 14829,bats_bats1242,BIPA_dz_u0064u0320u0292,d̠ʒ,,,lapsyd_Desheriev1953,false,lapsyd,bats
-14830,ajyininka_ajyi1238,UNK_rr_u0072u0072,'rr',,,lapsyd_Payne1981;lapsyd_1807_Payneetal1982;lapsyd_1806_Dirks1953,true,lapsyd,ajyininka
+14830,ajyininka_ajyi1238,BIPA_rr_u0072u0072,'rr',,,lapsyd_Payne1981;lapsyd_1807_Payneetal1982;lapsyd_1806_Dirks1953,true,lapsyd,ajyininka
 14831,quechuacochabamba_sout2991,BIPA_s_u0073,s,,,lapsyd_Lastra1968,false,lapsyd,quechuacochabamba
 14833,siwi_siwi1239,BIPA_e_u0065,e,,,,false,lapsyd,siwi
 14834,tiwi_tiwi1244,BIPA_mp_u006Du0070,mp,,,lapsyd_Lee1983;lapsyd_3968;lapsyd_Lee1984,false,lapsyd,tiwi
@@ -13746,7 +13746,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 15056,kilivila_kili1267,BIPA_b_u0062,b,,,,false,lapsyd,kilivila
 15057,wikmunkan_wikm1247,BIPA_t_u0074u032A,t̪,,,lapsyd_McConnel1945;lapsyd_SayersGodfrey1964,false,lapsyd,wikmunkan
 15058,yuruti_yuru1263,BIPA_i_u0069,i,,,,false,lapsyd,yuruti
-15059,kadugli_katc1249,UNK_d_u0257u032A,ɗ̪,,,lapsyd_Abdalla1973;lapsyd_1416_kadugli_krongo,false,lapsyd,kadugli
+15059,kadugli_katc1249,BIPA_d_u0257u032A,ɗ̪,,,lapsyd_Abdalla1973;lapsyd_1416_kadugli_krongo,false,lapsyd,kadugli
 15060,wapishana_wapi1253,BIPA_i_u0069,i,,,lapsyd_1833_Dossantos2006,false,lapsyd,wapishana
 15061,ejagham_ejag1239,BIPA_t_u0074,t,,,lapsyd_Watters1981,false,lapsyd,ejagham
 15062,fasu_fasu1242,BIPA_f_u0278,ɸ,,,lapsyd_LoewekeMay1964,false,lapsyd,fasu
@@ -13775,7 +13775,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 15085,apinaye_apin1244,BIPA_n_u0272,ɲ,,,lapsyd_BurgessHam1968;lapsyd_1953_Oliveira2005,false,lapsyd,apinaye
 15086,khakas_khak1248,BIPA_e_u0065u02D0,eː,,,,false,lapsyd,khakas
 15087,bakairi_baka1277,BIPA__u0259,ə,,,lapsyd_Wheatley1973;lapsyd_Wheatley1969,false,lapsyd,bakairi
-15088,aymaracentral_cent2142,UNK_r_u027Eu032A,ɾ̪,,,,false,lapsyd,aymaracentral
+15088,aymaracentral_cent2142,BIPA_r_u027Eu032A,ɾ̪,,,,false,lapsyd,aymaracentral
 15089,paakantyisouthern_darl1243,BIPA_t_u0074,t,,,lapsyd_7335,false,lapsyd,paakantyisouthern
 15090,spanishpeninsularcastilian_stan1288,BIPA_j_u006A,j,,,lapsyd_Navarro1961;lapsyd_SaportaContreras1962;lapsyd_spa_martinez-celdra2003;lapsyd_Harris1969,false,lapsyd,spanishpeninsularcastilian
 15091,kashmiri_kash1277,BIPA_i_u0268,ɨ,,,lapsyd_Bhat1987;lapsyd_KelkarTrisal1964;lapsyd_Zakharin1974;lapsyd_ZakharinEdelman1971,false,lapsyd,kashmiri
@@ -13798,7 +13798,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 15112,paez_paez1247,BIPA_ts_u0074u0320u0283,t̠ʃ,,,,false,lapsyd,paez
 15113,koya_koya1251,BIPA_h_u0068,h,,,lapsyd_Tyler1969,false,lapsyd,koya
 15114,french_stan1290,BIPA_i_u0069,i,,,lapsyd_fra_fougeron1993;lapsyd_Sten1963,false,lapsyd,french
-15115,yelidnye_yele1255,UNK_ngmkp_u014Bu006Du006Bu0070,ŋmkp,,,,false,lapsyd,yelidnye
+15115,yelidnye_yele1255,BIPA_ngmkp_u014Bu006Du006Bu0070,ŋmkp,,,,false,lapsyd,yelidnye
 15116,canelakraho_cane1242,BIPA_i_u0069u02D0,iː,,,lapsyd_1964_Popjesetal2009,false,lapsyd,canelakraho
 15117,fijianboumaadialect_fiji1243,BIPA_au_u0061u0075,au,,,lapsyd_Dixon1988,false,lapsyd,fijianboumaadialect
 15118,khantynorthern_khan1273,BIPA_m_u006D,m,,,lapsyd_Gulya1966;lapsyd_kca_filchenko2007,false,lapsyd,khantynorthern
@@ -13819,7 +13819,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 15135,pechculmidialect_pech1241,BIPA_e_u0065,e,,,lapsyd_Holt1986,false,lapsyd,pechculmidialect
 15136,farsiwestern_west2369,BIPA_t_u0074u032A,t̪,,,lapsyd_Obolensky_etal1963,false,lapsyd,farsiwestern
 15137,kiowa_kiow1266,BIPA_u_u0075u02D0,uː,,,lapsyd_WatkinsMcKenzie1984;lapsyd_Sivertsen1956,false,lapsyd,kiowa
-15138,roro_roro1238,UNK_r_u027Eu032A,ɾ̪,,,lapsyd_Bluhme1970;lapsyd_Davis1974,false,lapsyd,roro
+15138,roro_roro1238,BIPA_r_u027Eu032A,ɾ̪,,,lapsyd_Bluhme1970;lapsyd_Davis1974,false,lapsyd,roro
 15139,alamblak_alam1246,BIPA_d_u0064,d,,,lapsyd_Bruce1984,false,lapsyd,alamblak
 15140,nakkara_naka1260,BIPA_n_u0273,ɳ,,,lapsyd_152615,false,lapsyd,nakkara
 15141,bataktoba_bata1289,BIPA_d_u0064,d,,,lapsyd_vanderTuuk1971,false,lapsyd,bataktoba
@@ -13831,7 +13831,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 15147,lelechad_lele1276,BIPA_d_u0257,ɗ,,,lapsyd_1275_lele_frajzyngier,false,lapsyd,lelechad
 15148,havu_sabu1255,BIPA_l_u006C,l,,,,false,lapsyd,havu
 15149,czech_czec1258,BIPA_i_u0069u02D0,iː,,,,false,lapsyd,czech
-15150,tabasaran_taba1259,UNK_ts_u0074u0073u032Bu02BC,ts̫ʼ,,,,false,lapsyd,tabasaran
+15150,tabasaran_taba1259,BIPA_ts_u0074u0073u032Bu02BC,ts̫ʼ,,,,false,lapsyd,tabasaran
 15151,klamath_klam1254,BIPA_ch_u0063u02B0,cʰ,,,lapsyd_Barker1964,false,lapsyd,klamath
 15152,russian_russ1263,BIPA_m_u006D,m,,,lapsyd_Halle1959;lapsyd_JonesWard1969,false,lapsyd,russian
 15153,nobiin_nobi1240,BIPA_g_u0261,ɡ,,,lapsyd_Bell1968;lapsyd_Bell1971,false,lapsyd,nobiin
@@ -14084,7 +14084,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 15426,canelakraho_cane1242,BIPA__u028Cu0303u02D0,ʌ̃ː,,,lapsyd_1964_Popjesetal2009,false,lapsyd,canelakraho
 15427,tohonooodham_toho1245,BIPA_n_u006Eu032A,n̪,,,lapsyd_Hale1959;lapsyd_Saxton1963,false,lapsyd,tohonooodham
 15428,kanuri_cent2050,BIPA_a_u0061,a,,,lapsyd_Awobuluyi1971,false,lapsyd,kanuri
-15430,maithili_mait1250,UNK_r_u027Eu032A,ɾ̪,,,,false,lapsyd,maithili
+15430,maithili_mait1250,BIPA_r_u027Eu032A,ɾ̪,,,,false,lapsyd,maithili
 15431,emerillon_emer1243,BIPA_k_u006B,k,,,,false,lapsyd,emerillon
 15432,thaistandard_thai1261,BIPA_p_u0070,p,,,lapsyd_Abramson1962;lapsyd_Kruatrachue1960;lapsyd_Noss1954;lapsyd_Noss1964,false,lapsyd,thaistandard
 15433,kiowa_kiow1266,BIPA_t_u0074u032Au02BC,t̪ʼ,,,lapsyd_WatkinsMcKenzie1984;lapsyd_Sivertsen1956,false,lapsyd,kiowa
@@ -14128,7 +14128,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 15476,bora_bora1263,BIPA_a_u0061u02D0,aː,,,lapsyd_1857_Parker2001;lapsyd_1857_Weberetal2001,false,lapsyd,bora
 15477,guaraniparaguayan_para1311,BIPA_j_u006A,j,,,lapsyd_GregoresSuarez1967;lapsyd_Lunt1973;lapsyd_Uldall1956,false,lapsyd,guaraniparaguayan
 15478,oromoharar_east2652,BIPA_t_u0074u032Au02BC,t̪ʼ,,,lapsyd_1552_hae,false,lapsyd,oromoharar
-15480,yelidnye_yele1255,UNK_br_u03B2u027E,βɾ,,,,false,lapsyd,yelidnye
+15480,yelidnye_yele1255,BIPA_br_u03B2u027E,βɾ,,,,false,lapsyd,yelidnye
 15481,diraytata_dira1242,BIPA_i_u0069,i,,,,false,lapsyd,diraytata
 15483,wapishana_wapi1253,BIPA_s_u0073,s,,,lapsyd_1833_Dossantos2006,false,lapsyd,wapishana
 15484,tsimshiancoast_nucl1649,BIPA_dz_u0064u007A,dz,,,lapsyd_Dunn1979;lapsyd_Mulder1988;lapsyd_Hoard1978,false,lapsyd,tsimshiancoast
@@ -14235,7 +14235,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 15592,kokota_koko1269,BIPA_k_u006B,k,,,,false,lapsyd,kokota
 15594,natchez_natc1249,BIPA_j_u006A,j,,,,false,lapsyd,natchez
 15595,ngizim_ngiz1242,BIPA_e_u0065u02D0,eː,,,lapsyd_Schuh1972,false,lapsyd,ngizim
-15596,ogbia_ogbi1239,UNK_rr_u0072u0072,'rr',,,lapsyd_Williamson1972;lapsyd_Williamson1970,true,lapsyd,ogbia
+15596,ogbia_ogbi1239,BIPA_rr_u0072u0072,'rr',,,lapsyd_Williamson1972;lapsyd_Williamson1970,true,lapsyd,ogbia
 15597,ngizim_ngiz1242,BIPA_o_u006Fu02D0,oː,,,lapsyd_Schuh1972,false,lapsyd,ngizim
 15598,sinhala_sinh1246,BIPA_o_u006F,o,,,lapsyd_CoatesSilva1960,false,lapsyd,sinhala
 15599,tangaleshongomdialect_nucl1696,BIPA_l_u006C,l,,,lapsyd_1567_tan,false,lapsyd,tangaleshongomdialect
@@ -14439,7 +14439,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 15813,khantynorthern_khan1273,BIPA_j_u006A,j,,,lapsyd_Gulya1966;lapsyd_kca_filchenko2007,false,lapsyd,khantynorthern
 15814,bunuba_buna1275,BIPA_n_u006Eu032A,n̪,,,,false,lapsyd,bunuba
 15815,tashlhiyt_tach1250,BIPA_m_u006D,m,,,lapsyd_Applegate1958;lapsyd_shi_ridouane2014,false,lapsyd,tashlhiyt
-15816,hlailauhutbaodingdialect_hlai1239,UNK_rr_u0072u0072,'rr',,,lapsyd_OuyangZheng1963,true,lapsyd,hlailauhutbaodingdialect
+15816,hlailauhutbaodingdialect_hlai1239,BIPA_rr_u0072u0072,'rr',,,lapsyd_OuyangZheng1963,true,lapsyd,hlailauhutbaodingdialect
 15817,mapudungun_mapu1245,BIPA_n_u006Eu032A,n̪,,,lapsyd_EcheverriaContreras1965,false,lapsyd,mapudungun
 15818,vietnamese_viet1252,BIPA_x_u0078,x,,,lapsyd_Nguyen1974;lapsyd_vie_kirby2011,false,lapsyd,vietnamese
 15819,maithili_mait1250,BIPA_ph_u0070u02B0,pʰ,,,,false,lapsyd,maithili
@@ -14477,7 +14477,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 15856,aleuteastern_east2533,BIPA_s_u0073,s,,,lapsyd_Bergsland1956;lapsyd_Bergsland1959,false,lapsyd,aleuteastern
 15857,gojri_gnau1240,BIPA_u_u028A,ʊ,,,lapsyd_1724_Sharma1979;lapsyd_gju_losey2002,false,lapsyd,gojri
 15858,malakmalak_mull1237,BIPA_i_u0069,i,,,lapsyd_161795;lapsyd_2833,false,lapsyd,malakmalak
-15859,kelepapuanewguinea_kele1258,UNK_ndr_u006Eu0064u0072,ndr,,,,false,lapsyd,kelepapuanewguinea
+15859,kelepapuanewguinea_kele1258,BIPA_ndr_u006Eu0064u0072,ndr,,,,false,lapsyd,kelepapuanewguinea
 15860,wayuu_wayu1243,BIPA_a_u0061,a,,,lapsyd_Holmer1949,false,lapsyd,wayuu
 15861,khalkha_halh1238,BIPA_ch_u0063u02B0,cʰ,,,lapsyd_Luvsanvandan1964;lapsyd_Street1963;lapsyd_Svantesson1985,false,lapsyd,khalkha
 15862,wichita_wich1260,BIPA_e_u025B,ɛ,,,lapsyd_Rood1975;lapsyd_Garvin1950,false,lapsyd,wichita
@@ -14575,7 +14575,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 15960,ajyininka_ajyi1238,BIPA_i_u0069,i,,,lapsyd_Payne1981;lapsyd_1807_Payneetal1982;lapsyd_1806_Dirks1953,false,lapsyd,ajyininka
 15961,nkorekiga_chig1238,BIPA_o_u006Fu02D0,oː,,,lapsyd_nyn_poletto1998,false,lapsyd,nkorekiga
 15962,vietnamese_viet1252,BIPA_j_u006A,j,,,lapsyd_Nguyen1974;lapsyd_vie_kirby2011,false,lapsyd,vietnamese
-15963,ndut_ndut1239,UNK_rr_u0072u0072,rr,,,lapsyd_Gueye1986,false,lapsyd,ndut
+15963,ndut_ndut1239,BIPA_rr_u0072u0072,rr,,,lapsyd_Gueye1986,false,lapsyd,ndut
 15964,turkish_nucl1301,BIPA_u_u0075,u,,,lapsyd_Lees1961;lapsyd_Swift1963,false,lapsyd,turkish
 15965,khariadudh_khar1287,BIPA_t_u0074u032A,t̪,,,lapsyd_82056;lapsyd_1740_Biligiri1965;lapsyd_Pinnow1959,false,lapsyd,khariadudh
 15966,darai_dara1250,BIPA_tsh_u0074u0073u02B0,tsʰ,,,,false,lapsyd,darai
@@ -14841,7 +14841,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 16246,mongnjua_hmon1264,BIPA_h_u0068,h,,,lapsyd_Wang1985;lapsyd_Wang1983;lapsyd_mortensen2004preliminaries,false,lapsyd,mongnjua
 16247,khoekhoe_nama1264,BIPA_k_u006Bu01C1,kǁ,,,,false,lapsyd,khoekhoe
 16248,yawa_nucl1454,BIPA_b_u0062,b,,,,false,lapsyd,yawa
-16249,azande_zand1248,UNK_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_TuckerHackett1959,false,lapsyd,azande
+16249,azande_zand1248,BIPA_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_TuckerHackett1959,false,lapsyd,azande
 16250,lezgian_lezg1247,BIPA_tsw_u0074u0073u02B7u02BC,tsʷʼ,,,lapsyd_91629,false,lapsyd,lezgian
 16251,darfurdaju_darf1239,BIPA_b_u0062,b,,,lapsyd_Thelwall1981;lapsyd_TuckerBryan1966,false,lapsyd,darfurdaju
 16252,ingush_ingu1240,BIPA_i_u0069,i,,,lapsyd_305982,false,lapsyd,ingush
@@ -14856,7 +14856,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 16262,chukchansi_yoku1256,BIPA_e_u025B,ɛ,,,,false,lapsyd,chukchansi
 16263,korean_kore1280,BIPA_u_u0264,ɤ,,,lapsyd_Kim1986;lapsyd_Cho1967;lapsyd_Kim1972;lapsyd_Martin1951;lapsyd_Martin1954;lapsyd_MartinLee1969,false,lapsyd,korean
 16264,kiswahili_swah1253,BIPA_h_u0068,h,,,lapsyd_Polome1967,false,lapsyd,kiswahili
-16265,kisisoutherndialect_sout2778,UNK_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,,false,lapsyd,kisisoutherndialect
+16265,kisisoutherndialect_sout2778,BIPA_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,,false,lapsyd,kisisoutherndialect
 16266,trumai_trum1247,BIPA_m_u006D,m,,,lapsyd_1939_Guiardello1999;lapsyd_Trumai1975,false,lapsyd,trumai
 16267,yuruti_yuru1263,BIPA_j_u006A,j,,,,false,lapsyd,yuruti
 16268,huambisa_huam1247,BIPA_u_u0075,u,,,lapsyd_BeasleyPike1957,false,lapsyd,huambisa
@@ -14891,7 +14891,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 16300,japanese_nucl1643,BIPA_o_u006F,o,,,lapsyd_Bloch1950;lapsyd_Jorden1963;lapsyd_Martin1952;lapsyd_Shibatani1990,false,lapsyd,japanese
 16301,tol_toll1241,BIPA_i_u0069,i,,,lapsyd_FlemingDennis1977,false,lapsyd,tol
 16302,roro_roro1238,BIPA_m_u006D,m,,,lapsyd_Bluhme1970;lapsyd_Davis1974,false,lapsyd,roro
-16303,bagirmi_bagi1246,UNK_r_u1E5B,ṛ,,,lapsyd_1469_bmi,false,lapsyd,bagirmi
+16303,bagirmi_bagi1246,BIPA_r_u1E5B,ṛ,,,lapsyd_1469_bmi,false,lapsyd,bagirmi
 16304,tampulma_tamp1252,BIPA_i_u026A,ɪ,,,lapsyd_Bergman_etal1969,false,lapsyd,tampulma
 16305,tabawaikyondialect_east2440,BIPA_t_u0074,t,,,lapsyd_mky_bowden1997,false,lapsyd,tabawaikyondialect
 16307,mongnjua_hmon1264,BIPA_u_u0289,ʉ,,,lapsyd_Wang1985;lapsyd_Wang1983;lapsyd_mortensen2004preliminaries,false,lapsyd,mongnjua
@@ -15280,7 +15280,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 16731,apurina_apur1254,BIPA_a_u00E3,ã,,,lapsyd_apu_facundes2000,false,lapsyd,apurina
 16732,gunya_marg1253,BIPA_b_u0062,b,,,,false,lapsyd,gunya
 16733,ik_ikkk1242,BIPA_ts_u0074u0320u0283,t̠ʃ,,,lapsyd_Heine1975b,false,lapsyd,ik
-16734,fijianboumaadialect_fiji1243,UNK_nr_u006Eu0072,nr,,,lapsyd_Dixon1988,false,lapsyd,fijianboumaadialect
+16734,fijianboumaadialect_fiji1243,BIPA_nr_u006Eu0072,nr,,,lapsyd_Dixon1988,false,lapsyd,fijianboumaadialect
 16735,irantxe_iran1263,BIPA_u_u0169u02D0,ũː,,,lapsyd_Meader1967,false,lapsyd,irantxe
 16736,dagbani_dagb1246,BIPA_n_u0272,ɲ,,,lapsyd_WilsonBendor-Samuel1969,false,lapsyd,dagbani
 16737,samre_samr1245,BIPA_w_u0270,ɰ,,,,false,lapsyd,samre
@@ -15383,7 +15383,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 16840,hainanese_minn1241,BIPA_n_u006Eu032A,n̪,,,lapsyd_Hanyu1960,false,lapsyd,hainanese
 16841,russian_russ1263,BIPA_j_u029D,ʝ,,,lapsyd_Halle1959;lapsyd_JonesWard1969,false,lapsyd,russian
 16842,supyirekampwodialect_supy1237,BIPA_t_u0074,t,,,,false,lapsyd,supyirekampwodialect
-16843,sango_sang1328,UNK_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_Samarin1967a;lapsyd_Samarin1967b,false,lapsyd,sango
+16843,sango_sang1328,BIPA_ngmgb_u014Bu006Du0261u0062,ŋmɡb,,,lapsyd_Samarin1967a;lapsyd_Samarin1967b,false,lapsyd,sango
 16844,bataktoba_bata1289,BIPA_n_u006E,n,,,lapsyd_vanderTuuk1971,false,lapsyd,bataktoba
 16845,westernkeres_west2632,BIPA_n_u006Eu0330,n̰,,,lapsyd_Miller1966,false,lapsyd,westernkeres
 16846,bakairi_baka1277,BIPA_i_u0129,ĩ,,,lapsyd_Wheatley1973;lapsyd_Wheatley1969,false,lapsyd,bakairi
@@ -15587,7 +15587,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 17063,dagbani_dagb1246,BIPA_s_u0073,s,,,lapsyd_WilsonBendor-Samuel1969,false,lapsyd,dagbani
 17064,koryak_kory1246,BIPA_j_u006A,j,,,lapsyd_Zhukova1980,false,lapsyd,koryak
 17065,sango_sang1328,BIPA_k_u006B,k,,,lapsyd_Samarin1967a;lapsyd_Samarin1967b,false,lapsyd,sango
-17066,khoekhoe_nama1264,UNK_ngh_u014Bu0325u01C3u0068u0303,ŋ̥ǃh̃,,,,false,lapsyd,khoekhoe
+17066,khoekhoe_nama1264,BIPA_ngh_u014Bu0325u01C3u0068u0303,ŋ̥ǃh̃,,,,false,lapsyd,khoekhoe
 17067,noon_noon1242,BIPA_u_u028A,ʊ,,,,false,lapsyd,noon
 17068,lithuanian_lith1251,BIPA_sg_u0283u02E0,ʃˠ,,,lapsyd_Augustitis1964;lapsyd_Senn1966,false,lapsyd,lithuanian
 17069,sindhi_sind1272,BIPA_v_u028B,ʋ,,,,false,lapsyd,sindhi
@@ -15732,7 +15732,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 17223,bunuba_buna1275,BIPA_t_u0074u032A,t̪,,,,false,lapsyd,bunuba
 17224,iaai_iaai1238,BIPA_u_u0075,u,,,lapsyd_Haudricourt1971;lapsyd_Ozanne-Rivierre1976,false,lapsyd,iaai
 17225,diraytata_dira1242,BIPA_j_u006A,j,,,,false,lapsyd,diraytata
-17227,yelidnye_yele1255,UNK_kng_u006Bu014B,kŋ,,,,false,lapsyd,yelidnye
+17227,yelidnye_yele1255,BIPA_kng_u006Bu014B,kŋ,,,,false,lapsyd,yelidnye
 17228,brahui_brah1256,BIPA_h_u0068,h,,,lapsyd_De-Armond1975;lapsyd_Emeneau1937;lapsyd_Emeneau1962;lapsyd_elfenbein1997brahui,false,lapsyd,brahui
 17229,newarikathmandudialect_newa1246,BIPA_s_u0073,s,,,lapsyd_HaleHale1969;lapsyd_Manandhar1986,false,lapsyd,newarikathmandudialect
 17230,luiseno_luis1253,BIPA_v_u0076,v,,,lapsyd_Bright1965;lapsyd_Bright1968;lapsyd_Hyde1971;lapsyd_KroeberGrace1960;lapsyd_Malecot1963,false,lapsyd,luiseno
@@ -15792,7 +15792,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 17287,irantxe_iran1263,BIPA_tj_u0074u02B2,'tʲ',,,lapsyd_Meader1967,true,lapsyd,irantxe
 17288,seri_seri1257,BIPA_kw_u006Bu02B7,kʷ,,,lapsyd_sei_marlett_etal2005,false,lapsyd,seri
 17289,khakas_khak1248,BIPA_m_u006D,m,,,,false,lapsyd,khakas
-17290,mbum_mbum1254,UNK_db_u0238,ȸ,,,lapsyd_Hagege1970,false,lapsyd,mbum
+17290,mbum_mbum1254,BIPA_db_u0238,ȸ,,,lapsyd_Hagege1970,false,lapsyd,mbum
 17291,sora_sora1254,BIPA_i_u0268,ɨ,,,,false,lapsyd,sora
 17292,totonacmisantladialect_yecu1235,BIPA_u_u0075,u,,,,false,lapsyd,totonacmisantladialect
 17294,khariadudh_khar1287,BIPA_j_u006A,j,,,lapsyd_82056;lapsyd_1740_Biligiri1965;lapsyd_Pinnow1959,false,lapsyd,khariadudh
@@ -16332,7 +16332,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 17877,lepcha_lepc1244,BIPA_t_u0074u032A,t̪,,,,false,lapsyd,lepcha
 17878,czech_czec1258,BIPA_p_u0070,p,,,,false,lapsyd,czech
 17879,bats_bats1242,BIPA_p_u0070,p,,,lapsyd_Desheriev1953,false,lapsyd,bats
-17881,anguthimri_alng1239,UNK_tr_u0074u0072,tr,,,,false,lapsyd,anguthimri
+17881,anguthimri_alng1239,BIPA_tr_u0074u0072,tr,,,,false,lapsyd,anguthimri
 17882,qawasqar_qawa1238,BIPA_ph_u0070u02B0,pʰ,,,lapsyd_Clairis1977,false,lapsyd,qawasqar
 17883,kafa_kafa1242,BIPA_l_u006C,l,,,,false,lapsyd,kafa
 17884,kalkatungu_kalk1246,BIPA_j_u006A,j,,,,false,lapsyd,kalkatungu
@@ -16412,7 +16412,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 17966,nyishi_nyis1236,BIPA__u0294,ʔ,,,lapsyd_Ray1967;lapsyd_69191,false,lapsyd,nyishi
 17967,moxo_igna1246,BIPA__u0294,ʔ,,,lapsyd_OttOtt1967,false,lapsyd,moxo
 17968,nuxalk_bell1243,BIPA_p_u0070,p,,,lapsyd_Newman1947,false,lapsyd,nuxalk
-17969,quagelao_qaua1234,UNK_ncc_u0272u0063u0255,ɲcɕ,,,lapsyd_He1983;lapsyd_He1981,false,lapsyd,quagelao
+17969,quagelao_qaua1234,BIPA_ncc_u0272u0063u0255,ɲcɕ,,,lapsyd_He1983;lapsyd_He1981,false,lapsyd,quagelao
 17971,kashmiri_kash1277,BIPA_p_u0070,p,,,lapsyd_Bhat1987;lapsyd_KelkarTrisal1964;lapsyd_Zakharin1974;lapsyd_ZakharinEdelman1971,false,lapsyd,kashmiri
 17972,karuk_karo1304,BIPA_t_u0074u032A,t̪,,,lapsyd_Bright1957,false,lapsyd,karuk
 17973,dhivehi_dhiv1236,BIPA_a_u0061u02D0,aː,,,lapsyd_68033,false,lapsyd,dhivehi
@@ -16441,7 +16441,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 17999,supyirekampwodialect_supy1237,BIPA_v_u0076,v,,,,false,lapsyd,supyirekampwodialect
 18000,koromfe_koro1298,BIPA_k_u006B,k,,,,false,lapsyd,koromfe
 18001,egyptianarabic_egyp1253,BIPA_h_u0068,h,,,lapsyd_Kennedy1960;lapsyd_Mitchell1962;lapsyd_Tomiche1964,false,lapsyd,egyptianarabic
-18002,tabasaran_taba1259,UNK_rr_u0072u0072,'rr',,,,true,lapsyd,tabasaran
+18002,tabasaran_taba1259,BIPA_rr_u0072u0072,'rr',,,,true,lapsyd,tabasaran
 18003,tonkawa_tonk1249,BIPA_u_u0075u02D0,uː,,,lapsyd_Hoijer1949;lapsyd_Hoijer1972,false,lapsyd,tonkawa
 18004,sandawe_sand1273,BIPA_x_u0078,x,,,lapsyd_1652_sandawe_2008;lapsyd_Dempwolff1916;lapsyd_Tucker_etal1977,false,lapsyd,sandawe
 18005,baining_qaqe1238,BIPA_nggw_u014Bu0261u02B7,ŋɡʷ,,,lapsyd_ParkerParker1974,false,lapsyd,baining
@@ -16532,11 +16532,11 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 18104,samre_samr1245,BIPA_j_u006A,j,,,,false,lapsyd,samre
 18105,abun_abun1252,BIPA_f_u0066,f,,,lapsyd_berry1999abun,false,lapsyd,abun
 18106,munduruku_mund1330,BIPA_j_u006A,j,,,lapsyd_2096_Picanco2005,false,lapsyd,munduruku
-18107,mofugugur_mofu1248,UNK__uF25F,,,,lapsyd_1598_mif,false,lapsyd,mofugugur
+18107,mofugugur_mofu1248,BIPA__uF25F,,,,lapsyd_1598_mif,false,lapsyd,mofugugur
 18108,camsa_cams1241,BIPA_s_u0073,s,,,lapsyd_Mongui1981,false,lapsyd,camsa
 18110,mundari_mund1320,BIPA_e_u025B,ɛ,,,lapsyd_1770_Osada1992;lapsyd_GumperzBilibiri1957,false,lapsyd,mundari
 18111,apalai_apal1257,BIPA_o_u00F5,õ,,,lapsyd_1863_Koehnetal1971,false,lapsyd,apalai
-18112,buol_buol1237,UNK_rr_u0072u0072,'rr',,,,true,lapsyd,buol
+18112,buol_buol1237,BIPA_rr_u0072u0072,'rr',,,,true,lapsyd,buol
 18113,manange_cent1394,BIPA_ts_u0074u0320u0283,t̠ʃ,,,lapsyd_nmm_hildebrandt2004,false,lapsyd,manange
 18114,toba_toba1269,BIPA_s_u0073u032A,s̪,,,,false,lapsyd,toba
 18115,lithuanian_lith1251,BIPA_ts_u0074u0320u0283,t̠ʃ,,,lapsyd_Augustitis1964;lapsyd_Senn1966,false,lapsyd,lithuanian
@@ -16760,7 +16760,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 18355,biri_biri1256,BIPA_k_u006B,k,,,,false,lapsyd,biri
 18356,sora_sora1254,BIPA_c_u0063,c,,,,false,lapsyd,sora
 18357,gunya_marg1253,BIPA_u_u0075u02D0,uː,,,,false,lapsyd,gunya
-18358,yelidnye_yele1255,UNK_tpnm_u0074u0320u0070u006Eu0320u006D,t̠pn̠m,,,,false,lapsyd,yelidnye
+18358,yelidnye_yele1255,BIPA_tpnm_u0074u0320u0070u006Eu0320u006D,t̠pn̠m,,,,false,lapsyd,yelidnye
 18359,khakas_khak1248,BIPA_j_u006A,j,,,,false,lapsyd,khakas
 18360,meithei_mani1292,BIPA_kh_u006Bu02B0,kʰ,,,lapsyd_1764_Singh1975,false,lapsyd,meithei
 18361,bashkir_bash1264,BIPA_k_u006B,k,,,,false,lapsyd,bashkir
@@ -16941,7 +16941,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 18557,phlong_pwon1235,BIPA_a_u0061,a,,,lapsyd_Cooke_etal1976,false,lapsyd,phlong
 18558,amharic_amha1245,BIPA_r_u0072,r,,,,false,lapsyd,amharic
 18559,mutsun_sout2986,BIPA_o_u0254,ɔ,,,,false,lapsyd,mutsun
-18560,lugbarawestern_lugb1240,UNK_d_u0257u032A,ɗ̪,,,lapsyd_Anderson1986;lapsyd_Crazzolara1960;lapsyd_TuckerBryan1966,false,lapsyd,lugbarawestern
+18560,lugbarawestern_lugb1240,BIPA_d_u0257u032A,ɗ̪,,,lapsyd_Anderson1986;lapsyd_Crazzolara1960;lapsyd_TuckerBryan1966,false,lapsyd,lugbarawestern
 18561,southernnambiquara_sout2994,BIPA_e_u1EBD,ẽ,,,lapsyd_Price1976,false,lapsyd,southernnambiquara
 18562,wayuu_wayu1243,BIPA_ts_u0074u0320u0283,t̠ʃ,,,lapsyd_Holmer1949,false,lapsyd,wayuu
 18563,namakir_nama1268,BIPA_nd_u006Eu0064,nd,,,,false,lapsyd,namakir
@@ -16969,7 +16969,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 18586,tzutujileasternsanjuanlalagunadialect_tzut1248,BIPA_l_u006C,l,,,lapsyd_tzj_dayley1985,false,lapsyd,tzutujileasternsanjuanlalagunadialect
 18588,cofan_cofa1242,BIPA_n_u0272,ɲ,,,,false,lapsyd,cofan
 18589,tuva_tuvi1240,BIPA_u_u1E75,ṵ,,,lapsyd_Seglenmej1979;lapsyd_Song1982,false,lapsyd,tuva
-18590,kiowa_kiow1266,UNK_dl_u0064u032Au006Cu032A,d̪l̪,,,lapsyd_WatkinsMcKenzie1984;lapsyd_Sivertsen1956,false,lapsyd,kiowa
+18590,kiowa_kiow1266,BIPA_dl_u0064u032Au006Cu032A,d̪l̪,,,lapsyd_WatkinsMcKenzie1984;lapsyd_Sivertsen1956,false,lapsyd,kiowa
 18591,tigre_tigr1270,BIPA_s_u0283,ʃ,,,lapsyd_Palmer1962,false,lapsyd,tigre
 18592,madisouthernlokaidialect_loka1255,BIPA_z_u007A,z,,,lapsyd_1292_snm_blackingsfabb;lapsyd_1425_luc,false,lapsyd,madisouthernlokaidialect
 18594,semelai_seme1247,BIPA_o_u0254,ɔ,,,,false,lapsyd,semelai
@@ -17207,7 +17207,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 18848,armenianeastern_nucl1235,BIPA_tsh_u0074u032Au0073u032Au02B0,t̪s̪ʰ,,,lapsyd_Allen1950,false,lapsyd,armenianeastern
 18849,southernnambiquara_sout2994,BIPA_s_u0073u032A,s̪,,,lapsyd_Price1976,false,lapsyd,southernnambiquara
 18850,yelidnye_yele1255,BIPA_tj_u0074u0320u02B2,t̠ʲ,,,,false,lapsyd,yelidnye
-18852,kobon_kobo1249,UNK_ndz_u006Eu0320u0064u0320u0291,n̠d̠ʑ,,,,false,lapsyd,kobon
+18852,kobon_kobo1249,BIPA_ndz_u006Eu0320u0064u0320u0291,n̠d̠ʑ,,,,false,lapsyd,kobon
 18853,muinane_muin1242,BIPA_t_u0074,t,,,,false,lapsyd,muinane
 18854,swedish_swed1254,BIPA_o_u0254,ɔ,,,,false,lapsyd,swedish
 18855,mandarin_mand1415,BIPA_cc_u0063u0255,cɕ,,,lapsyd_Chao1968;lapsyd_Cheng1973b;lapsyd_Dow1972;lapsyd_cmn_lee2003_phon,false,lapsyd,mandarin
@@ -17388,7 +17388,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 19052,hupa_hupa1239,BIPA_ts_u0074u0073,ts,,,lapsyd_Golla1970,false,lapsyd,hupa
 19053,nukunu_nugu1241,BIPA_i_u026A,ɪ,,,lapsyd_91194,false,lapsyd,nukunu
 19054,yuchi_yuch1247,BIPA_ts_u0074u0073,ts,,,lapsyd_Ballard1975;lapsyd_Crawford1973;lapsyd_yuc_linn2001,false,lapsyd,yuchi
-19055,khoekhoe_nama1264,UNK_ngx_u014Bu0325u01C3u0078,ŋ̥ǃx,,,,false,lapsyd,khoekhoe
+19055,khoekhoe_nama1264,BIPA_ngx_u014Bu0325u01C3u0078,ŋ̥ǃx,,,,false,lapsyd,khoekhoe
 19056,turkish_nucl1301,BIPA_y_u0079,y,,,lapsyd_Lees1961;lapsyd_Swift1963,false,lapsyd,turkish
 19057,kurukh_kuru1302,BIPA_d_u0256,ɖ,,,lapsyd_Pfeiffer1972;lapsyd_Pinnow1964;lapsyd_1754_Ekka1985,false,lapsyd,kurukh
 19058,southernnambiquara_sout2994,BIPA_kwh_u006Bu02B7u02B0,kʷʰ,,,lapsyd_Price1976,false,lapsyd,southernnambiquara
@@ -17693,7 +17693,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 19387,khamtakaledialect_taka1261,BIPA_j_u006A,j,,,,false,lapsyd,khamtakaledialect
 19388,lahu_lahu1253,BIPA_w_u0077,w,,,lapsyd_16137,false,lapsyd,lahu
 19390,tagalog_taga1270,BIPA_e_u0065u02D0,eː,,,lapsyd_SchachterOtanes1972;lapsyd_11180,false,lapsyd,tagalog
-19391,madacameroun_mada1293,UNK_lz_u026Eu032A,ɮ̪,,,,false,lapsyd,madacameroun
+19391,madacameroun_mada1293,BIPA_lz_u026Eu032A,ɮ̪,,,,false,lapsyd,madacameroun
 19392,rao_raoo1244,BIPA_j_u006A,j,,,,false,lapsyd,rao
 19393,urarina_urar1246,BIPA_m_u006D,m,,,lapsyd_1940_Olawsky2006,false,lapsyd,urarina
 19394,muniche_muni1258,BIPA_t_u0074u032A,t̪,,,lapsyd_1933_Lev_etal2013,false,lapsyd,muniche
@@ -17852,7 +17852,7 @@ ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Marginal,Catalog,Contri
 19567,tlapanecmalinaltepec_mali1285,BIPA_u_u0075u02D0,uː,,,lapsyd_Suarez1983,false,lapsyd,tlapanecmalinaltepec
 19568,mian_mian1256,BIPA_f_u0066,f,,,lapsyd_mpt_loving1974,false,lapsyd,mian
 19569,polish_poli1260,BIPA_s_u0282,ʂ,,,lapsyd_pol_jassem2003,false,lapsyd,polish
-19570,lelepa_lele1267,UNK_ngmw_u014Bu006Du02B7,ŋmʷ,,,,false,lapsyd,lelepa
+19570,lelepa_lele1267,BIPA_ngmw_u014Bu006Du02B7,ŋmʷ,,,,false,lapsyd,lelepa
 19571,nahuatlnorthpuebla_nort2957,BIPA_p_u0070,p,,,lapsyd_Brockway1963,false,lapsyd,nahuatlnorthpuebla
 19572,irishdonegaldialect_done1238,BIPA_mj_u006Du02B2,mʲ,,,lapsyd_gle_ni_chasaide1995,false,lapsyd,irishdonegaldialect
 19573,nunggubuyu_nung1290,BIPA_n_u006Eu032A,n̪,,,lapsyd_145711;lapsyd_HughesLeeding1971,false,lapsyd,nunggubuyu
