@@ -49,18 +49,6 @@ class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "lapsyd"
 
-    #def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
-    #    return CLDFSpec(dir=self.cldf_dir, module="StructureDataset")
-
-    def cmd_download(self, args):
-        """
-        Download files to the raw/ directory. You can use helpers methods of `self.raw_dir`, e.g.
-
-        >>> self.raw_dir.download(url, fname)
-        """
-
-        pass
-        
     def cldf_specs(self):
         return CLDFSpec(
                 module='StructureDataset',
@@ -84,6 +72,7 @@ class Dataset(BaseDataset):
         # +++ check cldf catalog +++ TODO
         clts = CLTS(Config.from_file().get_clone('clts'))
         bipa = clts.bipa
+        lapsyd_clts = clts.transcriptiondata_dict['lapsyd']
 
         # Load Lapsyd feature mapping and features
         lapsyd_graphemes = {}
@@ -113,28 +102,12 @@ class Dataset(BaseDataset):
         args.writer.cldf.add_component(
             "LanguageTable", "Family", "Glottolog_Name"
         )
-        args.writer.cldf.add_table(
-            "inventories.csv",
-            "ID",
-            "Name",
-            "Contributor_ID",
-            {
-                "name": "Source",
-                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
-                "separator": ";",
-            },
-            "URL",
-            "Tones",
-            primaryKey="ID",
-        )
-
-        # load language mapping and build inventory info
+        
         languages = {}
         lang_ids = {}
         lang_sources = {}
         inventories = []
         for row in self.etc_dir.read_csv("languages.csv", dicts=True):
-            # Build language mapping
             languages[row["name"]] = row["glottocode"]
             lang_ids[row["glottocode"]] = f"{slug(row['name'])}_{row['glottocode']}"
             lang_sources[row["glottocode"]] = row["sources"].split(",")
@@ -182,10 +155,7 @@ class Dataset(BaseDataset):
             # Obtain the corresponding BIPA grapheme, is possible
             normalized = normalize_grapheme(segment)
 
-            # Due to the behavior of `.resolve_grapheme`, we need to attempt,
-            # paying attention to raised exceptions, to convert in different ways
-            # +++ TODO +++ fix the problem of bipa graphemes here
-            lapsyd_clts = clts.transcriptiondata_dict['lapsyd']
+            
             if normalized in lapsyd_clts.grapheme_map:
                 sound = bipa[lapsyd_clts.grapheme_map[normalized]]
             else:
