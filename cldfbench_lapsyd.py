@@ -12,6 +12,12 @@ from pyglottolog import Glottolog
 from pyclts import CLTS, models
 from pycldf import Sources
 
+from cldfcatalog.config import Config
+
+from collections import defaultdict
+from tqdm import tqdm as progressbar
+
+
 
 def compute_id(text):
     """
@@ -30,7 +36,7 @@ def normalize_grapheme(text):
     Apply simple, non-CLTS, normalization.
     """
 
-    text = unicodedata.normalize("NFC", text)
+    text = unicodedata.normalize("NFD", text)
 
     if len(text) >= 1:
         if text[0] == "'" and text[-1] == "'":
@@ -43,17 +49,12 @@ class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "lapsyd"
 
-    def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
-        return CLDFSpec(dir=self.cldf_dir, module="StructureDataset")
-
-    def cmd_download(self, args):
-        """
-        Download files to the raw/ directory. You can use helpers methods of `self.raw_dir`, e.g.
-
-        >>> self.raw_dir.download(url, fname)
-        """
-
-        pass
+    def cldf_specs(self):
+        return CLDFSpec(
+                module='StructureDataset',
+                dir=self.cldf_dir,
+                data_fnames={'ParameterTable': 'features.csv'}
+            )
 
     def cmd_makecldf(self, args):
         """
@@ -61,7 +62,6 @@ class Dataset(BaseDataset):
 
         >>> args.writer.objects['LanguageTable'].append(...)
         """
-
         # Add sources
         sources = Sources.from_file(self.raw_dir / "sources.bib")
         args.writer.cldf.add_sources(*sources)
@@ -69,11 +69,10 @@ class Dataset(BaseDataset):
         # Instantiate Glottolog and CLTS
         # TODO: how to call CLTS?
         glottolog = Glottolog(args.glottolog.dir)
-        clts_path = Path.home() / ".config" / "cldf" / "clts"
-        clts_path = Path.home() / ".config" / "cldf" / "clts"
-        clts_path = Path.home() / "src" / "INVENTORIES" / "clts"
-        clts = CLTS(clts_path.absolute())
-        clts_lapsyd = clts.transcriptiondata("lapsyd")
+        # +++ check cldf catalog +++ TODO
+        clts = CLTS(Config.from_file().get_clone('clts'))
+        bipa = clts.bipa
+        lapsyd_clts = clts.transcriptiondata_dict['lapsyd']
 
         # Load Lapsyd feature mapping and features
         lapsyd_graphemes = {}
@@ -92,75 +91,55 @@ class Dataset(BaseDataset):
             {"name": "Marginal", "datatype": "boolean"},
             "Catalog",
             "Contribution_ID",
+            "Value_in_Source"
         )
-
+        args.writer.cldf.add_columns(
+                    'ParameterTable',
+                    {'name': 'CLTS_BIPA', 'datatype': 'string'},
+                    {'name': 'CLTS_Name', 'datatype': 'string'},
+                    {'name': 'LAPSYD_Features', 'datatype': 'string'},
+                    )
         args.writer.cldf.add_component(
-            "ParameterTable", "BIPA", *[slug(feature) for feature in lapsyd_features]
+            "LanguageTable", "Family", "Glottolog_Name"
         )
-
-        args.writer.cldf.add_component(
-            "LanguageTable", "Family_Glottocode", "Family_Name", "Glottolog_Name"
-        )
-        args.writer.cldf.add_table(
-            "inventories.csv",
-            "ID",
-            "Name",
-            "Contributor_ID",
-            {
-                "name": "Source",
-                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
-                "separator": ";",
-            },
-            "URL",
-            "Tones",
-            primaryKey="ID",
-        )
-
-        # load language mapping and build inventory info
+        
         languages = {}
         lang_ids = {}
         lang_sources = {}
         inventories = []
         for row in self.etc_dir.read_csv("languages.csv", dicts=True):
-            # Build language mapping
             languages[row["name"]] = row["glottocode"]
             lang_ids[row["glottocode"]] = f"{slug(row['name'])}_{row['glottocode']}"
             lang_sources[row["glottocode"]] = row["sources"].split(",")
 
-            # collect inventory info
-            inventories.append(
-                {
-                    "Contributor_ID": None,
-                    "ID": slug(row["name"]),
-                    "Name": row["name"],
-                    "Source": [],
-                    "URL": None,
-                    "Tones": None,
-                }
-            )
 
-        # Map glottolog from etc/languages.csv
-        # TODO: report original name as well
-        languoids = {
-            lang.id: {
-                "Family_Glottocode": lang.lineage[0][1] if lang.lineage else None,
-                "Family_Name": lang.lineage[0][0] if lang.lineage else None,
-                "Glottocode": lang.id,
-                "ID": lang_ids[lang.id],  # lang.id,
-                "ISO639P3code": lang.iso_code,
-                "Latitude": lang.latitude,
-                "Longitude": lang.longitude,
-                "Macroarea": lang.macroareas[0].name if lang.macroareas else None,
-                "Name": lang.name,
-                "Glottolog_Name": lang.name,
-            }
-            for lang in glottolog.languoids()
-            if lang.id in languages.values()
-        }
+        languoids = {}
+        all_glottolog = {l.id: l for l in glottolog.languoids()}
+        for lang, gcode in progressbar(languages.items()):
+            language = all_glottolog.get(gcode)
+            if language:
+                languoids[lang] = {
+                        'Family': language.family.name if language.family else '',
+                        'Glottocode': gcode,
+                        'Name': lang,
+                        'ID': lang_ids[gcode],
+                        'ISO630P3code': language.iso_code,
+                        'Macroarea': language.macroareas[0].name if language.macroareas else '',
+                        'Latitude': language.latitude,
+                        'Longitude': language.longitude,
+                        'Glottolog_Name': language.name
+                        }
+            else:
+                languoids[lang] = {
+                        'ID': lang_ids[gcode],
+                        'Name': lang
+                        }
+
 
         # Iterate over raw data
         values = []
         segments = []
+        unknowns = defaultdict(list)
         for idx, row in enumerate(self.raw_dir.read_csv("lapsyd.csv", dicts=True)):
             # clear segment data
             segment = row["segments"].strip()
@@ -176,24 +155,21 @@ class Dataset(BaseDataset):
             # Obtain the corresponding BIPA grapheme, is possible
             normalized = normalize_grapheme(segment)
 
-            # Due to the behavior of `.resolve_grapheme`, we need to attempt,
-            # paying attention to raised exceptions, to convert in different ways
-            sound = clts.bipa[
-                clts_lapsyd.grapheme_map.get(
-                    segment, clts_lapsyd.grapheme_map.get(normalized, "")
-                )
-            ]
-            if isinstance(sound, models.UnknownSound):
-                sound = clts.bipa[normalized]
-
-            if isinstance(sound, models.UnknownSound):
-                par_id = "UNK_" + compute_id(normalized)
-                bipa_grapheme = ""
-                desc = ""
+            
+            if normalized in lapsyd_clts.grapheme_map:
+                sound = bipa[lapsyd_clts.grapheme_map[normalized]]
             else:
-                par_id = "BIPA_" + compute_id(normalized)
+                sound = bipa['<NA>']
+                unknowns[normalized] += [(segment, language)]
+
+            par_id = compute_id(normalized)
+            if sound.type == 'unknownsound':
+                bipa_grapheme = ''
+                desc = ''
+            else:
                 bipa_grapheme = str(sound)
                 desc = sound.name
+
             segments.append((par_id, normalized, bipa_grapheme, desc))
 
             values.append(
@@ -203,7 +179,8 @@ class Dataset(BaseDataset):
                     "Contribution_ID": slug(row["name"]),
                     "Marginal": marginal,
                     "Parameter_ID": par_id,
-                    "Value": segment,
+                    "Value_in_Source": segment,
+                    "Value": normalized,
                     "Source": lang_sources[languages[row["name"]]],
                     "Catalog": "lapsyd",
                 }
@@ -212,20 +189,17 @@ class Dataset(BaseDataset):
         # Build parameter data, extending with Lapsyd Features
         parameters = []
         for segment in set(segments):
-            id, normalized, bipa_grapheme, desc = segment
+            ID, normalized, bipa_grapheme, desc = segment
 
             parameter = {
-                "ID": id,
+                "ID": ID,
                 "Name": normalized,
-                "BIPA": bipa_grapheme,
-                "Description": desc,
+                "Description": ' '.join(lapsyd_graphemes[normalized]),
+                "CLTS_BIPA": bipa_grapheme,
+                "CLTS_Name": desc,
+                "LAPSYD_Features": ' '.join(lapsyd_graphemes[normalized])
             }
 
-            for feature in lapsyd_features:
-                if feature in lapsyd_graphemes[normalized]:
-                    parameter[slug(feature)] = "+"
-                else:
-                    parameter[slug(feature)] = "-"
             parameters.append(parameter)
 
         # Write data and validate
@@ -233,7 +207,9 @@ class Dataset(BaseDataset):
             **{
                 "ValueTable": values,
                 "LanguageTable": languoids.values(),
-                "ParameterTable": parameters,
-                "inventories.csv": inventories,
+                "ParameterTable": parameters
             }
         )
+
+        for g, rest in unknowns.items():
+            print('\t'.join([g, str(len(rest)), g, ' '.join(lapsyd_graphemes[g])]))
