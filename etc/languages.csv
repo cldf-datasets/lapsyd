@@ -13,7 +13,7 @@ ain,"Ainu, Hokkaido dialect",Hokkaido Ainu,ainu1240,"lapsyd_Patrie1982,lapsyd_Si
 akc,Mpur,Mpur,mpur1239,
 akz,Alabama,Alabama,alab1237,lapsyd_Rand1968
 alc,Qawasqar,Qawasqar,qawa1238,lapsyd_Clairis1977
-ale,"Aleut, Eastern",Eastern Aleut,east2533,"lapsyd_Bergsland1956,lapsyd_Bergsland1959"
+ale,"Aleut, Eastern",Eastern Aleut,aleu1260,"lapsyd_Bergsland1956,lapsyd_Bergsland1959"
 alh,Alawa,Alawa,alaw1244,
 als,"Albanian, Tosk dialect",Northern Tosk Albanian,tosk1239,"lapsyd_Newmark1957,lapsyd_klippenstein2010word"
 amc,Amahuaca,Amahuaca,amah1246,lapsyd_1998_Osborn1948
@@ -78,7 +78,7 @@ cab,Garifuna,Garifuna,gari1256,lapsyd_Taylor1955
 cad,Caddo,Caddo,cadd1256,lapsyd_Chafe1976
 caq,Car Nicobarese,Car Nicobarese,carn1240,lapsyd_Das1977
 car,Kalihna,Galibi Carib,gali1262,lapsyd_Hoff1968
-cat,"Catalan, Eastern",Català Oriental,cata1289,
+cat,"Catalan, Eastern",Català Oriental,stan1289,
 cav,Cavineña,Cavineña,cavi1250,lapsyd_2045_Guillaume2008
 cbg,Chimila,Chimila,chim1309,lapsyd_1894_Malone2006
 cbi,Chachi,Cha'palaa,chac1249,
@@ -123,7 +123,7 @@ djj,Ndjébbana,Djeebbana,djee1236,
 djk,Ndyuka,Aukan,ndyu1242,
 dni,"Dani, Lower Grand Valley",Lower Grand Valley Dani,lowe1415,"lapsyd_Bromley1961,lapsyd_vanderStap1966"
 drl,"Paakantyi, Southern",Paakantyi,darl1243,lapsyd_7335
-dru,"Rukai, Tanan dialect",Tanan,tana1287,"lapsyd_Li1973,lapsyd_Li1977-dru"
+dru,"Rukai, Tanan dialect",Tanan,ruka1240,"lapsyd_Li1973,lapsyd_Li1977-dru"
 dry,Darai,Darai,dara1250,
 dsq,Tadaksahak,Tadaksahak,tada1238,lapsyd_1372_dsq
 dwr,Dawro,Dawro,dawr1236,
@@ -132,7 +132,7 @@ dyo,Diola-Fogny,Jola-Fonyi,jola1263,lapsyd_Sapir1965
 efi,Efik,Efik,efik1245,lapsyd_Cook1969b
 ekg,Ekari,Ekari,ekar1243,"lapsyd_Doble1987,lapsyd_Steltenpool1969"
 ell,Greek,Modern Greek,mode1248,"lapsyd_Householder_etal1964,lapsyd_ell_2arvaniti1999"
-ell,Grico,Modern Greek,mode1248,
+ell,Grico,Modern Greek,apul1236,
 eme,Emerillon,Teko,emer1243,
 eng,English (Standard Southern British),English,stan1293,
 ese,Ese Ejja,Ese Ejja,esee1248,lapsyd_2046_Vuillermet2006
@@ -155,7 +155,7 @@ gho,Ghomara Berber,Ghomara,ghom1257,
 gil,Kiribati,Gilbertese,gilb1244,
 gla,Scottish Gaelic,Scottish Gaelic,scot1245,lapsyd_ladefoged1998phonetic
 gld,Nanai,Nanai,nana1257,
-gle,"Irish, Donegal dialect",Donegal,done1238,lapsyd_gle_ni_chasaide1995
+gle,"Irish, Donegal dialect",Donegal,iris1253,lapsyd_gle_ni_chasaide1995
 gni,Gooniyandi,Gooniyandi,goon1238,lapsyd_98977
 gnu,Gojri,Gnau,gnau1240,"lapsyd_1724_Sharma1979,lapsyd_gju_losey2002"
 gqu,Qua Gelao,Central Gelao-Qau,qaua1234,"lapsyd_He1983,lapsyd_He1981"
@@ -171,7 +171,7 @@ gvn,Kuku Yalanji,Kuku-Yalanji,kuku1273,"lapsyd_Oates1964,lapsyd_Wurm1972a,lapsyd
 gwc,Kalami,Gawri,kala1373,
 gww,Gunin,Kwini,kwin1241,lapsyd_5187
 gyd,Kayardild,Kayardild,kaya1319,lapsyd_43598
-had,"Hatam, Tinam dialect",Tinam,tina1247,
+had,"Hatam, Tinam dialect",Tinam,hata1243,
 hae,"Oromo, Harar",Eastern Oromo,east2652,lapsyd_1552_hae
 hau,Hausa,Hausa,haus1257,
 haw,Hawaiian,Hawaiian,hawa1245,"lapsyd_PukuiElbert1965,lapsyd_Schutz1981"
@@ -203,11 +203,11 @@ ind,Indonesian,Indonesian,indo1316,lapsyd_ind_soderberg2008_phon
 inh,Ingush,Ingush,ingu1240,lapsyd_305982
 inp,Iñapari,Iñapari,inap1243,
 irn,Irantxe,Irántxe-Münkü,iran1263,lapsyd_Meader1967
-iso,"Isoko, Uzere dialect",Uzere,uzer1238,lapsyd_Donwa1982
+iso,"Isoko, Uzere dialect",Uzere,isok1239,lapsyd_Donwa1982
 ita,Italian,Italian,ital1282,lapsyd_ita_rogers2004
 ito,Itonama,Itonama,iton1250,lapsyd_1928_Crevels2002
 iwm,"Iwam, May River",Iwam,iwam1256,lapsyd_Laycock1965
-jaa,"Madi (Brazil), Banawa dialect",Banawa,bana1307,"lapsyd_1846_Ladefogedetal1997,lapsyd_jaa_vogel2003"
+jaa,"Madi (Brazil), Banawa dialect",Banawa,jama1261,"lapsyd_1846_Ladefogedetal1997,lapsyd_jaa_vogel2003"
 jac,"Jacaltec, Eastern",Popti',popt1235,"lapsyd_Craig1977,lapsyd_Day1973"
 jae,Yabem,Yabem,yabe1254,
 jao,Yanyuwa,Yanyuwa,yany1243,"lapsyd_HuttarKirton1981,lapsyd_120141"
@@ -224,7 +224,7 @@ kat,Georgian,Georgian,nucl1302,"lapsyd_RobinsWaterson1952,lapsyd_Vogt1958,lapsyd
 kbh,Camsa,Camsá,cams1241,lapsyd_Mongui1981
 kbk,Koiari,Grass Koiari,gras1249,lapsyd_Dutton1969
 kbr,Kafa,Kafa,kafa1242,
-kbv,"Dla, Menggwa dialect",Mengau,meng1271,lapsyd_Voorhoeve1971
+kbv,"Dla, Menggwa dialect",Mengau,dera1245,lapsyd_Voorhoeve1971
 kca,"Khanty, Northern",Kazym-Berezover-Suryskarer Khanty,khan1273,"lapsyd_Gulya1966,lapsyd_kca_filchenko2007"
 kea,"Cape Verde Creole, Santiago dialect",Kabuverdianu,kabu1256,lapsyd_1606_Veiga_cap-vert_kea
 kek,K'ekchi,Kekchí,kekc1242,lapsyd_Haeseriju1966
@@ -248,7 +248,7 @@ kio,Kiowa,Kiowa,kiow1266,"lapsyd_WatkinsMcKenzie1984,lapsyd_Sivertsen1956"
 kir,Kyrgyz,Kirghiz,kirg1245,lapsyd_55109
 kjd,"Southern Kiwai, Island dialect",Southern Kiwai,sout2949,
 kjh,Khakas,Khakas,khak1248,
-kjl,"Kham, Takale dialect",Takale,taka1261,
+kjl,"Kham, Takale dialect",Takale,west2420,
 kjq,Western Keres,Western Keres,west2632,lapsyd_Miller1966
 kkk,Kokota,Kokota,koko1269,
 kkw,"Teke, Kukuya dialect",Teke-Kukuya,teke1280,lapsyd_Paulian1975
@@ -264,7 +264,7 @@ kpk,Kpan,Kpan,kpan1246,lapsyd_Shimizu1971
 kpm,Sre,Koho,koho1244,
 kpw,Kobon,Kobon,kobo1249,
 kpy,Koryak,Koryak,kory1246,lapsyd_Zhukova1980
-krc,"Karachay-Balkar, Karachay dialect",Karachay,kara1466,
+krc,"Karachay-Balkar, Karachay dialect",Karachay,kara1465,
 kru,Kurukh,Kurukh,kuru1302,"lapsyd_Pfeiffer1972,lapsyd_Pinnow1964,lapsyd_1754_Ekka1985"
 ksi,I'saka,I'saka,kris1246,lapsyd_ksi_donohue2002
 kss,"Kisi, Southern dialect",Southern Kisi,sout2778,
@@ -303,9 +303,9 @@ mbp,Damana,Malayo,mala1522,
 mca,Maká,Maca,maca1260,lapsyd_1982_Gerzenstein1994
 mdd,Mbum,Mbum,mbum1254,lapsyd_Hagege1970
 mde,Maba,Maba (Chad),maba1277,lapsyd_TuckerBryan1966
-mei,"Midob, Kaargedi dialect",Kaageddi,kaag1238,
+mei,"Midob, Kaargedi dialect",Kaageddi,mido1240,
 mfc,Mbane,Mba,mbaa1245,lapsyd_Pasch1986
-mhi,"Ma'di, Southern (Lokai) dialect",Lokai,loka1255,"lapsyd_1292_snm_blackingsfabb,lapsyd_1425_luc"
+mhi,"Ma'di, Southern (Lokai) dialect",Lokai,madi1260,"lapsyd_1292_snm_blackingsfabb,lapsyd_1425_luc"
 mhj,Moghol,Mogholi,mogh1245,lapsyd_Weiers1971
 mhl,Mauwake,Mauwake,mauw1238,
 mhq,Mandan,Mandan,mand1446,
@@ -347,7 +347,7 @@ nan,Hainanese,Min Nan Chinese,minn1241,lapsyd_Hanyu1960
 naq,Khoekhoe,Nama (Namibia),nama1264,
 nas,Naasioi,Naasioi,naas1242,"lapsyd_HurdHurd1966,lapsyd_HurdHurd1966"
 nav,Navajo,Navajo,nava1243,lapsyd_SapirHoijer1967
-ncb,"Central Nicobarese, Nancowry dialect",Nancowry,nanc1247,
+ncb,"Central Nicobarese, Nancowry dialect",Nancowry,cent1990,
 ncj,"Nahuatl, North Puebla",Northern Puebla Nahuatl,nort2957,lapsyd_Brockway1963
 nck,Nakkara,Nakara,naka1260,lapsyd_152615
 ncz,Natchez,Natchez,natc1249,
@@ -363,7 +363,7 @@ niq,Nandi,Nandi,nand1266,
 nir,Nimboran,Nimboran,nucl1633,lapsyd_Anceaux1965
 niv,Nivkh,Amur Nivkh,gily1242,"lapsyd_Krejnovich1937,lapsyd_ZinderMatusevich1937,lapsyd_Panfilov1962,lapsyd_150394"
 niy,Ngiti,Ngiti,ngit1239,lapsyd_1470_niy
-njo,"Ao, Mongsen dialect",Mongsen,mong1332,
+njo,"Ao, Mongsen dialect",Mongsen,aona1235,
 njz,Nyishi,Nyishi-Hill Miri,nyis1236,"lapsyd_Ray1967,lapsyd_69191"
 nld,Dutch,Dutch,dutc1256,
 nmk,Namakir,Namakura,nama1268,
@@ -377,7 +377,7 @@ nrb,Nara,Nara,nara1262,"lapsyd_Bender1968,lapsyd_nrb_dawd2002"
 ntu,Natügu,Natügu,natu1246,lapsyd_Wurm1972b
 nut,Nung,Nung (Viet Nam),nung1283,lapsyd_Li1977
 nuy,Nunggubuyu,Wubuy,nung1290,"lapsyd_145711,lapsyd_HughesLeeding1971"
-nya,"Nyanja, Chichewa dialect",Chewa,chew1246,
+nya,"Nyanja, Chichewa dialect",Chewa,nyan1308,
 nyi,Ama,Ama (Sudan),amas1236,"lapsyd_Stevenson1957,lapsyd_TuckerBryan1966"
 nyp,Nyangi,Nyang'i,nyan1313,lapsyd_Heine1975a
 oca,Ocaina,Ocaina,ocai1244,lapsyd_AgnewPike1957
@@ -418,7 +418,7 @@ rap,Rapanui,Rapanui,rapa1244,
 rgr,Resigaro,Resígaro,resi1247,
 rma,Rama,Rama,rama1270,
 roo,Rotokas,Rotokas,roto1249,lapsyd_Firchow1969
-rro,Roro,Roro,roro1238,"lapsyd_Bluhme1970,lapsyd_Davis1974"
+rro,Roro,Roro,waim1251,"lapsyd_Bluhme1970,lapsyd_Davis1974"
 rth,Toratán,Ratahan,rata1244,
 rtm,Rotuman,Rotuman,rotu1241,
 rus,Russian,Russian,russ1263,"lapsyd_Halle1959,lapsyd_JonesWard1969"
@@ -456,7 +456,7 @@ srb,Sora,Sora,sora1254,
 stv,Silt'i,Silt'e,silt1240,lapsyd_1414_stv
 sue,Suena,Suena,suen1241,
 sun,Sundanese,Sundanese,sund1252,lapsyd_Robins1957
-sva,"Svan, Lower Bal dialect",Lower Bal,lowe1397,
+sva,"Svan, Lower Bal dialect",Lower Bal,svan1243,
 svs,Savosavo,Savosavo,savo1255,
 swe,Swedish,Swedish,swed1254,
 swh,KiSwahili,Swahili,swah1253,lapsyd_Polome1967
