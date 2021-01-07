@@ -16,7 +16,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/lapsyd/",
-            "dc:created": "b7c5340"
+            "dc:created": "09fc513"
         },
         {
             "rdf:type": "prov:Entity",

@@ -13,7 +13,7 @@ ainuhokkaidodialect_ainu1240,"Ainu, Hokkaido dialect",Eurasia,43.633654,142.4616
 mpur_mpur1239,Mpur,Papunesia,-0.7489,133.166,mpur1239,,,Mpur
 alabama_alab1237,Alabama,North America,30.76738,-94.62848,alab1237,,Muskogean,Alabama
 qawasqar_qawa1238,Qawasqar,South America,-49.303195,-74.707536,qawa1238,,Kawesqar,Qawasqar
-aleuteastern_east2533,"Aleut, Eastern",North America,,,east2533,,Eskimo-Aleut,Eastern Aleut
+aleuteastern_aleu1260,"Aleut, Eastern",North America,52.1228,-174.29,aleu1260,,Eskimo-Aleut,Aleut
 alawa_alaw1244,Alawa,Australia,-15.5458,134.282,alaw1244,,Mangarrayi-Maran,Alawa
 albaniantoskdialect_tosk1239,"Albanian, Tosk dialect",Eurasia,41.0,20.0,tosk1239,,Indo-European,Northern Tosk Albanian
 amahuaca_amah1246,Amahuaca,South America,-10.2012,-72.3208,amah1246,,Pano-Tacanan,Amahuaca
@@ -78,7 +78,7 @@ garifuna_gari1256,Garifuna,North America,15.3529,-86.9091,gari1256,,Arawakan,Gar
 caddo_cadd1256,Caddo,North America,33.33,-93.5,cadd1256,,Caddoan,Caddo
 carnicobarese_carn1240,Car Nicobarese,Eurasia,9.18853,92.7671,carn1240,,Austroasiatic,Car Nicobarese
 kalihna_gali1262,Kalihna,South America,5.83772,-56.8323,gali1262,,Cariban,Galibi Carib
-catalaneastern_cata1289,"Catalan, Eastern",Eurasia,,,cata1289,,Indo-European,Català Oriental
+catalaneastern_stan1289,"Catalan, Eastern",Eurasia,41.453,1.569,stan1289,,Indo-European,Catalan
 cavinena_cavi1250,Cavineña,South America,-13.3544,-66.6277,cavi1250,,Pano-Tacanan,Cavineña
 chimila_chim1309,Chimila,South America,10.1902,-74.2559,chim1309,,Chibchan,Chimila
 chachi_chac1249,Chachi,South America,0.71489,-79.0508,chac1249,,Barbacoan,Cha'palaa
@@ -123,7 +123,7 @@ ndjebbana_djee1236,Ndjébbana,Australia,-12.0133,134.097,djee1236,,Maningrida,Dj
 ndyuka_ndyu1242,Ndyuka,South America,4.3126,-54.6419,ndyu1242,,Indo-European,Aukan
 danilowergrandvalley_lowe1415,"Dani, Lower Grand Valley",Papunesia,-4.25684,138.992,lowe1415,,Nuclear Trans New Guinea,Lower Grand Valley Dani
 paakantyisouthern_darl1243,"Paakantyi, Southern",Australia,-32.7021,142.695,darl1243,,Pama-Nyungan,Paakantyi
-rukaitanandialect_tana1287,"Rukai, Tanan dialect",Papunesia,,,tana1287,,Austronesian,Tanan
+rukaitanandialect_ruka1240,"Rukai, Tanan dialect",Papunesia,22.7738,120.844,ruka1240,,Austronesian,Rukai
 darai_dara1250,Darai,Eurasia,27.8623,84.1357,dara1250,,Indo-European,Darai
 tadaksahak_tada1238,Tadaksahak,Africa,16.685,2.32653,tada1238,,Songhay,Tadaksahak
 dawro_dawr1236,Dawro,Africa,6.95,37.0,dawr1236,,Ta-Ne-Omotic,Dawro
@@ -131,8 +131,8 @@ dhuwal_dhuw1249,Dhuwal,Australia,-12.7825,136.008,dhuw1249,,Pama-Nyungan,Dhuwal
 diolafogny_jola1263,Diola-Fogny,Africa,12.75752,-15.7354766667,jola1263,,Atlantic-Congo,Jola-Fonyi
 efik_efik1245,Efik,Africa,4.89379,8.38121,efik1245,,Atlantic-Congo,Efik
 ekari_ekar1243,Ekari,Papunesia,-3.88974,136.018,ekar1243,,Nuclear Trans New Guinea,Ekari
-grico_mode1248,Greek,Eurasia,38.36,23.13,mode1248,,Indo-European,Modern Greek
-grico_mode1248,Grico,Eurasia,38.36,23.13,mode1248,,Indo-European,Modern Greek
+greek_mode1248,Greek,Eurasia,38.36,23.13,mode1248,,Indo-European,Modern Greek
+grico_apul1236,Grico,Eurasia,40.35,18.166667,apul1236,,Indo-European,Apulia-Calabrian Greek
 emerillon_emer1243,Emerillon,South America,3.23694,-52.3699,emer1243,,Tupian,Teko
 englishstandardsouthernbritish_stan1293,English (Standard Southern British),Eurasia,53.0,-1.0,stan1293,,Indo-European,English
 eseejja_esee1248,Ese Ejja,South America,-11.7268,-67.515,esee1248,,Pano-Tacanan,Ese Ejja
@@ -155,7 +155,7 @@ ghomaraberber_ghom1257,Ghomara Berber,Africa,34.7979,-4.6696,ghom1257,,Afro-Asia
 kiribati_gilb1244,Kiribati,Papunesia,-1.34,176.44,gilb1244,,Austronesian,Gilbertese
 scottishgaelic_scot1245,Scottish Gaelic,Eurasia,56.7574,-5.24366,scot1245,,Indo-European,Scottish Gaelic
 nanai_nana1257,Nanai,Eurasia,48.4343,134.797,nana1257,,Tungusic,Nanai
-irishdonegaldialect_done1238,"Irish, Donegal dialect",Eurasia,,,done1238,,Indo-European,Donegal
+irishdonegaldialect_iris1253,"Irish, Donegal dialect",Eurasia,53.2186,-7.61509,iris1253,,Indo-European,Irish
 gooniyandi_goon1238,Gooniyandi,Australia,-18.4073,126.351,goon1238,,Bunaban,Gooniyandi
 gojri_gnau1240,Gojri,Papunesia,-3.59093,142.196,gnau1240,,Nuclear Torricelli,Gnau
 quagelao_qaua1234,Qua Gelao,Eurasia,26.155438,106.16455,qaua1234,,Tai-Kadai,Central Gelao-Qau
@@ -171,7 +171,7 @@ kukuyalanji_kuku1273,Kuku Yalanji,Australia,-16.0036,145.188,kuku1273,,Pama-Nyun
 kalami_kala1373,Kalami,Eurasia,35.5303,72.5738,kala1373,,Indo-European,Gawri
 gunin_kwin1241,Gunin,Australia,-14.2515,126.562,kwin1241,,Worrorran,Kwini
 kayardild_kaya1319,Kayardild,Australia,-17.0695,139.489,kaya1319,,Tangkic,Kayardild
-hatamtinamdialect_tina1247,"Hatam, Tinam dialect",Papunesia,,,tina1247,,Hatam-Mansim,Tinam
+hatamtinamdialect_hata1243,"Hatam, Tinam dialect",Papunesia,-1.13531,134.037,hata1243,,Hatam-Mansim,Hatam
 oromoharar_east2652,"Oromo, Harar",Africa,8.67428,41.4395,east2652,,Afro-Asiatic,Eastern Oromo
 hausa_haus1257,Hausa,Africa,11.1513,8.7804,haus1257,,Afro-Asiatic,Hausa
 hawaiian_hawa1245,Hawaiian,Papunesia,19.6297,-155.43,hawa1245,,Austronesian,Hawaiian
@@ -203,11 +203,11 @@ indonesian_indo1316,Indonesian,Papunesia,-7.33458,109.716,indo1316,,Austronesian
 ingush_ingu1240,Ingush,Eurasia,43.11,45.03,ingu1240,,Nakh-Daghestanian,Ingush
 inapari_inap1243,Iñapari,South America,-12.4653,-69.3083,inap1243,,Arawakan,Modern Iñapari
 irantxe_iran1263,Irantxe,South America,-12.7178,-57.9806,iran1263,,,Irántxe-Münkü
-isokouzeredialect_uzer1238,"Isoko, Uzere dialect",Africa,,,uzer1238,,Atlantic-Congo,Uzere
+isokouzeredialect_isok1239,"Isoko, Uzere dialect",Africa,5.52889,6.24682,isok1239,,Atlantic-Congo,Isoko
 italian_ital1282,Italian,Eurasia,43.0464,12.6489,ital1282,,Indo-European,Italian
 itonama_iton1250,Itonama,South America,-12.80431,-64.35748,iton1250,,,Itonama
 iwammayriver_iwam1256,"Iwam, May River",Papunesia,-4.27346,141.817,iwam1256,,Sepik,Iwam
-madibrazilbanawadialect_bana1307,"Madi (Brazil), Banawa dialect",South America,,,bana1307,,Arawan,Banawa
+madibrazilbanawadialect_jama1261,"Madi (Brazil), Banawa dialect",South America,-7.62223,-66.5662,jama1261,,Arawan,Madi
 jacalteceastern_popt1235,"Jacaltec, Eastern",North America,15.6609,-91.6633,popt1235,,Mayan,Popti'
 yabem_yabe1254,Yabem,Papunesia,-6.67052,147.81,yabe1254,,Austronesian,Yabem
 yanyuwa_yany1243,Yanyuwa,Australia,-15.7621,136.055,yany1243,,Pama-Nyungan,Yanyuwa
@@ -224,7 +224,7 @@ georgian_nucl1302,Georgian,Eurasia,41.850397,43.78613,nucl1302,,Kartvelian,Georg
 camsa_cams1241,Camsa,South America,1.14537,-76.8931,cams1241,,,Camsá
 koiari_gras1249,Koiari,Papunesia,-9.51218,147.437,gras1249,,Koiarian,Grass Koiari
 kafa_kafa1242,Kafa,Africa,7.34022,36.1718,kafa1242,,Ta-Ne-Omotic,Kafa
-dlamenggwadialect_meng1271,"Dla, Menggwa dialect",Papunesia,,,meng1271,,Senagi,Mengau
+dlamenggwadialect_dera1245,"Dla, Menggwa dialect",Papunesia,-3.52309,140.947,dera1245,,Senagi,Dera (Indonesia)
 khantynorthern_khan1273,"Khanty, Northern",Eurasia,62.4308,66.1218,khan1273,,Uralic,Kazym-Berezover-Suryskarer Khanty
 capeverdecreolesantiagodialect_kabu1256,"Cape Verde Creole, Santiago dialect",Africa,15.0586,-23.6148,kabu1256,,Indo-European,Kabuverdianu
 kekchi_kekc1242,K'ekchi,North America,15.3788,-89.2452,kekc1242,,Mayan,Kekchí
@@ -248,7 +248,7 @@ kiowa_kiow1266,Kiowa,North America,34.9403,-98.9042,kiow1266,,Kiowa-Tanoan,Kiowa
 kyrgyz_kirg1245,Kyrgyz,Eurasia,42.0,74.0,kirg1245,,Turkic,Kirghiz
 southernkiwaiislanddialect_sout2949,"Southern Kiwai, Island dialect",Papunesia,-8.64889,143.244,sout2949,,Kiwaian,Southern Kiwai
 khakas_khak1248,Khakas,Eurasia,50.7393,107.169,khak1248,,Turkic,Khakas
-khamtakaledialect_taka1261,"Kham, Takale dialect",Eurasia,,,taka1261,,Sino-Tibetan,Takale
+khamtakaledialect_west2420,"Kham, Takale dialect",Eurasia,28.6521,82.7348,west2420,,Sino-Tibetan,Western Parbate Kham
 westernkeres_west2632,Western Keres,North America,34.9733,-107.517,west2632,,Keresan,Western Keres
 kokota_koko1269,Kokota,Papunesia,-8.16481,159.191,koko1269,,Austronesian,Kokota
 tekekukuyadialect_teke1280,"Teke, Kukuya dialect",Africa,-2.27122,14.4407,teke1280,,Atlantic-Congo,Teke-Kukuya
@@ -264,7 +264,7 @@ kpan_kpan1246,Kpan,Africa,7.58343,10.1642,kpan1246,,Atlantic-Congo,Kpan
 sre_koho1244,Sre,Eurasia,11.6444,108.057,koho1244,,Austroasiatic,Koho
 kobon_kobo1249,Kobon,Papunesia,-5.16446,144.46,kobo1249,,Nuclear Trans New Guinea,Kobon
 koryak_kory1246,Koryak,Eurasia,63.8977,166.695,kory1246,,Chukotko-Kamchatkan,Koryak
-karachaybalkarkarachaydialect_kara1466,"Karachay-Balkar, Karachay dialect",Eurasia,,,kara1466,,Turkic,Karachay
+karachaybalkarkarachaydialect_kara1465,"Karachay-Balkar, Karachay dialect",Eurasia,43.565,42.2606,kara1465,,Turkic,Karachay-Balkar
 kurukh_kuru1302,Kurukh,Eurasia,24.4644,86.4657,kuru1302,,Dravidian,Kurukh
 isaka_kris1246,I'saka,Papunesia,-2.80084,141.303,kris1246,,Sko,I'saka
 kisisoutherndialect_sout2778,"Kisi, Southern dialect",Africa,8.32448,-10.3377,sout2778,,Atlantic-Congo,Southern Kisi
@@ -303,9 +303,9 @@ damana_mala1522,Damana,South America,10.9286,-73.4056,mala1522,,Chibchan,Malayo
 maka_maca1260,Maká,South America,-25.0119,-57.3694,maca1260,,Matacoan,Maca
 mbum_mbum1254,Mbum,Africa,7.5789,14.2722,mbum1254,,Atlantic-Congo,Mbum
 maba_maba1277,Maba,Africa,12.89147,20.8889,maba1277,,Maban,Maba (Chad)
-midobkaargedidialect_kaag1238,"Midob, Kaargedi dialect",Africa,,,kaag1238,,Nubian,Kaageddi
+midobkaargedidialect_mido1240,"Midob, Kaargedi dialect",Africa,14.789,27.2236,mido1240,,Nubian,Midob
 mbane_mbaa1245,Mbane,Africa,1.06885,25.143,mbaa1245,,Atlantic-Congo,Mba
-madisouthernlokaidialect_loka1255,"Ma'di, Southern (Lokai) dialect",Africa,,,loka1255,,Central Sudanic,Lokai
+madisouthernlokaidialect_madi1260,"Ma'di, Southern (Lokai) dialect",Africa,3.62499,31.8471,madi1260,,Central Sudanic,Ma'di
 moghol_mogh1245,Moghol,Eurasia,34.2504,62.2802,mogh1245,,Mongolic-Khitan,Mogholi
 mauwake_mauw1238,Mauwake,Papunesia,-4.52416,145.394,mauw1238,,Nuclear Trans New Guinea,Mauwake
 mandan_mand1446,Mandan,North America,47.6631,-102.376,mand1446,,Siouan,Mandan
@@ -347,7 +347,7 @@ hainanese_minn1241,Hainanese,Eurasia,24.5,118.17,minn1241,,Sino-Tibetan,Min Nan 
 khoekhoe_nama1264,Khoekhoe,Africa,-25.0747,17.9767,nama1264,,Khoe-Kwadi,Nama (Namibia)
 naasioi_naas1242,Naasioi,Papunesia,-6.46022,155.632,naas1242,,South Bougainville,Naasioi
 navajo_nava1243,Navajo,North America,36.33,-109.38,nava1243,,Athabaskan-Eyak-Tlingit,Navajo
-centralnicobaresenancowrydialect_nanc1247,"Central Nicobarese, Nancowry dialect",Eurasia,,,nanc1247,,Austroasiatic,Nancowry
+centralnicobaresenancowrydialect_cent1990,"Central Nicobarese, Nancowry dialect",Eurasia,7.94812,93.3921,cent1990,,Austroasiatic,Central Nicobarese
 nahuatlnorthpuebla_nort2957,"Nahuatl, North Puebla",North America,20.1356,-97.9814,nort2957,,Uto-Aztecan,Northern Puebla Nahuatl
 nakkara_naka1260,Nakkara,Australia,-12.07653,134.32729,naka1260,,Maningrida,Nakara
 natchez_natc1249,Natchez,North America,31.75,-91.33,natc1249,,,Natchez
@@ -363,7 +363,7 @@ nandi_nand1266,Nandi,Africa,0.793737,35.408478,nand1266,,Nilotic,Nandi
 nimboran_nucl1633,Nimboran,Papunesia,-2.5803,140.179,nucl1633,,Nimboranic,Nimboran
 nivkh_gily1242,Nivkh,Eurasia,52.59,140.681,gily1242,,Nivkh,Amur Nivkh
 ngiti_ngit1239,Ngiti,Africa,1.30455,30.2242,ngit1239,,Central Sudanic,Ngiti
-aomongsendialect_mong1332,"Ao, Mongsen dialect",Eurasia,,,mong1332,,Sino-Tibetan,Mongsen
+aomongsendialect_aona1235,"Ao, Mongsen dialect",Eurasia,26.3241,94.3824,aona1235,,Sino-Tibetan,Ao Naga
 nyishi_nyis1236,Nyishi,Eurasia,27.278263,93.675529,nyis1236,,Sino-Tibetan,Nyishi-Hill Miri
 dutch_dutc1256,Dutch,Eurasia,52.0,5.0,dutc1256,,Indo-European,Dutch
 namakir_nama1268,Namakir,Papunesia,-16.8979,168.569,nama1268,,Austronesian,Namakura
@@ -377,7 +377,7 @@ nara_nara1262,Nara,Africa,15.3251,37.499,nara1262,,,Nara
 natugu_natu1246,Natügu,Papunesia,-10.6771,165.835,natu1246,,Austronesian,Natügu
 nung_nung1283,Nung,Eurasia,20.8965,104.286,nung1283,,Tai-Kadai,Nung (Viet Nam)
 nunggubuyu_nung1290,Nunggubuyu,Australia,-14.2623,135.753,nung1290,,Gunwinyguan,Wubuy
-nyanjachichewadialect_chew1246,"Nyanja, Chichewa dialect",Africa,,,chew1246,,Atlantic-Congo,Chewa
+nyanjachichewadialect_nyan1308,"Nyanja, Chichewa dialect",Africa,-14.8047,32.8108,nyan1308,,Atlantic-Congo,Nyanja
 ama_amas1236,Ama,Africa,12.0993,29.4332,amas1236,,Nyimang,Ama (Sudan)
 nyangi_nyan1313,Nyangi,Africa,3.4997,33.73651,nyan1313,,Kuliak,Nyang'i
 ocaina_ocai1244,Ocaina,South America,-2.159,-72.1422,ocai1244,,Huitotoan,Ocaina
@@ -418,7 +418,7 @@ rapanui_rapa1244,Rapanui,Papunesia,-27.113,-109.342,rapa1244,,Austronesian,Rapan
 resigaro_resi1247,Resigaro,South America,-1.169535,-71.60524,resi1247,,Arawakan,Resígaro
 rama_rama1270,Rama,North America,11.5007,-83.8571,rama1270,,Chibchan,Rama
 rotokas_roto1249,Rotokas,Papunesia,-5.94339,155.154,roto1249,,North Bougainville,Rotokas
-roro_roro1238,Roro,Papunesia,,,roro1238,,Austronesian,Roro
+roro_waim1251,Roro,Papunesia,-8.67145,146.544,waim1251,,Austronesian,Waima
 toratan_rata1244,Toratán,Papunesia,1.07592,124.858,rata1244,,Austronesian,Ratahan
 rotuman_rotu1241,Rotuman,Papunesia,-12.5008,177.066,rotu1241,,Austronesian,Rotuman
 russian_russ1263,Russian,Eurasia,59.0,50.0,russ1263,,Indo-European,Russian
@@ -456,7 +456,7 @@ sora_sora1254,Sora,Eurasia,19.1213,84.19,sora1254,,Austroasiatic,Sora
 silti_silt1240,Silt'i,Africa,7.77004,38.1449,silt1240,,Afro-Asiatic,Silt'e
 suena_suen1241,Suena,Papunesia,-7.76339,147.534,suen1241,,Nuclear Trans New Guinea,Suena
 sundanese_sund1252,Sundanese,Papunesia,-6.89708,107.106,sund1252,,Austronesian,Sundanese
-svanlowerbaldialect_lowe1397,"Svan, Lower Bal dialect",Eurasia,,,lowe1397,,Kartvelian,Lower Bal
+svanlowerbaldialect_svan1243,"Svan, Lower Bal dialect",Eurasia,42.9134,42.5915,svan1243,,Kartvelian,Svan
 savosavo_savo1255,Savosavo,Papunesia,-9.12853,159.814,savo1255,,,Savosavo
 swedish_swed1254,Swedish,Eurasia,59.800634,17.389526,swed1254,,Indo-European,Swedish
 kiswahili_swah1253,KiSwahili,Africa,-8.25605,37.624,swah1253,,Atlantic-Congo,Swahili
