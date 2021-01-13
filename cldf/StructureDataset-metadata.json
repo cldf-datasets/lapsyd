@@ -16,7 +16,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/lapsyd/",
-            "dc:created": "09fc513"
+            "dc:created": "e62cf81"
         },
         {
             "rdf:type": "prov:Entity",
@@ -28,7 +28,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.6.12"
+            "dc:description": "3.8.2"
         },
         {
             "dc:title": "python-packages",
